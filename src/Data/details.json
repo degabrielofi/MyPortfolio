@@ -1,0 +1,282 @@
+{
+   "DetailsIdentification": [
+      {
+         "DetailsID": 0
+      },
+
+      {
+         "Details": {
+            "title": "Jogo Da Velha",
+            "images": [
+               {
+                  "image": "https://i.imgur.com/B7MfK5F.png",
+                  "class": "mockup"
+               },
+               {
+                  "image": "https://i.imgur.com/ySY7uQG.png",
+                  "class": "image"
+               }
+            ],
+            "description": "Esse projeto foi realizado a alguns meses atrás durante o curso ProgramadorBR aonde estávamos aprendendo sobre as tecnologias utilizadas neste projeto. Resolvi tematizar o jogo e usei como o designer do jogo fazer com o meu time do coração o São Paulo FC, então resolvi colocar como equivalente a letra X num jogo da velha tradicional o escudo do time, e com a letra O o estadio do São Paulo o Morumbi. Espero que gostem, e se divirtam-se! ❤️🤍🖤",
+            "link": "https://degabrielofi.github.io/JogoDaVelha/",
+            "icon": "https://i.imgur.com/dfMEfxJ.png",
+            "technologies": [
+               {
+                  "icon": "https://i.imgur.com/T9zUapZ.png",
+                  "name": "HTML",
+                  "color": "#e54c22"
+               },
+               {
+                  "icon": "https://i.imgur.com/Bw1G9et.png",
+                  "name": "CSS",
+                  "color": "#1b73ba"
+               },
+               {
+                  "icon": "https://i.imgur.com/TqA6g5H.png",
+                  "name": "JavaScript",
+                  "color": "#f7e018"
+               }
+            ],
+            "video": {
+               "link": "https://www.youtube.com/embed/8lDgbgN0DJU",
+               "name": "Jogo da Velha | Projeto Programação"
+            }
+          },
+         "DetailsID": 1
+      },
+
+      {
+         "Details": {
+            "title": "Jogo Da Memoria",
+            "images": [
+               {
+                  "image": "https://i.imgur.com/ChhxqNK.png",
+                  "class": "mockup"
+               },
+               {
+                  "image": "https://i.imgur.com/OKuGtYd.png",
+                  "class": "image"
+               },
+               {
+                  "image": "https://i.imgur.com/5rfMvul.png",
+                  "class": "image"
+               }
+            ],
+            "description": "Esse projeto foi realizado a alguns meses atrás durante o curso ProgramadorBR aonde estávamos aprendendo sobre as tecnologias utilizadas neste projeto. Este projeto sofreu bastante alterações do projeto original no qual você pode ver por esse Link como ele era originalmente. O designer do projeto atual foi criado e desenvolvido por mim, apenas utilizando a parte lógica do código original. Fiz também alguns implementações como o contador de tempo e quantas jogadas o usuário fez durante a partida.",
+            "link": "https://degabrielofi.github.io/JogoDaMemoria/",
+            "icon": "https://i.imgur.com/yY5gg7h.png",
+            "technologies": [
+               {
+                  "icon": "https://i.imgur.com/T9zUapZ.png",
+                  "name": "HTML",
+                  "color": "#e54c22"
+               },
+               {
+                  "icon": "https://i.imgur.com/Bw1G9et.png",
+                  "name": "CSS",
+                  "color": "#1b73ba"
+               },
+               {
+                  "icon": "https://i.imgur.com/TqA6g5H.png",
+                  "name": "JavaScript",
+                  "color": "#f7e018"
+               }
+            ],
+            "video": {
+               "link": "https://www.youtube.com/embed/VCPPVIFp6YA",
+               "name": "Jogo da Memória | Projeto Programação"
+            }
+         },
+         "DetailsID": 2
+      },
+
+      {
+         "Details": {
+            "title": "DeGabriel Store - NLWReturn 🚀",
+            "images": [
+               {
+                  "image": "https://i.imgur.com/lGW3bRm.png",
+                  "class": "mockup"
+               },
+               {
+                  "image": "https://i.imgur.com/F67hHIp.png",
+                  "class": "image"
+               },
+               {
+                  "image": "https://i.imgur.com/8vXfpFL.png",
+                  "class": "image"
+               }
+            ],
+            "description": "O projeto se resume a construção de uma ferramenta de feedback onde qualquer usuário pode relatar algum problema, ideia ou quiser deixar qualquer outra observação para que seja avaliada por um administrator do site. Além disso é possível fazer uma captura de tela que é tirada automaticamente pelo o sistema.",
+            "link": "https://degabrielnlw-return.vercel.app/",
+            "icon": "https://i.imgur.com/9ttylch.png",
+            "technologies": [
+               {
+                  "icon": "https://i.imgur.com/NZPrPdK.png",
+                  "name": "React.js",
+                  "color": "#60dbfc"
+               },
+               {
+                  "icon": "https://i.imgur.com/mf76g22.png",
+                  "name": "Node.js",
+                  "color": "#82cd28"
+               },
+               {
+                  "icon": "https://i.imgur.com/Aq7y2Wx.png",
+                  "name": "TypeScript",
+                  "color": "#3178c6"
+               },
+               {
+                  "icon": "https://i.imgur.com/CUIChjo.png",
+                  "name": "Styled",
+                  "color": "#b4579f"
+               },
+               {
+                  "icon": "https://i.imgur.com/WrSp4dB.png",
+                  "name": "Tailwind",
+                  "color": "#1ab5b9"
+               },
+               {
+                  "icon": "https://i.imgur.com/TqA6g5H.png",
+                  "name": "JavaScript",
+                  "color": "#f7e018"
+               },
+               {
+                  "icon": "https://i.imgur.com/T9zUapZ.png",
+                  "name": "HTML",
+                  "color": "#e54c22"
+               },
+               {
+                  "icon": "https://i.imgur.com/Bw1G9et.png",
+                  "name": "CSS",
+                  "color": "#1b73ba"
+               }
+            ],
+            "video": {
+               "link": "https://www.youtube.com/embed/w2-T8d1sGO8",
+               "name": "DeGabriel Store | Projeto Programação"
+            }
+         },
+         "DetailsID": 3
+      },
+
+      {
+         "Details": {
+            "title": "MyLinks - Links Úteis | @degabrielofi_",
+            "images": [
+               {
+                  "image": "https://i.imgur.com/5nKfjiM.png",
+                  "class": "mockup"
+               },
+               {
+                  "image": "https://i.imgur.com/szAz3sA.png",
+                  "class": "image"
+               }
+            ],
+            "description": "O projeto abaixo é uma simples página, no qual foi feita para colocar os links de suas principais redes sociais, aonde você possa ajudar as pessoas que entram em alguma rede social sua, a encontrar outros links importantes, como o seu Likedln, Github ou Email por exemplo.",
+            "link": "https://degabrielofi-links.vercel.app/",
+            "icon": "https://i.imgur.com/GpJ5tRp.png",
+            "technologies": [
+               {
+                  "icon": "https://i.imgur.com/NZPrPdK.png",
+                  "name": "React.js",
+                  "color": "#60dbfc"
+               },
+               {
+                  "icon": "https://i.imgur.com/mf76g22.png",
+                  "name": "Node.js",
+                  "color": "#82cd28"
+               },
+               {
+                  "icon": "https://i.imgur.com/TqA6g5H.png",
+                  "name": "JavaScript",
+                  "color": "#f7e018"
+               },
+               {
+                  "icon": "https://i.imgur.com/CUIChjo.png",
+                  "name": "Styled",
+                  "color": "#b4579f"
+               },
+               {
+                  "icon": "https://i.imgur.com/T9zUapZ.png",
+                  "name": "HTML",
+                  "color": "#e54c22"
+               },
+               {
+                  "icon": "https://i.imgur.com/Bw1G9et.png",
+                  "name": "CSS",
+                  "color": "#1b73ba"
+               }
+            ],
+            "video": {
+               "link": "https://www.youtube.com/embed/ncr3sdnvs5M",
+               "name": "MyLinks | Projeto Programação"
+            }
+         },
+         "DetailsID": 4
+      },
+
+      {
+         "Details": {
+            "title": "MovieFlix",
+            "images": [
+               {
+                  "image": "https://i.imgur.com/KKriYog.png",
+                  "class": "mockup"
+               },
+               {
+                  "image": "https://i.imgur.com/MGCtsSv.png",
+                  "class": "image"
+               },
+               {
+                  "image": "https://i.imgur.com/IH8mDXw.png",
+                  "class": "image"
+               }
+            ],
+            "description": "Este é o MovieFlix, aonde você pode encontrar os filmes mais populares do momento, saber sobre o que se trata através de sua sinopse é saber os detalhes como: Duração, Orçamento, Bilheteria e quem são os personagens é por quem eles são interpretados. Tudo isso em um só lugar. ",
+            "link": "https://degabrielofimovieflix.netlify.app/",
+            "icon": "https://i.imgur.com/IqDnEIz.png",
+            "technologies": [
+               {
+                  "icon": "https://i.imgur.com/NZPrPdK.png",
+                  "name": "React.js",
+                  "color": "#60dbfc"
+               },
+               {
+                  "icon": "https://i.imgur.com/mf76g22.png",
+                  "name": "Node.js",
+                  "color": "#82cd28"
+               },
+               {
+                  "icon": "https://i.imgur.com/TqA6g5H.png",
+                  "name": "JavaScript",
+                  "color": "#f7e018"
+               },
+               {
+                  "icon": "https://i.imgur.com/CUIChjo.png",
+                  "name": "Styled",
+                  "color": "#b4579f"
+               },
+               {
+                  "icon": "https://i.imgur.com/T9zUapZ.png",
+                  "name": "HTML",
+                  "color": "#e54c22"
+               },
+               {
+                  "icon": "https://i.imgur.com/Bw1G9et.png",
+                  "name": "CSS",
+                  "color": "#1b73ba"
+               }
+            ],
+            "video": {
+               "link": "https://www.youtube.com/embed/c265QNBKDrc",
+               "name": "MovieFlix | Projeto Programação"
+            }
+         },
+         "DetailsID": 5
+      }
+   ]
+
+
+   
+}

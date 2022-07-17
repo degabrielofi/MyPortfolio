@@ -1,0 +1,65 @@
+.light-mode .section-title-02,
+.light-mode h1,
+.light-mode h3,
+.light-mode h4,
+.light-mode p,
+.light-mode .about-info .professional-list .list-item h3,
+.light-mode .about-info .description h3,
+.light-mode .skills .content,
+.light-mode .main-btn, 
+.light-mode i,
+.light-mode section.services span ,
+.light-mode section.services .service .title,
+.light-mode section.services .service .btn-default,
+.light-mode .all-techs,
+.light-mode .details,
+.light-mode .details a  {
+
+  color: #111111;
+  transition: all 0.5s;
+
+}
+
+.dark-mode .section-title-02,
+.dark-mode h1,
+.dark-dark h3,
+.dark-mode h4,
+.dark-mode p,
+.dark-mode .about-info .professional-list .list-item h3,
+.dark-mode .about-info .description h3,
+.dark-mode .skills .content,
+.dark-mode .main-btn,
+.dark-mode #hero p, 
+.dark-mode i,
+.dark-mode section.services span ,
+.dark-mode section.services .service .title,
+.dark-mode section.services .service .btn-default,
+.dark-mode .all-techs,
+.dark-mode .details,
+.dark-mode .details a {
+
+  color: #ffffff;
+  transition: all 0.5s;
+
+}
+
+.light-mode #hero p {
+
+  color: #45505b;
+  transition: all 0.5s;
+
+}
+
+.dark-mode #hero p {
+
+  color: #c0c0c0;
+  transition: all 0.5s;
+
+}
+
+.light-mode .resume-wrap p, .dark-mode .resume-wrap p {
+
+  color: #111111;
+  transition: all 0.5s;
+
+}

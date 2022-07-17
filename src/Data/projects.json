@@ -1,0 +1,49 @@
+[
+    {
+      "title": "BOT DGzzIN ツ",
+      "description": "O seu BOT para o discord.",
+      "link": "https://dgzzinbot.netlify.app",
+      "imgUrl": "https://i.imgur.com/dsdVGWB.png",
+      "github": "https://github.com/DGzzIN-Bot"
+    },
+    {
+      "title": "Jogo Da Velha",
+      "description": "Um jogo tematizado sobre o São Paulo FC.",
+      "link": "https://degabrielofi.github.io/JogoDaVelha/",
+      "imgUrl": "https://i.imgur.com/7yuZIdX.png",
+      "github": "https://github.com/degabrielofi/JogoDaVelha",
+      "id": "1"
+    },
+    {
+      "title": "Jogo Da Memoria",
+      "description": "Um jogo tematizado com os planetas do sistema solar.",
+      "link": "https://degabrielofi.github.io/JogoDaMemoria/",
+      "imgUrl": "https://i.imgur.com/yACx1mI.png",
+      "github": "https://github.com/degabrielofi/JogoDaMemoria",
+      "id": "2"
+    },
+    {
+      "title": "DeGabriel Store - NLWReturn",
+      "description": "Sistema de feedbacks.",
+      "link": "https://degabrielnlw-return.vercel.app/",
+      "imgUrl": "https://i.imgur.com/AEsUVNP.png",
+      "github": "https://github.com/degabrielofi/NLWReturn",
+      "id": "3"
+    },
+    {
+      "title": "MyLinks | @degabrielofi_",
+      "description": "Links das principais redes sociais.",
+      "link": "https://degabrielofi-links.vercel.app",
+      "imgUrl": "https://i.imgur.com/mVfqN2w.png",
+      "github": "https://github.com/degabrielofi/MyLinks",
+      "id": "4"
+    },
+    {
+      "title": "MovieFlix",
+      "description": "Encontre o filme que combina com você.",
+      "link": "https://degabrielofimovieflix.netlify.app/",
+      "imgUrl": "https://i.imgur.com/cBOfRe7.png",
+      "github": "https://github.com/degabrielofi/MovieFlix",
+      "id": "5"
+    }
+  ]
