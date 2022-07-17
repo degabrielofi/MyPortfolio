@@ -3,6 +3,7 @@ import { Contacts } from './style'
 import emailjs from "emailjs-com";
 import Swal from 'sweetalert2'
 import withReactContent from 'sweetalert2-react-content'
+import { EmailJSKey } from '../../config/EmailJSKey';
 
 const Contact = () => {
 
@@ -11,7 +12,7 @@ const Contact = () => {
   function sendEmail(e) {
     e.preventDefault();
 
-    emailjs.sendForm('GmailService', 'template_7m8nhcb', e.target, 'YH_Isn-FnWfj59H1o')
+    emailjs.sendForm('GmailService', 'template_7m8nhcb', e.target, {EmailJSKey})
 
       .then((result) => {
 
