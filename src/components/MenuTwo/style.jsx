@@ -83,7 +83,7 @@ transition: 0.3s ease-in-out;
 
 }
 
-#header .profile .social-links a i:hover {
+#header .profile .social-links a:hover i {
 
 color: #111;
 transition: 0.3s ease-in-out;
@@ -107,7 +107,6 @@ transition: 0.3s ease-in-out;
 #header .profile .social-links a:hover::before {
 
 transform: scale(1);
-
 
 }
 
@@ -198,12 +197,6 @@ transform: rotate(-180deg);
 .menu-section.on #header {
 
 left: -15px;
-
-}
-
-i {
-
-    color: #fff;
 
 }
 
