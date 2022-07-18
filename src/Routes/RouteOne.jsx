@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import Home from '../components/Home'
 import About from '../components/About'
 import Resume from '../components/Resume'
@@ -8,10 +7,11 @@ import Projects from '../components/Projects'
 import ScrollToTop from '../components/ScrollToTop';
 import Contact from '../components/Contact'
 import Menu from '../components/Menu'
+import useLocalStorage from 'use-local-storage'
 
 function RouteOne() {
 
-    const [darkMode, setDarkMode] = useState(false);
+    const [darkMode, setDarkMode] = useLocalStorage('theme' ? 'dark-mode' : 'light-mode');
 
     return (
         <>

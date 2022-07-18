@@ -1,12 +1,12 @@
-import { useState } from 'react';
 import MenuTwo from '../components/MenuTwo'
 import Details from '../components/Details'
 import Contact from '../components/Contact'
 import ScrollToTop from '../components/ScrollToTop';
+import useLocalStorage from 'use-local-storage'
 
 function RouteTwo() {
 
-    const [darkMode, setDarkMode] = useState(false);
+    const [darkMode, setDarkMode] = useLocalStorage('theme' ? 'dark-mode' : 'light-mode');
 
     return (
         <>
