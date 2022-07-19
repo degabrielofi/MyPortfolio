@@ -31,8 +31,8 @@ const MenuTwo = () => {
                                 <ul>
                                     <li><a href="https://degabrielofi.vercel.app/#home" className="nav-link"><i className="bx bx-home"></i> <span>Home</span></a></li>
                                     <li><a href="https://degabrielofi.vercel.app/#sobre" className="nav-link"><i className="bx bx-user"></i> <span>Sobre mim</span></a></li>
-                                    <li><a href="https://degabrielofi.vercel.app/#resume" className="nav-link"><i className="bx bx-file-blank"></i> <span>Resumo</span></a></li>
                                     <li><a href="https://degabrielofi.vercel.app/#skills" className="nav-link"><i className="bx bx-file"></i> <span>Skills</span></a></li>
+                                    <li><a href="https://degabrielofi.vercel.app/#resume" className="nav-link"><i className="bx bx-file-blank"></i> <span>Resumo</span></a></li>
                                     <li><a href="https://degabrielofi.vercel.app/#portofolio" className="nav-link"><i className="bx bx-book-content"></i> <span>Portfolio</span></a></li>
                                     <li><a href="https://degabrielofi.vercel.app/#footer" className="nav-link"><i className="bx bx-envelope"></i> <span>Contato</span></a></li>
                                 </ul>

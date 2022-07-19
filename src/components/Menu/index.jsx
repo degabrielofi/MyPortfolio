@@ -30,8 +30,8 @@ const Menu = () => {
                                 <ul>
                                     <li><a href="#home" className="nav-link"><i className="bx bx-home"></i> <span>Home</span></a></li>
                                     <li><a href="#sobre" className="nav-link"><i className="bx bx-user"></i> <span>Sobre mim</span></a></li>
-                                    <li><a href="#resume" className="nav-link"><i className="bx bx-file-blank"></i> <span>Resumo</span></a></li>
                                     <li><a href="#skills" className="nav-link"><i className="bx bx-file"></i> <span>Skills</span></a></li>
+                                    <li><a href="#resume" className="nav-link"><i className="bx bx-file-blank"></i> <span>Resumo</span></a></li>
                                     <li><a href="#portfolio" className="nav-link"><i className="bx bx-book-content"></i> <span>Portfolio</span></a></li>
                                     <li><a href="#footer" className="nav-link"><i className="bx bx-envelope"></i> <span>Contato</span></a></li>
                                 </ul>
