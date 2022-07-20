@@ -10,9 +10,10 @@ const Contact = () => {
   const MySwal = withReactContent(Swal)
 
   function sendEmail(e) {
+    
     e.preventDefault();
 
-    emailjs.sendForm('GmailService', 'template_7m8nhcb', e.target, {EmailJSKey})
+    emailjs.sendForm('GmailService', 'template_kcep48h', e.target, `${EmailJSKey}`)
 
       .then((result) => {
 
