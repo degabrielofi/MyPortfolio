@@ -40,7 +40,7 @@ const Contact = () => {
         title: 'Oops...',
         text: 'Alguma coisa deu errado!',
         footer: 'Preencha os campos corretamente e tente novamente.',
-        cancelButtonColor: '#d33'
+        confirmButtonColor: '#d33'
       })
     }
 
