@@ -1,4 +1,3 @@
-const PORT = 5000
 import express from 'express'
 import nodemailer from 'nodemailer'
 import cors from 'cors'
@@ -41,7 +40,7 @@ app.post('/contact', async (req, res) => {
 
 })
 
-app.listen(PORT, () => {
+app.listen(3333, () => {
 
     console.log('HTTP server running!')
 
