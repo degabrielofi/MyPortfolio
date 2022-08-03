@@ -1,43 +1,51 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Contacts } from './style'
-import emailjs from "emailjs-com";
+import api from '../../lib/api'
 import Swal from 'sweetalert2'
 import withReactContent from 'sweetalert2-react-content'
-import { EmailJSKey } from '../../config/EmailJSKey';
 
 const Contact = () => {
 
   const MySwal = withReactContent(Swal)
 
-  function sendEmail(e) {
-    
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [comment, setComment] = useState('');
+
+  async function sendEmail(e) {
+
     e.preventDefault();
 
-    emailjs.sendForm('GmailService', 'template_kcep48h', e.target, `${EmailJSKey}`)
+    try {
+      await api.post('/contact', {
 
-      .then((result) => {
+        name,
+        email,
+        comment
 
-        MySwal.fire({
-          icon: 'success',
-          title: 'Mensagem Enviada!',
-          text: 'Sua Mensagem foi enviada com sucesso.',
-          footer: "Obrigado por ter entrado em contato.",
-          confirmButtonColor: '#0563bb'
-        })
-        
-      }, (error) => {
-        MySwal.fire({
-          icon: 'error',
-          title: 'Oops...',
-          text: 'Alguma coisa deu errado!',
-          footer: 'Preencha os campos corretamente e tente novamente.',
-          cancelButtonColor: '#d33'
-        })
-
-      });
-    e.target.reset()
+      })
+     
+      MySwal.fire({
+        icon: 'success',
+        title: 'Mensagem Enviada!',
+        text: 'Sua Mensagem foi enviada com sucesso.',
+        footer: "Obrigado por ter entrado em contato.",
+        confirmButtonColor: '#0563bb'
+      })
+     
+      
+    } catch (error) {
+      MySwal.fire({
+        icon: 'error',
+        title: 'Oops...',
+        text: 'Alguma coisa deu errado!',
+        footer: 'Preencha os campos corretamente e tente novamente.',
+        cancelButtonColor: '#d33'
+      })
+    }
 
   }
+
 
   return (
 
@@ -76,13 +84,13 @@ const Contact = () => {
                 <p className='text-dark'>Resta alguma dúvida? Preencha os campos abaixo com os seguintes dados que em breve entraremos em contato.</p>
                 <form onSubmit={sendEmail}>
                   <div className="input-box">
-                    <input type="name" name='from_name' placeholder="Digite aqui seu nome" required />
+                    <input onChange={(e) => setName(e.target.value)} type="name" name='from_name' placeholder="Digite aqui seu nome" required />
                   </div>
                   <div className="input-box">
-                    <input type="email" name="from_email" id="email" placeholder="email@exemplo.com" required />
+                    <input onChange={(e) => setEmail(e.target.value)} type="email" name="from_email" id="email" placeholder="email@exemplo.com" required />
                   </div>
                   <div className="input-box message-box">
-                    <textarea name="message" rows="5" placeholder="Escreva aqui sua mensagem" required></textarea>
+                    <textarea onChange={(e) => setComment(e.target.value)} name="message" rows="5" placeholder="Escreva aqui sua mensagem" required></textarea>
                   </div>
                   <div className="button">
                     <div className="text-center"><button type="submit">Enviar Mensagem <i style={{ color: "#fff" }} className='fas fa-paper-plane'></i></button></div>

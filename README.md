@@ -1,16 +1,16 @@
 <p align="center">
-  <img alt="MyLinks" src="./GitHub/Mockup.png " width="70%"> 
+  <img alt="MyLinks" src="./Web/GitHub/Mockup.png " width="70%"> 
   </p>
 
 # :clipboard: Sobre o projeto
 
-Este é o Portfólio, aonde você poderá ver um pouco sobre mim e como entrei no mundo do desenvolvimento, e ainda alguns dos meus principais projetos. Tudo isso em um só lugar.
+Este é o meu Portfólio, onde você poderá ver um pouco mais sobre mim e como entrei no mundo do desenvolvimento, e ainda alguns dos meus principais projetos. Tudo isso em um só lugar.
 
 Abaixo podemos ver o resultado final do projeto. Espero que gostem!
 
 <br>
 <p align="center">
-  <img alt="MyLinks" src="./GitHub/MyPortfólio.gif" width="70%"> 
+  <img alt="MyLinks" src="./Web/GitHub/MyPortfólio.gif" width="70%"> 
   </p>
 
 # 🔗 Acesse o site com o link abaixo. 
@@ -47,5 +47,5 @@ $ npm run start
 ## 
 
 <p align="center">
-  <img src="./GitHub/Icon.png" width="15%">
+  <img src="./Web/GitHub/Icon.png" width="15%">
   </p>
