@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: process.env.REACT_APP_SECRET_API
+    baseURL: "https://myportfolio-production.up.railway.app/"
 })
 
 export default api
