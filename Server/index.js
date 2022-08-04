@@ -41,7 +41,7 @@ app.post('/contact', async (req, res) => {
 
 })
 
-app.listen(PORT, () => {
+app.listen(process.env.PORT || PORT, () => {
 
     console.log('HTTP server running!')
 
