@@ -1,3 +1,13 @@
+  <p align="center">
+  <img alt="MyPortfólio_Icon" src="https://i.imgur.com/2ydQUMt.png" width="30%"> 
+  </p>
+
+  <p align="center">
+  <img alt="Github Top Language" src="https://img.shields.io/github/languages/top/degabrielofi/MyPortfolio?color=60dbfc">
+  <img alt="Github Language Count" src="https://img.shields.io/github/languages/count/degabrielofi/MyPortfolio?color=60dbfc">
+  <img alt="Repository Size" src="https://img.shields.io/github/repo-size/degabrielofi/MyPortfolio?color=60dbfc">
+</p>
+
 <p align="center">
   <img alt="MyLinks" src="./Web/GitHub/Mockup.png " width="70%"> 
   </p>
@@ -35,11 +45,30 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 #Clonando o repositório do Github: 
 $ git clone https://github.com/degabrielofi/MyPortfolio
 
-#Instalar alguns packages:
+#Acessar pasta Web:
+$ cd Web
 
-$ npm i emailjs-com infinite-react-carousel react-bootstrap react-dom react-elastic-carousel react-icons react-router-dom styled-components sweetalert2 sweetalert2-react-content
+#Instalar alguns packages:
+$ npm i infinite-react-carousel react-bootstrap react-dom react-elastic-carousel react-icons react-router-dom styled-components sweetalert2 sweetalert2-react-content
 
 #Inicializar pasta Web:
+$ npm run start
+ 
+```
+
+## 🗃️ Para iniciarlizar a parte do Back-End utilize o comando abaixo:
+```bash
+
+#Clonando o repositório do Github: 
+$ git clone https://github.com/degabrielofi/MyPortfolio
+
+#Acessar pasta Web:
+$ cd Server
+
+#Instalar alguns packages:
+$ npm i cors express nodemailer
+
+#Inicializar pasta Server:
 $ npm run start
  
 ```
