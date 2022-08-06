@@ -17,7 +17,7 @@ app.post('/contact', async (req, res) => {
         html: [
             `<section style="font-family: Arial, Helvetica, sans-serif; font-size: 1rem; background-color: #ebf0f6; ">`,
             `<div style="display: flex; padding-top: 1rem;  margin: auto; justify-content: center; width: 100%;">`,
-            `<img style="margin: auto;" width="300px" src="https://i.imgur.com/7CESEd8.png" alt="Back">`,
+            `<img style="margin: auto;" width="300px" src="https://i.imgur.com/2ydQUMt.png" alt="Back">`,
             `</div>`,
             `<section style="background-color: #fff; border-radius: 1rem; width: 75%; display: flex; margin: auto; margin-top: 1rem; padding: 2rem;">`,
             `<div style=" margin: auto;">`,
