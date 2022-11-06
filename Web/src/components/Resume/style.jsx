@@ -16,7 +16,7 @@ margin-top: 2rem;
 
 opacity: 0.1;
 position: absolute;
-font-size: 4.5rem;
+font-size: 3rem;
 font-weight: 800;
 transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
 transition: opacity 2.5s cubic-bezier(0.5, 0, 0, 1) 0.5s, transform 2.5s cubic-bezier(0.5, 0, 0, 1) 0.5s;
@@ -28,8 +28,8 @@ transition: opacity 2.5s cubic-bezier(0.5, 0, 0, 1) 0.5s, transform 2.5s cubic-b
 
 opacity: 1;
 font-weight: 700;
-font-size: 2.5rem;
-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 25, 0, 1);
+font-size: 2rem;
+transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 20, 0, 1);
 transition: opacity 2.5s cubic-bezier(0.5, 0, 0, 1) 0.5s, transform 2.5s cubic-bezier(0.5, 0, 0, 1) 0.5s;
 
 }
@@ -38,8 +38,8 @@ transition: opacity 2.5s cubic-bezier(0.5, 0, 0, 1) 0.5s, transform 2.5s cubic-b
 
   content: '';
   position: absolute;
-  width: 5rem;
-  height: 5px;
+  width: 4rem;
+  height: 4px;
   right: 0;
   bottom: 0;
   background: #0563bb;
@@ -52,7 +52,7 @@ transition: opacity 2.5s cubic-bezier(0.5, 0, 0, 1) 0.5s, transform 2.5s cubic-b
   margin-top: 3rem;
   margin-bottom: 30px;
   padding: 30px;
-  border-radius: 5px; 
+  border-radius: 1.5rem; 
   border-bottom: 3px solid #0563bb;
   box-shadow: 0px 0px 20px rgb(0 0 0 / 10%);
   background: #fff;
@@ -108,7 +108,7 @@ transition: opacity 2.5s cubic-bezier(0.5, 0, 0, 1) 0.5s, transform 2.5s cubic-b
 
 .section-title-01 {
 
-    font-size: 3.5rem;
+    font-size: 2.5rem;
 
 }
 

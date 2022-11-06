@@ -1,4 +1,4 @@
-import { All, Techs, Detail, WebVideo } from './style'
+import { Image, Techs, Detail, WebVideo } from './style'
 import details from '../../Data/details.json'
 import Slider from "infinite-react-carousel";
 import { useParams } from 'react-router-dom'
@@ -24,7 +24,7 @@ const Details = () => {
   return (
     <>
 
-      <All>
+      <Image>
 
         <Slider {...settings}>
 
@@ -40,7 +40,7 @@ const Details = () => {
 
         </Slider>
 
-      </All>
+      </Image>
 
       <Detail>
 
@@ -73,8 +73,6 @@ const Details = () => {
               }
             </section>
           </Techs>
-          <br />
-          <br />
         </div>
 
       </Detail>
@@ -85,14 +83,10 @@ const Details = () => {
           <h2 className="section-title-02">RESULTADO FINAL</h2>
         </div>
 
-        <div className='video_web d-flex justify-content-center rounded'>
-          <iframe src={video.link}
-            title={video.name} frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen='true'>
+        <div className='video_web d-flex justify-content-center'>
+          <iframe src={video.link} title={video.name} allow="accelerometer; autoplay; picture-in-picture; fullscreen" >
           </iframe>
         </div>
-
       </WebVideo>
 
     </>

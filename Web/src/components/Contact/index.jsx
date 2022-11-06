@@ -24,7 +24,7 @@ const Contact = () => {
         comment
 
       })
-     
+
       MySwal.fire({
         icon: 'success',
         title: 'Mensagem Enviada!',
@@ -32,8 +32,8 @@ const Contact = () => {
         footer: "Obrigado por ter entrado em contato.",
         confirmButtonColor: '#0563bb'
       })
-     
-      
+
+
     } catch (error) {
       MySwal.fire({
         icon: 'error',
@@ -68,11 +68,8 @@ const Contact = () => {
                   <div className="topic">Localização:</div>
                   <div className="text-one">São Paulo - Brasil</div>
                 </div>
-                <div className="phone details">
-                  <i className="fas fa-phone-alt"></i>
-                  <div className="topic">Telefone:</div>
-                  <a target="--black" className="whatsapp" href="https://api.whatsapp.com/send?phone=5511949046614&text=Ol%C3%A1%20Gabriel!"> <div className="text-one">+55 11 94904-6614</div></a>
-                </div>
+                <br />
+                <br />
                 <div className="email details">
                   <i className="fas fa-envelope"></i>
                   <div className="topic">Email:</div>

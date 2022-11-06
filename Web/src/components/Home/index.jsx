@@ -8,7 +8,7 @@ const Home = () => {
     const [loopNum, setLoopNum] = useState(0);
     const [delta, setDelta] = useState(300 - Math.random() * 100);
     const [text, setText] = useState('');
-    const toRotate = ["Developer", "Web Designer", "Frellancer"];
+    const toRotate = ["Developer", "Frellancer"];
     const [isDeleting, setIsDeleting] = useState(false);
     const [index, setIndex] = useState(1);
     const period = 2000;

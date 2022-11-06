@@ -15,7 +15,7 @@ margin-top: 2rem;
 
 opacity: 0.1;
 position: absolute;
-font-size: 4.5rem;
+font-size: 3rem;
 font-weight: 800;
 transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
 transition: opacity 2.5s cubic-bezier(0.5, 0, 0, 1) 0.5s, transform 2.5s cubic-bezier(0.5, 0, 0, 1) 0.5s;
@@ -27,8 +27,8 @@ transition: opacity 2.5s cubic-bezier(0.5, 0, 0, 1) 0.5s, transform 2.5s cubic-b
 
 opacity: 1;
 font-weight: 700;
-font-size: 2.5rem;
-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 25, 0, 1);
+font-size: 1.8rem;
+transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 20, 0, 1);
 transition: opacity 2.5s cubic-bezier(0.5, 0, 0, 1) 0.5s, transform 2.5s cubic-bezier(0.5, 0, 0, 1) 0.5s;
 
 }
@@ -37,8 +37,8 @@ transition: opacity 2.5s cubic-bezier(0.5, 0, 0, 1) 0.5s, transform 2.5s cubic-b
 
   content: '';
   position: absolute;
-  width: 5rem;
-  height: 5px;
+  width: 4rem;
+  height: 4px;
   right: 0;
   bottom: 0;
   background: #0563bb;
@@ -62,13 +62,13 @@ transition: opacity 2.5s cubic-bezier(0.5, 0, 0, 1) 0.5s, transform 2.5s cubic-b
 
 .section-title-01 {
 
-    font-size: 3.5rem;
+    font-size: 2.5rem;
 
 }
 
 .section-title-02 {
 
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 
 }
 
@@ -80,20 +80,14 @@ transition: opacity 2.5s cubic-bezier(0.5, 0, 0, 1) 0.5s, transform 2.5s cubic-b
 
 export const Item = styled.div`
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
 .content {
 
     display: flex;
-    font-family: 'Raleway', sans-serif;
     flex-direction: column;
     text-align: center;
     color: #000;
-    font-size: 0.7rem;
-    font-weight: 400;
-    list-style: none;
+    font-size: 12px;
+    font-weight: 500;
     text-transform: uppercase;
 
 }
@@ -105,7 +99,7 @@ export const Item = styled.div`
 export const Sliders = styled.div`
 
     display: flex;
-    margin-top: -5rem;
+  
 
 .qualifications .differences span {
 
@@ -118,29 +112,24 @@ export const Sliders = styled.div`
 
     display: flex;
     justify-content: space-around;
-    align-items: center;
     width: 100%;
 
 }
 
 .qualifications .differences {
 
-    width: 90%;
-    margin: 10rem 1rem 0 1rem;
+    width: 100%;
+    margin: 10% 2rem 0 2rem;
     padding: 1rem;
     background: #fff;
     box-shadow: 1px 0px 28px 0px rgb(0 0 0 / 41%);
-    border-radius: 1.5rem;
-    min-height: 10rem;
+    border-radius: 2rem;
 
 }
 
 .qualifications .differences .expertise {
 
-    width: 100%;
-    position: relative;
     padding-left: 120px;
-    text-align: left;
     cursor: grab;
 
 }
@@ -157,26 +146,19 @@ export const Sliders = styled.div`
 
 }
 
-.qualifications .differences .expertise:active {
-
-    cursor: grabbing;
-
-}
-
 .qualifications .differences .expertise img {
 
     height: 100%;
     width: 100px;
     position: absolute;
     object-fit: contain;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
 
 }
 
 .qualifications .differences .expertise .title {
 
-    
     font-size: 18px;
     font-weight: 900;
 
@@ -184,13 +166,21 @@ export const Sliders = styled.div`
 
 p {
 
-    margin-top: 0.2rem;
+    
 
 }
 
 i {
 
     color: #111;
+    transition: 0.5s;
+
+}
+
+a:hover i {
+
+    color: #fff;
+    transition: 0.5s;
 
 }
 
@@ -199,16 +189,15 @@ a {
     text-decoration: none;
     color: #0563bb;
     font-size: 12px;
-    padding: 0 10px 0;
     border-radius: 5px;
     transition: 0.5s;
+    
 
 }
 
 a:hover {
 
     background-color: #054785;
-    box-shadow: 0 2px 10px #00000073;
     text-decoration: none;
     color: #fff;
     font-size: 12px;
@@ -218,14 +207,41 @@ a:hover {
 
 }
 
+.cert {
+
+    margin-top: -10px;
+
+}
+
 @media screen and (max-width: 998px) {
 
     display: flex;
     flex-direction: column;
 
+.qualifications .differences span {
+
+    font-size: 14px;
+
+}
+
+.qualifications .differences .expertise .title {
+
+    font-size: 11px;
+
+}
+
+p {
+
+  font-size: 10px;
+  margin-top: -0.4rem;
+
+}
+
 .qualifications .differences {
 
-    width: 95%;
+    width: 100%;
+    height: 100%;
+    margin: 3rem 1rem 0 1rem;
 
 }
     

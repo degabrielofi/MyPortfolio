@@ -15,7 +15,7 @@ margin-top: 2rem;
 
 opacity: 0.1;
 position: absolute;
-font-size: 4.5rem;
+font-size: 3rem;
 font-weight: 800;
 transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
 transition: opacity 2.5s cubic-bezier(0.5, 0, 0, 1) 0.5s, transform 2.5s cubic-bezier(0.5, 0, 0, 1) 0.5s;
@@ -27,8 +27,8 @@ transition: opacity 2.5s cubic-bezier(0.5, 0, 0, 1) 0.5s, transform 2.5s cubic-b
 
 opacity: 1;
 font-weight: 700;
-font-size: 2.5rem;
-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 25, 0, 1);
+font-size: 2rem;
+transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 20, 0, 1);
 transition: opacity 2.5s cubic-bezier(0.5, 0, 0, 1) 0.5s, transform 2.5s cubic-bezier(0.5, 0, 0, 1) 0.5s;
 
 }
@@ -37,8 +37,8 @@ transition: opacity 2.5s cubic-bezier(0.5, 0, 0, 1) 0.5s, transform 2.5s cubic-b
 
   content: '';
   position: absolute;
-  width: 5rem;
-  height: 5px;
+  width: 4rem;
+  height: 4px;
   right: 0;
   bottom: 0;
   background: #0563bb;
@@ -72,7 +72,7 @@ height: auto;
 .proj-imgbx::before {
 
   content: "";
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  background: linear-gradient(90deg, #000046 0%, #1cb5e0 100%);
   opacity: 0.85;
   position: absolute;
   width: 100%;
@@ -149,13 +149,13 @@ transition: all 0.3s;
 
 .section-title-01 {
 
-    font-size: 3rem;
+    font-size: 2.5rem;
  
 }
 
 .section-title-02 {
 
-    font-size: 2.5rem;
+    font-size: 1.5rem;
 
 }
 
