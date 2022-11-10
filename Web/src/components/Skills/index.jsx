@@ -132,14 +132,14 @@ const Skills = () => {
                                 <div className='expertise'>
                                     <img src={images.IconDIO.link} alt="icon" />
                                     <div className='title'>Figma</div>
-                                    <p>Serviu para aprender a projetar o design ou protótipo do meu projeto. Conhecer melhor a interface do Figma e entenda sobre as suas ferramentas e funcionalidades.</p>
+                                    <p>Aprendizado para projetar o design ou protótipo do meu projeto. Conhecer e entender sobre as ferramentas e funcionalidades do Figma.</p>
                                     <div className='cert'><a target="--blank" href="https://hermes.digitalinnovation.one/certificates/A966F90B.pdf">Acessar Certificado <i className='fas fa-certificate'></i></a></div>
                                 </div>
 
                                 <div className='expertise'>
                                     <img src={images.IconProgBR.link} alt="icon" />
                                     <div className='title'>Firebase, jQuery e Bootstrap</div>
-                                    <p>Armazenar dados e arquivos com Firebase. Criar soluções com menos linhas de código com jQuery. Usar componentes padronizados e estilosos com Bootstrap.</p>
+                                    <p>Armazenar dados com Firebase. Criar soluções com menos linhas de código com jQuery. Usar componentes padronizados e estilosos com Bootstrap.</p>
                                     <div className='cert'><a target="--blank" href="https://programadorbr.com/certificado/DVWBGS13FI266118">Acessar Certificado <i className='fas fa-certificate'></i></a></div>
                                 </div>
 
@@ -152,7 +152,7 @@ const Skills = () => {
 
                                 <div className='expertise'>
                                     <img src={images.IconProgBR.link} alt="icon" />
-                                    <div className='title'>ProgBR - NodeJS e MongoDB</div>
+                                    <div className='title'>NodeJS e MongoDB</div>
                                     <p>Criação de sistemas web dinâmicos e complexos que rodam no back end com NodeJS. Construção de banco de dados com MongoDB</p>
                                     <div className='cert'><a target="--blank" href="https://programadorbr.com/certificado/DVWBGS13NO266118">Acessar Certificado <i className='fas fa-certificate'></i></a></div>
                                 </div>

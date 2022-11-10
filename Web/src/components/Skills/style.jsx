@@ -24,7 +24,6 @@ transition: opacity 2.5s cubic-bezier(0.5, 0, 0, 1) 0.5s, transform 2.5s cubic-b
 
 .section-title-02 {
 
-
 opacity: 1;
 font-weight: 700;
 font-size: 1.8rem;
@@ -76,8 +75,6 @@ transition: opacity 2.5s cubic-bezier(0.5, 0, 0, 1) 0.5s, transform 2.5s cubic-b
 
 `
 
-
-
 export const Item = styled.div`
 
 .content {
@@ -94,12 +91,9 @@ export const Item = styled.div`
 
 `
 
-
-
 export const Sliders = styled.div`
 
     display: flex;
-  
 
 .qualifications .differences span {
 
@@ -164,12 +158,6 @@ export const Sliders = styled.div`
 
 }
 
-p {
-
-    
-
-}
-
 i {
 
     color: #111;
@@ -226,14 +214,14 @@ a:hover {
 
 .qualifications .differences .expertise .title {
 
-    font-size: 11px;
+    font-size: 12px;
 
 }
 
 p {
 
   font-size: 10px;
-  margin-top: -0.4rem;
+  margin-top: 0.2rem;
 
 }
 

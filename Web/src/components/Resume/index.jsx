@@ -33,7 +33,7 @@ const Resume = () => {
                                         <i className="fa fa-graduation-cap"></i>
                                         <span className="date">2021-PRESENTE</span>
                                     </div>
-                                    <h2>Frellacer</h2>
+                                    <h2>Freelancer</h2>
                                     <span className="position">Autônomo</span>
                                     <p className="mt-4">- Criação de websites <br /> - Atualização de websites <br /> - Criação de Artes <br /> - Criação de BOTS <br /></p>
                                 </div>
