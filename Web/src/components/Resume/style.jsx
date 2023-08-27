@@ -102,7 +102,16 @@ transition: opacity 2.5s cubic-bezier(0.5, 0, 0, 1) 0.5s, transform 2.5s cubic-b
 
 }
 
+.services {
 
+  width: 1.7rem;
+  line-height: 1.7rem;
+  text-align: center;
+  border-radius: 50%;
+  color: #fff;
+  background-color: #252525;
+
+}
 
 @media screen and (max-width: 998px) {
 

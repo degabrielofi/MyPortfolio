@@ -19,7 +19,7 @@ const Resume = () => {
                             <div className="col-md-6">
                                 <div className="resume-wrap ftco-animate">
                                     <div className='title'>
-                                        <i className="fa fa-briefcase"></i>
+                                        <i className="fa fa-graduation-cap"></i>
                                         <span className="date">2022-2024</span>
                                     </div>
                                     <h2>Ensino Médio</h2>
@@ -30,12 +30,12 @@ const Resume = () => {
                             <div className="col-md-6">
                                 <div className="resume-wrap ftco-animate">
                                     <div className='title'>
-                                        <i className="fa fa-graduation-cap"></i>
+                                        <i className="fa fa-briefcase"></i>
                                         <span className="date">2021-PRESENTE</span>
                                     </div>
-                                    <h2>Freelancer</h2>
+                                    <h2>Serviços</h2>
                                     <span className="position">Autônomo</span>
-                                    <p className="mt-4">- Criação de websites <br /> - Atualização de websites <br /> - Criação de Artes <br /> - Criação de BOTS <br /></p>
+                                    <p className="mt-4"><i className='services fa fa-rss-square'></i> Desenvolvimento de sites <br /><i className='services fa fa-code'></i> Desenvolvimento de aplicações web <br /><i className='services fa fa-image'></i> Criação de layouts <br /><i className='services fa fa-robot'></i> Criação de BOTS</p>
                                 </div>
 
                             </div>
