@@ -34,8 +34,10 @@ const About = () => {
                             </div>
                             <div className="col-xl-4">
                                 <h2>Olá,</h2>
-                                <p>sou Gabriel Silva,  Desenvolvedor Front-End e entusiasta em UX. Tenho experiência com o desenvolvimento de BOTS para o Discord há mais de 2 anos. Possuo experiência com trabalhos em equipes. Atualmente tenho 16 anos, e sou mais que apaixonado pela área da tecnologia.</p>
-                                <p>Me considero ágil e consistente em aprender uma nova tecnologia e me adaptar a qualquer mudança, e sempre estou pronto para superar qualquer desafio. Se eu pudesse me definir em 3 palavras, certamente seriam: comprometido, esforçado e determinado! :)
+                                <p>sou Gabriel Silva, um Desenvolvedor Front-End apaixonado por criar experiências de usuário excepcionais. Atualmente tenho 17 anos, e possuo uma paixão fervorosa pela área da tecnologia.</p>
+                                <p>Se eu tivesse que me definir em três palavras, seriam: comprometido, esforçado e determinado. Estas qualidades me impulsionam a alcançar excelência em tudo o que faço.
+
+Estou ansioso para continuar a minha jornada na área da tecnologia, buscando sempre aprimorar minhas habilidades e criar experiências incríveis para os usuários.
                                 </p>
                                 <p></p>
                                 <div className="p-2"></div>

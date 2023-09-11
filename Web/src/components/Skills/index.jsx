@@ -61,8 +61,8 @@ const Skills = () => {
                         </Item>
                         <Item><i className='content'><img src={images.IconBootstrap.link} alt="Icon" />Bootstrap</i>
                         </Item>
-                        <Item><i className='content'><img src={images.IconIllustrator.link} alt="Icon" />Illustrator</i>
-                        </Item>
+                       {/*  <Item><i className='content'><img src={images.IconIllustrator.link} alt="Icon" />Illustrator</i>
+                        </Item> */}
                       {/*   <Item><i className='content'><img src={images.IconSass.link} alt="Icon" />Sass</i>
                         </Item> */}
                         <Item><i className='content'><img src={images.IconDiscordjs.link} alt="Icon" />Discord.js</i>
