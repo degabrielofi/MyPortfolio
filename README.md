@@ -1,5 +1,5 @@
-  <p align="center">
-  <img alt="MyPortfólio_Icon" src="https://i.imgur.com/2ydQUMt.png" width="30%"> 
+<p align="center">
+  <img alt="MyLinks" src="./Web/GitHub/Mockup.png " width="70%"> 
   </p>
 
   <p align="center">
@@ -8,13 +8,9 @@
   <img alt="Repository Size" src="https://img.shields.io/github/repo-size/degabrielofi/MyPortfolio?color=60dbfc">
 </p>
 
-<p align="center">
-  <img alt="MyLinks" src="./Web/GitHub/Mockup.png " width="70%"> 
-  </p>
-
 # :clipboard: Sobre o projeto
 
-Este é o meu Portfólio, onde você poderá ver um pouco mais sobre mim e como entrei no mundo do desenvolvimento, e ainda alguns dos meus principais projetos. Tudo isso em um só lugar.
+Bem-vindo ao meu Portfólio! Aqui, convido você a mergulhar no meu universo, explorando detalhes sobre minha jornada no mundo do desenvolvimento e descobrindo alguns dos projetos mais significativos que tive a oportunidade de criar. Tudo cuidadosamente reunido em um único espaço para proporcionar uma experiência incrível e revelar a essência do meu trabalho. Explore, inspire-se e conheça o melhor do que construí até agora.
 
 Abaixo podemos ver o resultado final do projeto. Espero que gostem!
 
@@ -23,13 +19,14 @@ Abaixo podemos ver o resultado final do projeto. Espero que gostem!
   <img alt="MyLinks" src="./Web/GitHub/MyPortfólio.gif" width="70%"> 
   </p>
 
-# 🔗 Acesse o site com o link abaixo. 
+# 🔗 Acesse o site com o link abaixo.
 
 - [Gabriel Silva | Portfólio](degabrielofi.vercel.app/)
 
-
 ## :computer: Tecnologias utilizadas
+
 Este projeto foi desenvolvido com as seguintes tecnologias:
+
 - [React.js](https://pt-br.reactjs.org/)
 - [Node.js](https://nodejs.org/en/)
 - [JavaScript](https://www.javascript.com/)
@@ -38,42 +35,84 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 - [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 
+## 🖥️ Instalando Front-End <MyPortfolio>
 
-## 🌐 Para iniciarlizar o projeto utilize o comando abaixo:
-```bash
+Para instalar o projeto e acessar o front-end, siga estas etapas:
 
-#Clonando o repositório do Github: 
+🖨️ #Clonando o repositório do Github:
+
+```
 $ git clone https://github.com/degabrielofi/MyPortfolio
+```
 
-#Acessar pasta Web:
+📂 #Acessando respectiva pasta:
+
+```
 $ cd Web
-
-#Instalar alguns packages:
-$ npm i infinite-react-carousel react-bootstrap react-dom react-elastic-carousel react-icons react-router-dom styled-components sweetalert2 sweetalert2-react-content
-
-#Inicializar pasta Web:
-$ npm run start
- 
 ```
 
-## 🗃️ Para iniciarlizar a parte do Back-End utilize o comando abaixo:
-```bash
+🗃️ #Instalação de packages:
 
-#Clonando o repositório do Github: 
+```
+$ npm i .
+```
+
+✅ #Inicializar projeto:
+
+```
+$ npm run start
+```
+
+## 📶 Instalando Back-End
+
+Para instalar o projeto, e acessar o back-end, siga estas etapas:
+
+🖨️ #Clonando o repositório do Github:
+
+```
 $ git clone https://github.com/degabrielofi/MyPortfolio
-
-#Acessar pasta Web:
-$ cd Server
-
-#Instalar alguns packages:
-$ npm i cors express nodemailer
-
-#Inicializar pasta Server:
-$ npm run start
- 
 ```
 
-## 
+📂 #Acessando respectiva pasta:
+
+```
+$ cd Server
+```
+
+🗃️ #Instalação de packages:
+
+```
+$ npm i .
+```
+
+✅ #Inicializar projeto:
+
+```
+$ node index.js
+```
+
+## 🤝 Colaboradores
+
+Agradecemos às seguintes pessoas que contribuíram para este projeto:
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="#" title="defina o titulo do link">
+        <img src="https://avatars.githubusercontent.com/u/92073289?v=4" width="100px;" alt="Foto do degabrielofi no GitHub"/><br>
+        <sub>
+          <b>Gabriel Silva</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
+
+## 📝 Licença
+
+Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.
+
+##
 
 <p align="center">
   <img src="./Web/GitHub/Icon.png" width="15%">

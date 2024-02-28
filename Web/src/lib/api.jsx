@@ -1,5 +1,5 @@
 import axios from "axios";
-const PORT = "http://localhost:5000";
+const PORT = "https://myportfolio-l7k5.onrender.com";
 
 const api = axios.create({
   baseURL: PORT,
