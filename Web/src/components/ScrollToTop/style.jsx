@@ -1,24 +1,18 @@
 import styled from "styled-components";
 
 export const Scroll = styled.div`
-
-.top-to-btm {
-
+  .top-to-btm {
     position: relative;
+  }
 
-}
-
-.icon-position {
-
+  .icon-position {
     position: fixed;
     bottom: 1rem;
     right: 1rem;
     z-index: 20;
+  }
 
-}
-
-.icon-style {
-
+  .icon-style {
     background-color: #111;
     border: 2px solid #fff;
     border-radius: 50%;
@@ -27,19 +21,12 @@ export const Scroll = styled.div`
     color: #fff;
     cursor: pointer;
     transition: all 0.5s ease-in-out;
+  }
 
-}
-
-.icon-style:hover {
-
+  .icon-style:hover {
     animation: none;
     background: #fff;
     color: #111;
     border: 2px solid #111;
-    
-
-}
-
-
-
-`
+  }
+`;

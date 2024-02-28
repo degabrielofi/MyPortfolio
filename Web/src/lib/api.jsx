@@ -1,8 +1,8 @@
-import axios from 'axios';
-const PORT = 'https://myportfolio-production.up.railway.app/'
+import axios from "axios";
+const PORT = "http://localhost:5000";
 
 const api = axios.create({
-    baseURL: PORT
-})
+  baseURL: PORT,
+});
 
-export default api
+export default api;

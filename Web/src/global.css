@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.cdnfonts.com/css/newton-howard-font");
+
+body {
+  margin: 0;
+  font-family: "Dosis", sans-serif;
+}
+
+.dark-mode {
+  background: linear-gradient(90deg, #000000 0%, #434343 100%);
+}
+
+.light-mode {
+  background: linear-gradient(90deg, #fdfbfb 0%, #ebedee 100%);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #880c85;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #fff;
+}

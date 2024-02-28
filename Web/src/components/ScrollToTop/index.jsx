@@ -23,14 +23,17 @@ const ScrollToTop = () => {
   };
 
   return (
-   <Scroll>
-        <div className="top-to-btm">
-      {" "}
-      {showTopBtn && (
-        <FiArrowUpCircle className="icon-position icon-style" onClick={goToTop} />
-      )}{" "}
-    </div>
-   </Scroll>
+    <Scroll>
+      <div className="top-to-btm">
+        {" "}
+        {showTopBtn && (
+          <FiArrowUpCircle
+            className="icon-position icon-style"
+            onClick={goToTop}
+          />
+        )}{" "}
+      </div>
+    </Scroll>
   );
 };
 
