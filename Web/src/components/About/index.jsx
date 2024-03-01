@@ -36,7 +36,7 @@ const About = () => {
               <div className="col-xl-4">
                 <h2>Olá,</h2>
                 <p>
-                  sou Gabriel Silva, um Desenvolvedor Front-End apaixonado por
+                  sou Gabriel Silva, um Desenvolvedor Full-Stack apaixonado por
                   criar experiências de usuário excepcionais. Atualmente tenho
                   17 anos, e possuo uma paixão fervorosa pela área da
                   tecnologia.

@@ -49,7 +49,7 @@ export const Title = styled.div`
 `;
 
 export const Container = styled.div`
-  font-family: "Gloria Hallelujah", cursive;
+  font-family: "Brush Script MT", cursive;
   width: 100%;
 
   svg {
@@ -87,12 +87,12 @@ export const Container = styled.div`
 
     .curriculum h1 {
       margin-top: 1rem;
-      font-size: 25px;
+      font-size: 120%;
     }
 
     .curriculum p {
       margin: 0 1.5rem 1rem 1.5rem;
-      font-size: 15px;
+      font-size: 100%;
     }
   }
 `;

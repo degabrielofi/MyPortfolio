@@ -1,6 +1,6 @@
 import React from "react";
 import { Title, Container, Button, Socials } from "./style";
-import images from "Data/images.json";
+import DeGabrielDEVCurriculum from "assets/DeGabrielDEV CV.pdf";
 
 const Curriculum = () => {
   return (
@@ -30,7 +30,10 @@ const Curriculum = () => {
               currículo completo abaixo.
             </p>
             <Button>
-              <a href="" download="">
+              <a
+                href={DeGabrielDEVCurriculum}
+                download={DeGabrielDEVCurriculum}
+              >
                 <button type="button">
                   <div className="svg-wrapper-1">
                     <div className="svg-wrapper">
