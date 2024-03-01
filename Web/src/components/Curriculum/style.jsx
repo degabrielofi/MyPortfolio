@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  font-family: "Brush Script MT", cursive;
+  font-family: "Madimi One", sans-serif;
   width: 100%;
 
   svg {
@@ -115,7 +115,7 @@ export const Socials = styled.div`
   }
 
   .button {
-    margin: 3rem 2rem 25% 2rem;
+    margin: 4rem 2rem 25% 2rem;
     background-color: #ffffff;
     border: none;
     border-radius: 50%;

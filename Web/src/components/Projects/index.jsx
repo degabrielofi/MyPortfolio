@@ -4,7 +4,7 @@ import projects from "../../Data/projects.json";
 
 const Projects = () => {
   return (
-    <AllProjects id="portfolio">
+    <AllProjects id="Portfolio">
       <Title>
         <div className="title_page">
           <h1 className="section-title-01">
