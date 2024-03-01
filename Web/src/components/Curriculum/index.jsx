@@ -1,19 +1,10 @@
 import React from "react";
-import { Title, Container, Button, Socials } from "./style";
+import { Container, Button, Socials } from "./style";
 import DeGabrielDEVCurriculum from "assets/DeGabrielDEV CV.pdf";
 
 const Curriculum = () => {
   return (
     <>
-      {/*  <Title>
-        <div className="title_page">
-          <h1 className="section-title-01">
-            <i className="bx bxs-file-doc m-2"></i>CURRÍCULO
-          </h1>
-          <h2 className="section-title-02">MEU CURRÍCULO</h2>
-        </div>
-      </Title> */}
-
       <Container id="Curriculum">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
           <path

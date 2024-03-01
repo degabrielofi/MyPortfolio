@@ -9,7 +9,7 @@ const HeaderDetails = () => {
       <Menu>
         <header>
           <img src={images.DeGabrielDevIcon.link} alt="DeGabrielDEV" />
-          <a href="https://degabrielofi.vercel.app/#portfolio">
+          <a href="https://degabrielofi.vercel.app/#Portfolio">
             <FaX style={{ color: "#5b5e5e", fontSize: "30px" }} />
           </a>
         </header>
