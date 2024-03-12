@@ -13,6 +13,7 @@ const Footer = ({ pageHome }) => {
   const [phone, setPhone] = useState("");
   const [subject, setSubject] = useState("");
   const [comment, setComment] = useState("");
+  const [loading, setLoading] = useState(false);
 
   let currentDate = new Date().getFullYear();
 
@@ -55,6 +56,7 @@ const Footer = ({ pageHome }) => {
   async function sendEmail(e) {
     e.preventDefault();
 
+    setLoading(true);
     try {
       await api.post("/contact", {
         name,
@@ -64,6 +66,8 @@ const Footer = ({ pageHome }) => {
         comment,
       });
 
+      setLoading(false);
+
       MySwal.fire({
         icon: "success",
         title: "Mensagem Enviada!",
@@ -72,6 +76,8 @@ const Footer = ({ pageHome }) => {
         confirmButtonColor: "#880c85",
       });
     } catch (error) {
+      setLoading(false);
+
       MySwal.fire({
         icon: "error",
         title: "Oops...",
@@ -184,7 +190,7 @@ const Footer = ({ pageHome }) => {
             </div>
             <Button>
               <button type="submit" className="btn">
-                <div>Enviar Mensagem</div>
+                <div>{loading ? "Enviando..." : "Enviar Mensagem"}</div>
                 <i className="submitMessage fas fa-paper-plane"></i>
               </button>
             </Button>
