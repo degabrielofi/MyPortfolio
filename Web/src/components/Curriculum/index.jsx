@@ -55,6 +55,7 @@ const Curriculum = () => {
           <button className="button">
             <a
               href="https://www.linkedin.com/in/degabrielofi/"
+              target="--blank"
               className="no-link-style"
             >
               <svg
@@ -74,7 +75,7 @@ const Curriculum = () => {
             </a>
           </button>
           <button className="button">
-            <a href="https://github.com/degabrielofi">
+            <a target="--blank" href="https://github.com/degabrielofi">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="85"
@@ -86,7 +87,7 @@ const Curriculum = () => {
             </a>
           </button>
           <button className="button">
-            <a href="https://www.instagram.com/degabrielofi_/">
+            <a target="--blank" href="https://www.instagram.com/degabrielofi_/">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="85"

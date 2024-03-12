@@ -1,5 +1,5 @@
 import axios from "axios";
-const PORT = "https://myportfolio-l7k5.onrender.com";
+const PORT = "https://degabrieldev.onrender.com/";
 
 const api = axios.create({
   baseURL: PORT,

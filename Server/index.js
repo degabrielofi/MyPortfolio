@@ -14,9 +14,9 @@ app.post("/contact", async (req, res) => {
     await transport.sendMail({
       from: { email },
       to: "Gabriel Silva <contatodegabrielofi@gmail.com",
-      subject: "Uma nova mensagem vinda do seu portfólio acabou de chegar.",
+      subject: "[DeGabrielDEV] - New message from your Portfólio",
       html: [
-        `<section style="font-family: 'Brush Script MT', cursive; font-size: 1rem; background-color: #ebf0f6; ">`,
+        `<section style="font-family: "Brush Script MT", "Comic Sans MS", Arial, sans-serif; font-size: 1rem; background-color: #ebf0f6; ">`,
         `<div style="display: flex; padding-top: 1rem;  margin: auto; justify-content: center; width: 100%;">`,
         `<img style="margin: auto;" width="200px" src="https://i.imgur.com/nHQAGAX.png" alt="Back">`,
         `</div>`,
@@ -46,7 +46,7 @@ app.post("/contact", async (req, res) => {
 });
 
 app.listen(process.env.PORT || 5000, () => {
-  console.log("O servidor foi ligado com sucesso!");
+  console.log("The application is running!");
 });
 
 const transport = nodemailer.createTransport({
