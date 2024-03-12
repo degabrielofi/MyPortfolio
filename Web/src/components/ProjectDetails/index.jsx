@@ -53,12 +53,12 @@ const ProjectDetails = ({ darkMode }) => {
   const { id } = useParams();
   const {
     title,
-    description,
+    Description,
     link,
-    technologies,
+    Technologies,
     icon,
     images,
-    description2,
+    additionalDescription,
     video,
   } = details.DetailsIdentification[id].Details;
 
@@ -90,16 +90,18 @@ const ProjectDetails = ({ darkMode }) => {
           </div>
           <br />
           <br />
-          <span>{description}</span>
+          <span>{Description}</span>
           <br />
           <br />
-          <span>{description2 ? { description2 } : ""}</span>
+          <span className="addition_text">
+            {additionalDescription ? additionalDescription : ""}
+          </span>
           <Techs>
             <section className="all-techs">
               <h5 className="title">
                 <i className="fas fa-code"></i> Tecnologias Utilizadas:
               </h5>
-              {technologies.map((techs) => {
+              {Technologies.map((techs) => {
                 return (
                   <div style={{ background: techs.color }} className="techs">
                     {techs.name}

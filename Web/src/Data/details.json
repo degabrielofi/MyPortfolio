@@ -17,10 +17,10 @@
             "class": "image"
           }
         ],
-        "description": "Esse projeto foi realizado a alguns meses atrás durante o curso ProgramadorBR onde estávamos aprendendo sobre as tecnologias citadas abaixo nas quais foram utilizadas. Após a realização do projeto, resolvi tematizar o jogo e dar a ele uma cara própria, então utilizei como designer as cores do meu time de coração o São Paulo FC. A letra X que utilizamos num jogo da velha tradicional, neste jogo equivale ao escudo do São Paulo, já a letra O, equivale ao estádio do São Paulo, mais conhecido como Morumbi. Espero que gostem, e se divirtam-se! ❤️🤍🖤",
+        "Description": "Esse projeto foi realizado a alguns meses atrás durante o curso ProgramadorBR onde estávamos aprendendo sobre as tecnologias citadas abaixo nas quais foram utilizadas. Após a realização do projeto, resolvi tematizar o jogo e dar a ele uma cara própria, então utilizei como designer as cores do meu time de coração o São Paulo FC. A letra X que utilizamos num jogo da velha tradicional, neste jogo equivale ao escudo do São Paulo, já a letra O, equivale ao estádio do São Paulo, mais conhecido como Morumbi. Espero que gostem, e se divirtam-se! ❤️🤍🖤",
         "link": "https://degabrielofi.github.io/JogoDaVelha/",
         "icon": "https://i.imgur.com/UuKbjjv.png",
-        "technologies": [
+        "Technologies": [
           {
             "name": "HTML",
             "color": "#e54c22"
@@ -59,10 +59,10 @@
             "class": "image"
           }
         ],
-        "description": "Esse projeto foi realizado a alguns meses atrás durante o curso ProgramadorBR onde estávamos aprendendo sobre as tecnologias citadas abaixo nas quais foram utilizadas. O designer do projeto atual foi criado e desenvolvido por mim, apenas utilizando a parte lógica do código original. Fiz também alguns implementações como o contador de tempo e quantas jogadas o usuário fez durante a partida. Espero que gostem do resultado final! 😁",
+        "Description": "Esse projeto foi realizado a alguns meses atrás durante o curso ProgramadorBR onde estávamos aprendendo sobre as tecnologias citadas abaixo nas quais foram utilizadas. O designer do projeto atual foi criado e desenvolvido por mim, apenas utilizando a parte lógica do código original. Fiz também alguns implementações como o contador de tempo e quantas jogadas o usuário fez durante a partida. Espero que gostem do resultado final! 😁",
         "link": "https://degabrielofi.github.io/JogoDaMemoria/",
         "icon": "https://i.imgur.com/uqgCjoG.png",
-        "technologies": [
+        "Technologies": [
           {
             "name": "HTML",
             "color": "#e54c22"
@@ -101,10 +101,10 @@
             "class": "image"
           }
         ],
-        "description": "Este projeto se resume a construção de uma ferramenta de feedback onde qualquer usuário pode relatar algum problema, ideia ou quiser deixar qualquer outra observação na qual queira que seja enviada para a equipe de suporte do site. Além disso é possível fazer uma captura de tela que é tirada automaticamente pelo o sistema, e escolher qual seria o tópico do seu feedback.",
+        "Description": "Este projeto se resume a construção de uma ferramenta de feedback onde qualquer usuário pode relatar algum problema, ideia ou quiser deixar qualquer outra observação na qual queira que seja enviada para a equipe de suporte do site. Além disso é possível fazer uma captura de tela que é tirada automaticamente pelo o sistema, e escolher qual seria o tópico do seu feedback.",
         "link": "https://degabrielnlw-return.vercel.app/",
         "icon": "https://i.imgur.com/od1CBOQ.png",
-        "technologies": [
+        "Technologies": [
           {
             "name": "React.js",
             "color": "#60dbfc"
@@ -159,10 +159,10 @@
             "class": "image"
           }
         ],
-        "description": "Este projeto é uma simples página, na qual foi feita para colocar os links das minhas principais redes sociais. Aonde você possa ajudar as pessoas que entram em alguma rede social sua, a encontrar outros links importantes, como o seu Likedln, Github ou Email por exemplo.",
+        "Description": "Este projeto é uma simples página, na qual foi feita para colocar os links das minhas principais redes sociais. Aonde você possa ajudar as pessoas que entram em alguma rede social sua, a encontrar outros links importantes, como o seu Likedln, Github ou Email por exemplo.",
         "link": "https://degabrielofi-links.vercel.app/",
         "icon": "https://i.imgur.com/KDhkSYJ.png",
-        "technologies": [
+        "Technologies": [
           {
             "name": "React.js",
             "color": "#60dbfc"
@@ -213,10 +213,10 @@
             "class": "image"
           }
         ],
-        "description": "Este é o MovieFlix, onde você pode encontrar os filmes mais populares do momento, saber a descrição de cada filme e os detalhes como: Duração, Orçamento, Bilheteria e os atores e personagens. Tudo isso em um só lugar.",
+        "Description": "Este é o MovieFlix, onde você pode encontrar os filmes mais populares do momento, saber a descrição de cada filme e os detalhes como: Duração, Orçamento, Bilheteria e os atores e personagens. Tudo isso em um só lugar.",
         "link": "https://degabrielofimovieflix.netlify.app/",
         "icon": "https://i.imgur.com/Rssc2w1.png",
-        "technologies": [
+        "Technologies": [
           {
             "name": "React.js",
             "color": "#60dbfc"
@@ -267,10 +267,10 @@
             "class": "image"
           }
         ],
-        "description": "Neste site, você encontrará uma detalhada linha do tempo da carreira de Ayrton Senna, desde seus primeiros anos no kart até sua ascensão meteórica na Fórmula 1. Você poderá mergulhar em momentos icônicos, como suas vitórias em corridas lendárias, batalhas épicas com seus rivais e seus triunfos nos três campeonatos mundiais conquistados em 1988, 1990 e 1991.",
+        "Description": "Neste site, você encontrará uma detalhada linha do tempo da carreira de Ayrton Senna, desde seus primeiros anos no kart até sua ascensão meteórica na Fórmula 1. Você poderá mergulhar em momentos icônicos, como suas vitórias em corridas lendárias, batalhas épicas com seus rivais e seus triunfos nos três campeonatos mundiais conquistados em 1988, 1990 e 1991.",
         "link": "https://ayrtonsennaf1.netlify.app/",
         "icon": "https://i.imgur.com/98QOD7h.png",
-        "technologies": [
+        "Technologies": [
           {
             "name": "React.js",
             "color": "#60dbfc"
@@ -321,10 +321,11 @@
             "class": "image"
           }
         ],
-        "description": "A JKFest vai além da decoração, é uma promessa de tornar cada festa única e inesquecível. O site tenta refletir toda a experiência única que se têm ao escolher a JKFest, não apenas pela parte visual, mas também mostrando o profissionalismo e dedicação de toda uma equipe e processos automatizados.",
+        "Description": "A JKFest vai além da decoração, é uma promessa de tornar cada festa única e inesquecível. O site tenta refletir toda a experiência única que se têm ao escolher a JKFest, não apenas pela parte visual, mas também mostrando o profissionalismo e dedicação de toda uma equipe e processos automatizados.",
+        "additionalDescription": "Implementei um sistema de orçamento intuitivo, permitindo que a equipe da JKFest crie seus orçamentos com facilidade e maior agilidade. Agora, a proprietária pode adicionar itens à decoração, visualizar instantaneamente o preço total e automatizar todos os cálculos necessário.",
         "link": "https://jkfest.vercel.app/",
         "icon": "https://i.imgur.com/nYCa1TU.png",
-        "technologies": [
+        "Technologies": [
           {
             "name": "React.js",
             "color": "#60dbfc"

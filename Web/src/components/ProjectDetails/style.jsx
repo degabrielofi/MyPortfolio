@@ -60,12 +60,21 @@ export const Detail = styled.div`
 
   .details span {
     font-family: "Dosis", sans-serif;
-    font-weight: 300;
-    font-size: 1.4rem;
+    font-weight: 400;
+    font-size: 130%;
   }
 
-  @media screen and (max-width: 998px) {
+  .details .addition_text {
+    display: flex;
+    margin-bottom: 1rem;
+  }
+
+  @media screen and (max-width: 992px) {
     margin: 0 2rem 0 2rem;
+
+    .details span {
+      font-size: 100%;
+    }
   }
 `;
 
