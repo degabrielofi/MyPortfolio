@@ -1,6 +1,37 @@
 {
   "DetailsIdentification": [
     {
+      "Details": {
+        "title": "DGzzIN ツ",
+        "images": [
+          {
+            "image": "https://i.imgur.com/PhvhZYC.png",
+            "class": "image"
+          },
+          {
+            "image": "https://i.imgur.com/wu8zTe5.png",
+            "class": "image"
+          }
+        ],
+        "Description": "O DGzzIN ツ é um bot desenvolvido para o Discord, totalmente construído em JavaScript utilizando a biblioteca Discord.js. Ele foi criado a partir da minha paixão por trazer funcionalidade e diversão para comunidades online, mesmo sem experiência prévia em programação.",
+        "additionalDescription": "Contribuições para o DGzzIN ツ são bem-vindas! Se você tem sugestões de novos comandos, melhorias na funcionalidade existente ou correções de bugs, sinta-se à vontade para abrir uma issue ou enviar um pull request no GitHub.",
+        "link": "https://dgzzinbot.netlify.app/",
+        "icon": "https://i.imgur.com/2EtydEV.png",
+        "Technologies": [
+          {
+            "name": "JavaScript",
+            "color": "#f7e018"
+          },
+          {
+            "name": "Node.js",
+            "color": "#82cd28"
+          }
+        ],
+        "video": {
+          "link": "https://www.youtube.com/embed/iRzU2FpqHZE",
+          "name": "DGzzIN ツ | DeGabrielDEV"
+        }
+      },
       "DetailsID": 0
     },
 
