@@ -58,7 +58,7 @@ export const AllProjects = styled.div`
     width: 100%;
     height: 250px;
     perspective: 1000px;
-    margin-top: 2rem;
+    margin-top: 3rem;
   }
 
   .title {
@@ -135,5 +135,11 @@ export const AllProjects = styled.div`
   .flip-card-back .links a i:hover {
     color: #5e5e5e;
     transition: all 0.3s;
+  }
+
+  @media screen and (min-width: 395px) and (max-width: 575px) {
+    .flip-card {
+      margin-top: 30%;
+    }
   }
 `;
