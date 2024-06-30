@@ -67,12 +67,12 @@ const Skills = () => {
                 React.js
               </i>
             </Item>
-            <Item>
+            {/*   <Item>
               <i className="content">
                 <img src={images.IconWordpress.link} alt="Icon" />
                 Wordpress
               </i>
-            </Item>
+            </Item> */}
             {/* <Item><i className='content'><img src={images.IconTypescript.link} alt="Icon" />Typescript</i>
                         </Item> */}
             <Item>
