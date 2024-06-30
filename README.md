@@ -12,7 +12,7 @@
 
 Bem-vindo ao meu Portfólio! Aqui, convido você a mergulhar no meu universo, explorando detalhes sobre minha jornada no mundo do desenvolvimento e descobrindo alguns dos projetos mais significativos que tive a oportunidade de criar. Tudo cuidadosamente reunido em um único espaço para proporcionar uma experiência incrível e revelar a essência do meu trabalho. Explore, inspire-se e conheça o melhor do que construí até agora.
 
-Abaixo podemos ver o resultado final do projeto. Espero que gostem!
+Olhe abaixo o resultado final do projeto.
 
 <br>
 <p align="center">
