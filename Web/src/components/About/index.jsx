@@ -36,9 +36,9 @@ const About = () => {
               <div className="col-xl-4">
                 <h2>Olá,</h2>
                 <p>
-                  sou Gabriel Silva, um Desenvolvedor Full-Stack apaixonado por
-                  criar experiências de usuário excepcionais. Atualmente tenho
-                  17 anos, e possuo uma paixão fervorosa pela área da
+                  sou Gabriel Pereira, um Desenvolvedor Full-Stack apaixonado
+                  por criar experiências de usuário excepcionais. Atualmente
+                  tenho 18 anos, e possuo uma paixão fervorosa pela área da
                   tecnologia.
                 </p>
                 <p>

@@ -48,7 +48,7 @@ export const Container = styled.div`
     width: 100%;
   }
 
-  @media (max-width: 992px) {
+  @media (max-width: 1085px) {
     display: none;
   }
 `;
@@ -171,7 +171,7 @@ export const HeaderMobile = styled.div`
     opacity: 1;
   }
 
-  @media screen and (min-width: 998px) {
+  @media screen and (min-width: 1085px) {
     display: none;
   }
 `;
