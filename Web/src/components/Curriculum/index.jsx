@@ -22,7 +22,7 @@ const Curriculum = () => {
             </p>
             <Button>
               <a href={DeGabrielDEVCurriculum} download="DeGabrielDEV CV.pdf">
-                <button type="button">
+                <button className="curriculumButton" type="button">
                   <div className="svg-wrapper-1">
                     <div className="svg-wrapper">
                       <svg

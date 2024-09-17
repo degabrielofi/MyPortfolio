@@ -50,7 +50,9 @@ export const Container = styled.div`
 `;
 
 export const Button = styled.div`
-  button {
+  z-index: 5000;
+
+  .curriculumButton {
     display: flex;
     align-items: center;
     margin-top: 1.5rem;
@@ -62,17 +64,16 @@ export const Button = styled.div`
     border-radius: 15px;
     overflow: hidden;
     transition: all 0.2s;
-    cursor: pointer;
-    z-index: 1000;
   }
 
-  button span {
+  .curriculumButton span {
     display: block;
     margin-left: 0.3em;
     transition: all 0.3s ease-in-out;
   }
 
   a {
+    cursor: pointer;
     text-decoration: none;
   }
 
@@ -82,15 +83,15 @@ export const Button = styled.div`
     transition: transform 0.3s ease-in-out;
   }
 
-  button:hover .svg-wrapper {
+  .curriculumButton:hover .svg-wrapper {
     animation: fly-1 0.6s ease-in-out infinite alternate;
   }
 
-  button:hover svg {
+  .curriculumButton:hover svg {
     transform: translateX(3em) rotate(45deg) scale(1.1);
   }
 
-  button:hover span {
+  .curriculumButton:hover span {
     transform: translateX(10em);
   }
 
