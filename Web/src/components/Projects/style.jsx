@@ -58,7 +58,7 @@ export const AllProjects = styled.div`
     width: 100%;
     height: 250px;
     perspective: 1000px;
-    margin-top: 3rem;
+    margin-top: 20%;
   }
 
   .title {
