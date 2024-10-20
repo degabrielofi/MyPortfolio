@@ -2,7 +2,7 @@ import React from "react";
 import { Title, Item, Skill, Sliders } from "./style";
 import Carousel from "react-elastic-carousel";
 import Slider from "infinite-react-carousel";
-import images from "../../Data/images.json";
+import images from "data/images.json";
 
 const breakPoints = [
   { width: 1, itemsToShow: 1 },

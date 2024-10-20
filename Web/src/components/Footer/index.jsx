@@ -3,7 +3,7 @@ import { WavesAnimation, Contact, FooterContainer, Button } from "./style";
 import api from "lib/api";
 import Swal from "sweetalert2";
 import withReactContent from "sweetalert2-react-content";
-import images from "Data/images.json";
+import images from "data/images.json";
 
 const Footer = ({ pageHome }) => {
   const MySwal = withReactContent(Swal);
@@ -280,20 +280,14 @@ const Footer = ({ pageHome }) => {
                         >
                           GitHub
                         </a>
-                        <a
-                          href="https://www.instagram.com/degabrielofi_/"
-                          target="--blank"
-                        >
-                          Instagram
-                        </a>
                       </li>
                       <li>
-                        <span>E-Mail:</span>
+                        <span>Fale Conosco:</span>
                         <a
                           href="mailto:contatodegabrielofi@gmail.com"
                           target="--blank"
                         >
-                          contatodegabrielofi@gmail.com
+                          E-Mail
                         </a>
                       </li>
                     </ul>
@@ -302,7 +296,7 @@ const Footer = ({ pageHome }) => {
               </section>
               <section className="row">
                 <div className="copy">
-                  <h5>© {currentDate} @degabrielofi_ - All Rights Reserved</h5>
+                  <h5>© {currentDate} DeGabrielDEV - All Rights Reserved</h5>
                 </div>
               </section>
             </div>

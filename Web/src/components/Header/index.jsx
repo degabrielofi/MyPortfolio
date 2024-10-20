@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Container, HeaderMobile, WavesAnimation } from "./style";
-import images from "Data/images.json";
+import images from "data/images.json";
 
 const Header = () => {
   const [classOn, setClassOn] = useState(false);

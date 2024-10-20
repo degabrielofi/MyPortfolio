@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import { Container } from "./style";
 import { useEffect } from "react";
-import images from "Data/images.json";
+import images from "data/images.json";
 
 const Developer = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [text, setText] = useState("");
-  const toRotate = ["ReactJS", "VueJS", "NodeJS", "JavaScript"];
+  const toRotate = ["ReactJS", "Python", "NodeJS", "JavaScript"];
   const [isDeleting, setIsDeleting] = useState(false);
   const [index, setIndex] = useState(1);
   const period = 2000;
