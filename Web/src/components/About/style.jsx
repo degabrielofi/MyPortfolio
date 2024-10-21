@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import images from "../../Data/images.json";
+import images from "data/images.json";
 
 export const Introduction = styled.div`
   margin-top: -5%;

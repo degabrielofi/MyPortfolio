@@ -1,5 +1,5 @@
 import { Image, Techs, Detail } from "./style";
-import details from "Data/details.json";
+import details from "data/details.json";
 import Slider from "infinite-react-carousel";
 import { useParams } from "react-router-dom";
 import HeaderDetail from "components/HeaderDetails";

@@ -1,6 +1,6 @@
 import { AllProjects, Title } from "./style";
 import { Container, Row, Col } from "react-bootstrap";
-import projects from "../../Data/projects.json";
+import projects from "data/projects.json";
 
 const Projects = () => {
   return (

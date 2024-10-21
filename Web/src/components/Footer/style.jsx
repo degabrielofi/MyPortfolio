@@ -289,6 +289,7 @@ export const Button = styled.div`
     transition: 0.5s;
     width: 0;
     opacity: 0;
+    color: #fff;
   }
 
   .btn:hover .submitMessage {
