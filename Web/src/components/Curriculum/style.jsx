@@ -33,11 +33,14 @@ export const Container = styled.div`
   }
 
   @media (max-width: 992px) {
+    margin-top: 10%;
+
     .curriculum {
       margin-top: -3%;
     }
 
     .curriculum h1 {
+      text-align: center;
       margin-top: 1rem;
       font-size: 120%;
     }

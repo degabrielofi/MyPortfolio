@@ -36,6 +36,16 @@ export const Title = styled.div`
     bottom: 0;
     background: #880c85;
   }
+
+  @media screen and (max-width: 380px) {
+    .section-title-01 {
+      font-size: 300%;
+    }
+
+    .section-title-02 {
+      font-size: 120%;
+    }
+  }
 `;
 
 export const Skill = styled.div`

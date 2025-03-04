@@ -5,7 +5,7 @@ import ScrollToTop from "components/ScrollToTop";
 import useLocalStorage from "use-local-storage";
 import { Switch } from "./style";
 
-const PageSecond = () => {
+const Details = () => {
   const [darkMode, setDarkMode] = useLocalStorage(
     "theme" ? "dark-mode" : "light-mode"
   );
@@ -34,4 +34,4 @@ const PageSecond = () => {
   );
 };
 
-export default PageSecond;
+export default Details;

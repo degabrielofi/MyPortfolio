@@ -282,7 +282,7 @@ const Footer = ({ pageHome }) => {
                         </a>
                       </li>
                       <li>
-                        <span>Fale Conosco:</span>
+                        <span>Fale Comigo:</span>
                         <a
                           href="mailto:contatodegabrielofi@gmail.com"
                           target="--blank"

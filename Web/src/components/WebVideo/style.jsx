@@ -50,27 +50,18 @@ export const Title = styled.div`
 
 export const Video = styled.div`
   .video_web {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    padding-bottom: 20%;
+    max-width: 100%;
+    position: relative;
   }
 
   .video_web iframe {
-    position: absolute;
-    width: 75%;
-    height: 85%;
+    width: 80%;
+    aspect-ratio: 16 / 9;
     border-radius: 20px;
     margin-top: 2rem;
-  }
-
-  @media screen and (max-width: 992px) {
-    .video_web {
-      padding-bottom: 45%;
-    }
-
-    .video_web iframe {
-      width: 90%;
-      height: 30%;
-    }
   }
 `;

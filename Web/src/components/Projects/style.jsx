@@ -77,6 +77,11 @@ export const AllProjects = styled.div`
     transform-style: preserve-3d;
   }
 
+  .flip-card-front img {
+    width: 100%;
+    height: 100%;
+  }
+
   .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
   }
@@ -138,8 +143,18 @@ export const AllProjects = styled.div`
   }
 
   @media screen and (min-width: 395px) and (max-width: 575px) {
-    .flip-card {
+    .project {
+      margin-top: -10%;
+    }
+
+    .flip-card-inner {
       margin-top: 30%;
+    }
+
+    .flip-card-front,
+    .flip-card-back {
+      width: 100%;
+      height: 120%;
     }
   }
 `;
