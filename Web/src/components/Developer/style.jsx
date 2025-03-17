@@ -47,7 +47,7 @@ export const Container = styled.div`
     border: solid 3px #880c85;
   }
 
-  @media (max-width: 992px) {
+  @media (max-width: 430px) {
     margin-top: -50%;
 
     .container {
@@ -72,6 +72,35 @@ export const Container = styled.div`
     #hero p {
       margin-top: 10px;
       font-size: 20px;
+      line-height: 24px;
+    }
+  }
+
+  @media (min-width: 430px) and (max-width: 775px) {
+    margin-top: -50%;
+
+    .container {
+      justify-content: center;
+      flex-direction: column;
+    }
+
+    .container img {
+      width: 50%;
+      margin-top: 2rem;
+    }
+
+    #hero {
+      text-align: center;
+    }
+
+    #hero h1 {
+      font-size: 100%;
+      line-height: 36px;
+    }
+
+    #hero p {
+      margin-top: 10px;
+      font-size: 100%;
       line-height: 24px;
     }
   }
