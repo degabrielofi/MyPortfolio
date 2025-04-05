@@ -5,6 +5,7 @@ import Details from "pages/Details";
 import ReactDOM from "react-dom/client";
 import "./global.css";
 import "./Mode.css";
+import Certificates from "pages/Certificates";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -14,7 +15,7 @@ root.render(
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/details/:id" element={<Details />} />
-        <Route path="/certificates" element={<Details />} />
+        <Route path="/certificates" element={<Certificates />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
