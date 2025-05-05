@@ -15,7 +15,9 @@ root.render(
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/details/:id" element={<Details />} />
+        <Route path="/detalhes/:id" element={<Details />} />
         <Route path="/certificates" element={<Certificates />} />
+        <Route path="/certificados" element={<Certificates />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
