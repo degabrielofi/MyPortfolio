@@ -115,6 +115,8 @@ export const Contact = styled.div`
   }
 
   @media (max-width: 600px) {
+    margin-top: 0;
+
     form .dbl-field {
       flex-direction: column;
     }

@@ -1,26 +1,8 @@
-import React, { useEffect, useMemo, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Wrapper, Title, Box, Grid, Card, TopBar } from "./style";
 
 const HANDLE = "degabrielofi";
 const MAX = 6;
-
-function getApiKey() {
-  // Vite
-  if (
-    typeof import.meta !== "undefined" &&
-    import.meta.env?.VITE_YOUTUBE_API_KEY
-  ) {
-    return import.meta.env.VITE_YOUTUBE_API_KEY;
-  }
-  // CRA
-  if (
-    typeof process !== "undefined" &&
-    process.env?.REACT_APP_YOUTUBE_API_KEY
-  ) {
-    return process.env.REACT_APP_YOUTUBE_API_KEY;
-  }
-  return "";
-}
 
 function formatDate(iso) {
   try {
@@ -35,7 +17,8 @@ function formatDate(iso) {
 }
 
 const YoutubeLatest = () => {
-  const apiKey = useMemo(() => getApiKey(), []);
+  const apiKey = process.env.REACT_APP_YOUTUBE_API_KEY || "";
+
   const [loading, setLoading] = useState(true);
   const [videos, setVideos] = useState([]);
   const [channel, setChannel] = useState(null);
@@ -55,7 +38,6 @@ const YoutubeLatest = () => {
       }
 
       try {
-        // 1) Resolve canal pelo @handle (forHandle) :contentReference[oaicite:2]{index=2}
         const chRes = await fetch(
           `https://www.googleapis.com/youtube/v3/channels?part=snippet,contentDetails&forHandle=${encodeURIComponent(
             HANDLE
@@ -63,20 +45,16 @@ const YoutubeLatest = () => {
         );
 
         const chJson = await chRes.json();
-        const ch = chJson?.items?.[0];
+        if (!chRes.ok)
+          throw new Error(chJson?.error?.message || "Erro na API.");
 
-        if (!ch) {
-          throw new Error(
-            "Não encontrei o canal pelo handle. Verifique o @handle."
-          );
-        }
+        const ch = chJson?.items?.[0];
+        if (!ch) throw new Error("Não encontrei o canal pelo handle.");
 
         const uploads = ch?.contentDetails?.relatedPlaylists?.uploads;
-        if (!uploads) {
-          throw new Error("Não consegui obter a playlist de uploads do canal.");
-        }
+        if (!uploads)
+          throw new Error("Não consegui obter a playlist de uploads.");
 
-        // 2) Puxa últimos vídeos pela playlist de uploads
         const plRes = await fetch(
           `https://www.googleapis.com/youtube/v3/playlistItems?part=snippet,contentDetails&playlistId=${encodeURIComponent(
             uploads
@@ -84,9 +62,10 @@ const YoutubeLatest = () => {
         );
 
         const plJson = await plRes.json();
-        const items = plJson?.items || [];
+        if (!plRes.ok)
+          throw new Error(plJson?.error?.message || "Erro na API.");
 
-        const mapped = items
+        const mapped = (plJson?.items || [])
           .map((it) => {
             const sn = it?.snippet;
             const videoId = it?.contentDetails?.videoId;
