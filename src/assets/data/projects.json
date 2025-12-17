@@ -1,0 +1,42 @@
+[
+  {
+    "title": "BOT DGzzIN ツ",
+    "description": "O seu BOT para o Discord.",
+    "link": "https://dgzzinbot.netlify.app",
+    "imgUrl": "https://i.imgur.com/RLgPfzS.png",
+    "id": "0",
+    "solo": true
+  },
+  {
+    "title": "MyLinks | @degabrielofi_",
+    "description": "Links das principais redes sociais.",
+    "link": "https://degabrielofi-links.vercel.app",
+    "imgUrl": "https://i.imgur.com/zHUktOc.png",
+    "id": "1",
+    "solo": true
+  },
+  {
+    "title": "Ayrton Senna",
+    "description": "A história do astro da Fórmula 1.",
+    "link": "https://ayrtonsennaf1.netlify.app/",
+    "imgUrl": "https://i.imgur.com/yesRqrY.png",
+    "id": "2",
+    "solo": true
+  },
+  {
+    "title": "Guebly Studio",
+    "description": "Branding, design, automação e desenvolvimento para negócios.",
+    "link": "https://studio.guebly.com.br",
+    "imgUrl": "https://i.imgur.com/sFH1blt.png",
+    "id": "3",
+    "solo": false
+  },
+  {
+    "title": "Guebly Holding",
+    "description": "Ecossistema de empresas e produtos digitais (holding).",
+    "link": "https://guebly.com.br",
+    "imgUrl": "https://i.imgur.com/GwzCvgE.png",
+    "id": "4",
+    "solo": false
+  }
+]

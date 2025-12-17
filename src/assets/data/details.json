@@ -1,0 +1,107 @@
+{
+  "DetailsIdentification": [
+    {
+      "Details": {
+        "title": "DGzzIN ツ",
+        "images": [
+          { "image": "https://i.imgur.com/PhvhZYC.png", "class": "image" },
+          { "image": "https://i.imgur.com/wu8zTe5.png", "class": "image" }
+        ],
+        "Description": "O DGzzIN ツ é um bot desenvolvido para o Discord, construído em JavaScript utilizando Discord.js. Ele nasceu da minha vontade de criar utilidades e diversão para comunidades online.",
+        "additionalDescription": "Sugestões e melhorias são bem-vindas. Se você quiser contribuir com novos comandos ou correções, pode abrir uma issue ou PR no repositório.",
+        "link": "https://dgzzinbot.netlify.app/",
+        "icon": "https://i.imgur.com/2EtydEV.png",
+        "Technologies": [
+          { "name": "JavaScript", "color": "#f7e018" },
+          { "name": "Node.js", "color": "#82cd28" },
+          { "name": "Discord.js", "color": "#5865F2" }
+        ]
+      },
+      "DetailsID": 0
+    },
+
+    {
+      "Details": {
+        "title": "MyLinks - Links Úteis",
+        "images": [
+          { "image": "https://i.imgur.com/DMofvaF.png", "class": "image" },
+          { "image": "https://i.imgur.com/q5JOWFm.png", "class": "image" }
+        ],
+        "Description": "Uma página simples e direta para organizar links importantes (redes sociais, contatos e acessos rápidos). Ideal para centralizar presença digital em um único lugar.",
+        "link": "https://links-gabrielofi.com.br/",
+        "icon": "https://i.imgur.com/Rsa0CIs.png",
+        "Technologies": [
+          { "name": "React.js", "color": "#60dbfc" },
+          { "name": "JavaScript", "color": "#f7e018" },
+          { "name": "Styled", "color": "#b4579f" },
+          { "name": "HTML", "color": "#e54c22" },
+          { "name": "CSS", "color": "#1b73ba" }
+        ]
+      },
+      "DetailsID": 1
+    },
+
+    {
+      "Details": {
+        "title": "Ayrton Senna",
+        "images": [
+          { "image": "https://i.imgur.com/vtowlmf.png", "class": "mockup" },
+          { "image": "https://i.imgur.com/C5k3luU.png", "class": "image" },
+          { "image": "https://i.imgur.com/2omRlq9.png", "class": "image" }
+        ],
+        "Description": "Projeto contando a trajetória do Ayrton Senna com linha do tempo, momentos marcantes e conteúdo visual, focado em experiência e narrativa.",
+        "link": "https://ayrtonsennaf1.netlify.app/",
+        "icon": "https://i.imgur.com/98QOD7h.png",
+        "Technologies": [
+          { "name": "React.js", "color": "#60dbfc" },
+          { "name": "JavaScript", "color": "#f7e018" },
+          { "name": "Styled", "color": "#b4579f" },
+          { "name": "HTML", "color": "#e54c22" },
+          { "name": "CSS", "color": "#1b73ba" }
+        ]
+      },
+      "DetailsID": 2
+    },
+    {
+      "Details": {
+        "title": "Guebly Studio",
+        "images": [
+          { "image": "https://i.imgur.com/BJGLaVN.png", "class": "mockup" },
+          { "image": "https://i.imgur.com/w8PBedX.png", "class": "image" }
+        ],
+        "Description": "A Guebly Studio é a frente de execução: branding, design, automação e desenvolvimento para negócios. O foco é transformar estratégia em entrega real com padrão e consistência.",
+        "additionalDescription": "O Studio opera como braço de produção do ecossistema, conectando tecnologia e identidade para gerar resultado.",
+        "link": "https://studio.guebly.com.br/",
+        "icon": "https://i.imgur.com/ipBgFp0.png",
+        "Technologies": [
+          { "name": "Branding", "color": "#880c85" },
+          { "name": "Design", "color": "#880c85" },
+          { "name": "Automação", "color": "#880c85" },
+          { "name": "Web", "color": "#880c85" }
+        ]
+      },
+      "DetailsID": 3
+    },
+
+    {
+      "Details": {
+        "title": "Guebly Holding",
+        "images": [
+          { "image": "https://i.imgur.com/Iqnnhea.jpeg", "class": "mockup" },
+          { "image": "https://i.imgur.com/CkKZxMO.png", "class": "image" }
+        ],
+        "Description": "A Guebly é uma holding de tecnologia que cria e opera suas próprias empresas e produtos, unindo marca, automação e engenharia para construir soluções de ponta a ponta.",
+        "additionalDescription": "A Holding organiza o ecossistema e define padrões de produto, tecnologia e execução para as frentes do grupo.",
+        "link": "https://guebly.com.br/",
+        "icon": "https://i.imgur.com/GwzCvgE.png",
+        "Technologies": [
+          { "name": "Produto", "color": "#880c85" },
+          { "name": "Tecnologia", "color": "#880c85" },
+          { "name": "Branding", "color": "#880c85" },
+          { "name": "Operação", "color": "#880c85" }
+        ]
+      },
+      "DetailsID": 4
+    }
+  ]
+}
