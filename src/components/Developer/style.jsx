@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   width: 100%;
-  margin-top: -35%;
+  margin-top: 15%;
 
   #hero {
     width: 100%;
@@ -116,6 +116,8 @@ export const Container = styled.div`
   }
 
   @media (max-width: 430px) {
+    margin-top: -20%;
+
     #hero {
       padding: 56px 0;
     }

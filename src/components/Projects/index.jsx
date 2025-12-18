@@ -10,9 +10,7 @@ const Projects = () => {
           <h1 className="section-title-01">
             <i className="bx bx-book-content m-2"></i>CONSTRUÇÕES
           </h1>
-          <h2 className="section-title-02">
-            PROJETOS QUE EU DESENHEI E ENTREGUEI
-          </h2>
+          <h2 className="section-title-02">PROJETOS QUE EU DESENHEI</h2>
         </div>
       </Title>
 
