@@ -11,7 +11,7 @@ export default function Quote() {
       <Container>
         <FadeIn>
           <p className="font-body" style={{ fontFamily: 'var(--font-body)', fontWeight: 400, fontStyle: 'italic', fontSize: 'clamp(20px, 3.5vw, 28px)', lineHeight: 1.5, color: 'var(--color-tx)', maxWidth: 560, margin: '0 auto', position: 'relative' }}>
-            &ldquo;{t('quote').replace('vaidade.', '')}<em style={{ fontStyle: 'normal', color: 'var(--color-ac)' }}>vaidade.</em>&rdquo;
+            &ldquo;{t('quoteStart')}<em style={{ fontStyle: 'normal', color: 'var(--color-ac)' }}>{t('quoteEnd')}</em>&rdquo;
           </p>
           <p className="font-mono" style={{ marginTop: 16, fontSize: 12, color: 'var(--color-tx4)', letterSpacing: '.08em', position: 'relative' }}>— Gabriel Pereira</p>
         </FadeIn>

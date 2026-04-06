@@ -9,13 +9,17 @@
     "badge": "Fundador & CEO · Guebly Holding · São Paulo",
     "role": "Fundador. Arquiteto. Construtor.",
     "description": "19 anos. Tive acesso, mas fui eu que decidi construir algo maior com isso. Errei, quebrei, e mesmo assim comecei.",
+    "body": "Em 6 meses, estruturei uma holding de tecnologia do zero. 4 CNPJs, 14 unidades de negócio, produtos reais em produção. Não por inspiração — por execução.",
     "cta": "Conhecer a história",
-    "scroll": "Role para baixo"
+    "scroll": "Role para baixo",
+    "allNetworks": "Todas as redes:"
   },
   "story": {
     "badge": "A Origem",
     "title": "Não comecei pelo topo.",
     "subtitle": "Comecei pelo porão.",
+    "fullTitle": "A história completa.",
+    "readFull": "Ler completa",
     "now": "Agora",
     "readMore": "Ler a história completa",
     "acts": [
@@ -50,7 +54,9 @@
     ]
   },
   "belief": {
-    "quote": "Tecnologia sem resultado é só vaidade."
+    "quote": "Tecnologia sem resultado é só vaidade.",
+    "quoteStart": "Tecnologia sem resultado é só ",
+    "quoteEnd": "vaidade."
   },
   "historia": {
     "badge": "A História Completa",
@@ -108,6 +114,7 @@
   },
   "ecossistema": {
     "badge": "O Ecossistema",
+    "viewEcosystem": "Ver ecossistema",
     "title": "A Guebly.",
     "subtitle": "Uma holding de tecnologia construída do zero. 4 CNPJs, 14 unidades de negócio, produtos reais em produção. Tecnologia como base. Negócio como objetivo.",
     "holdingDesc": "Holding controladora. Detentora da propriedade intelectual e dos ativos de todo o grupo.",
@@ -195,7 +202,8 @@
     "badge": "Contato",
     "titleLine1": "Vamos construir",
     "titleLine2": "algo.",
-    "subtitle": "Se você tem um projeto, uma ideia ou só quer trocar uma ideia — manda mensagem. Não promessa. Não hype. Execução."
+    "subtitle": "Se você tem um projeto, uma ideia ou só quer trocar uma ideia — manda mensagem. Não promessa. Não hype. Execução.",
+    "allNetworks": "em todas as redes"
   },
   "footer": {
     "built": "Construído por Gabriel Pereira",

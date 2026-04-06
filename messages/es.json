@@ -4,13 +4,17 @@
     "badge": "Fundador & CEO · Guebly Holding · São Paulo",
     "role": "Fundador. Arquitecto. Constructor.",
     "description": "19 años. Tuve acceso, pero fui yo quien decidió construir algo más grande con eso. Me equivoqué, me quebré, y aun así empecé.",
+    "body": "En 6 meses, estructuré un holding tecnológico desde cero. 4 empresas registradas, 14 unidades de negocio, productos reales en producción. No por inspiración — por ejecución.",
     "cta": "Conocer la historia",
-    "scroll": "Desplazar hacia abajo"
+    "scroll": "Desplazar hacia abajo",
+    "allNetworks": "Todas las redes:"
   },
   "story": {
     "badge": "El Origen",
     "title": "No empecé desde arriba.",
     "subtitle": "Empecé desde el sótano.",
+    "fullTitle": "La historia completa.",
+    "readFull": "Leer completa",
     "now": "Ahora",
     "readMore": "Leer la historia completa",
     "acts": [
@@ -21,7 +25,7 @@
     ]
   },
   "numbers": { "items": [{ "value": "19", "label": "Años de edad" }, { "value": "4", "label": "Empresas registradas" }, { "value": "14", "label": "Unidades de negocio" }, { "value": "6", "label": "Meses para construir" }] },
-  "belief": { "quote": "Tecnología sin resultado es solo vanidad." },
+  "belief": { "quote": "Tecnología sin resultado es solo vanidad.", "quoteStart": "Tecnología sin resultado es solo ", "quoteEnd": "vanidad." },
   "historia": {
     "badge": "La Historia Completa", "title": "No vine de la nada. Pero fui yo quien decidió construir algo más grande.", "intro": "Esta no es una historia bonita de superación. Es lo que pasó — sin maquillaje, sin filtro.", "now": "Ahora",
     "chapters": [
@@ -32,7 +36,7 @@
     ]
   },
   "ecossistema": {
-    "badge": "El Ecosistema", "title": "Guebly.", "subtitle": "Un holding tecnológico construido desde cero. 4 empresas, 14 unidades de negocio. Tecnología como base. Negocio como objetivo.",
+    "badge": "El Ecosistema", "viewEcosystem": "Ver ecosistema", "title": "Guebly.", "subtitle": "Un holding tecnológico construido desde cero. 4 empresas, 14 unidades de negocio. Tecnología como base. Negocio como objetivo.",
     "holdingDesc": "Holding controladora. Dueña de la propiedad intelectual de todo el grupo.", "holdingType": "Gobernanza", "live": "Operando",
     "branches": [
       { "name": "Guebly LTDA", "type": "Operacional", "description": "Brazo operacional principal. 25% de repase a la Holding.", "subs": [{ "name": "Guebly Studio", "sector": "Automatización", "status": "live" }, { "name": "Guebly Pay", "sector": "Pagos", "status": "live" }, { "name": "Trocaí", "sector": "Marketplace", "status": "dev" }, { "name": "Guebly Games", "sector": "Juegos", "status": "dev" }, { "name": "Vendaí", "sector": "E-commerce", "status": "dev" }] },
@@ -51,6 +55,6 @@
       { "name": "SaoPauloRP", "description": "Sistema automatizado de whitelist para servidor GTA RP vía Discord.", "tech": ["Discord.js", "Bot"], "url": "https://github.com/degabrielofi_/SaoPauloRP" }
     ]
   },
-  "contato": { "badge": "Contacto", "titleLine1": "Vamos a construir", "titleLine2": "algo.", "subtitle": "Si tienes un proyecto, una idea o solo quieres charlar — manda un mensaje. Sin promesas. Sin hype. Ejecución." },
+  "contato": { "badge": "Contacto", "titleLine1": "Vamos a construir", "titleLine2": "algo.", "subtitle": "Si tienes un proyecto, una idea o solo quieres charlar — manda un mensaje. Sin promesas. Sin hype. Ejecución.", "allNetworks": "en todas las redes" },
   "footer": { "built": "Construido por Gabriel Pereira", "rights": "Todos los derechos reservados." }
 }

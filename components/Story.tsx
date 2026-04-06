@@ -21,10 +21,10 @@ export default function Story() {
         <FadeIn>
           <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'flex-end', justifyContent: 'space-between', gap: 16, marginBottom: 48 }}>
             <div>
-              <h2 className="font-display" style={{ fontWeight: 900, fontSize: 'clamp(2rem, 5vw, 3.5rem)', color: 'var(--color-tx)', lineHeight: 1.1, marginBottom: 16 }}>A história completa.</h2>
+              <h2 className="font-display" style={{ fontWeight: 900, fontSize: 'clamp(2rem, 5vw, 3.5rem)', color: 'var(--color-tx)', lineHeight: 1.1, marginBottom: 16 }}>{t('fullTitle')}</h2>
               <p style={{ fontSize: 15.5, color: 'var(--color-tx3)', maxWidth: 540, lineHeight: 1.75 }}>{th('intro')}</p>
             </div>
-            <a href={`/${locale}/historia`} className="font-mono" style={{ fontSize: 11, fontWeight: 500, letterSpacing: '.04em', color: 'var(--color-ac)', padding: '6px 14px', border: '1px solid var(--color-bdr)', borderRadius: 100, transition: 'all .3s' }}>Ler completa</a>
+            <a href={`/${locale}/historia`} className="font-mono" style={{ fontSize: 11, fontWeight: 500, letterSpacing: '.04em', color: 'var(--color-ac)', padding: '6px 14px', border: '1px solid var(--color-bdr)', borderRadius: 100, transition: 'all .3s' }}>{t('readFull')}</a>
           </div>
         </FadeIn>
 

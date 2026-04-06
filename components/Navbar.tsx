@@ -39,6 +39,7 @@ export default function Navbar() {
       style={{
         position: 'fixed', top: 0, left: 0, right: 0, zIndex: 100, height: 64,
         display: 'flex', alignItems: 'center', justifyContent: 'center',
+        marginTop: 16,
         transition: 'all .5s',
         ...(scrolled ? { background: 'color-mix(in srgb, var(--color-bg) 82%, transparent)', backdropFilter: 'blur(20px) saturate(1.6)', borderBottom: '1px solid var(--color-bdr)' } : {}),
       }}

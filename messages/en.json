@@ -4,13 +4,17 @@
     "badge": "Founder & CEO · Guebly Holding · São Paulo",
     "role": "Founder. Architect. Builder.",
     "description": "19 years old. I had access, but I was the one who decided to build something bigger with it. I failed, I broke, and I still started.",
+    "body": "In 6 months, I structured a tech holding from scratch. 4 registered companies, 14 business units, real products in production. Not out of inspiration — out of execution.",
     "cta": "Read the story",
-    "scroll": "Scroll down"
+    "scroll": "Scroll down",
+    "allNetworks": "All networks:"
   },
   "story": {
     "badge": "The Origin",
     "title": "I didn't start from the top.",
     "subtitle": "I started from the basement.",
+    "fullTitle": "The full story.",
+    "readFull": "Read full",
     "now": "Now",
     "readMore": "Read the full story",
     "acts": [
@@ -28,7 +32,7 @@
       { "value": "6", "label": "Months to build" }
     ]
   },
-  "belief": { "quote": "Technology without results is just vanity." },
+  "belief": { "quote": "Technology without results is just vanity.", "quoteStart": "Technology without results is just ", "quoteEnd": "vanity." },
   "historia": {
     "badge": "The Full Story",
     "title": "I didn't come from nothing. But I was the one who decided to build something bigger.",
@@ -43,6 +47,7 @@
   },
   "ecossistema": {
     "badge": "The Ecosystem",
+    "viewEcosystem": "View ecosystem",
     "title": "Guebly.",
     "subtitle": "A tech holding built from scratch. 4 registered companies, 14 business units, real products in production. Technology as foundation. Business as the goal.",
     "holdingDesc": "Parent holding. Owner of the intellectual property and assets of the entire group.",
@@ -71,7 +76,8 @@
     "badge": "Contact",
     "titleLine1": "Let's build",
     "titleLine2": "something.",
-    "subtitle": "If you have a project, an idea, or just want to chat — send a message. No promises. No hype. Execution."
+    "subtitle": "If you have a project, an idea, or just want to chat — send a message. No promises. No hype. Execution.",
+    "allNetworks": "on all networks"
   },
   "footer": { "built": "Built by Gabriel Pereira", "rights": "All rights reserved." }
 }

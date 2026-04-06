@@ -41,7 +41,7 @@ export default function Contact() {
                   ))}
                   <a href="https://guebly.com.br" target="_blank" rel="noopener noreferrer" className="font-display" style={{ height: 38, padding: '0 14px', border: '1px solid var(--color-bdr)', borderRadius: 10, display: 'inline-flex', alignItems: 'center', gap: 6, fontSize: 12, fontWeight: 600, color: 'var(--color-tx4)', transition: 'all .25s' }}>guebly.com.br ↗</a>
                 </div>
-                <div className="font-mono" style={{ fontSize: 12, color: 'var(--color-tx4)', marginTop: 6 }}><a href="https://instagram.com/degabrielofi_" target="_blank" style={{ color: 'var(--color-ac)' }}>@degabrielofi_</a> em todas as redes</div>
+                <div className="font-mono" style={{ fontSize: 12, color: 'var(--color-tx4)', marginTop: 6 }}><a href="https://instagram.com/degabrielofi_" target="_blank" style={{ color: 'var(--color-ac)' }}>@degabrielofi_</a> {t('allNetworks')}</div>
               </div>
             </div>
           </div>

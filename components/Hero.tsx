@@ -68,7 +68,7 @@ export default function Hero() {
             <p className="font-display" style={{ fontSize: 13, fontWeight: 600, letterSpacing: '.16em', textTransform: 'uppercase' as const, color: 'var(--color-tx3)', opacity: 0, animation: 'fadeIn .6s 2.8s forwards' }}>{t('role')}</p>
             <p style={{ marginTop: 12, fontSize: 15.5, color: 'var(--color-tx3)', lineHeight: 1.75, maxWidth: 480, opacity: 0, animation: 'fadeIn .6s 3s forwards' }}>{t('description')}</p>
             <p style={{ marginTop: 10, fontSize: 15.5, color: 'var(--color-tx3)', lineHeight: 1.75, maxWidth: 480, opacity: 0, animation: 'fadeIn .6s 3.1s forwards' }}>
-              Em 6 meses, estruturei uma holding de tecnologia do zero. 4 CNPJs, 14 unidades de negócio, produtos reais em produção. Não por inspiração — por execução.
+              {t('body')}
             </p>
 
             {/* Buttons */}
@@ -123,7 +123,7 @@ export default function Hero() {
               <span>{new Date().getFullYear()}</span>
             </div>
             <div className="font-mono" style={{ fontSize: 11, color: 'var(--color-tx4)', marginTop: 4 }}>
-              Todas as redes: <a href="https://instagram.com/degabrielofi_" target="_blank" style={{ color: 'var(--color-ac)' }}>@degabrielofi_</a>
+              {t('allNetworks')} <a href="https://instagram.com/degabrielofi_" target="_blank" style={{ color: 'var(--color-ac)' }}>@degabrielofi_</a>
             </div>
           </div>
           <div className="font-mono" style={{ fontSize: 11, color: 'var(--color-tx4)', letterSpacing: '.08em', textTransform: 'uppercase' as const, display: 'flex', gap: 6, alignItems: 'center' }}>
