@@ -48,16 +48,16 @@ export default function Hero() {
   }, []);
 
   return (
-    <section className="flex items-start md:items-end" style={{ minHeight: '100dvh', position: 'relative', overflow: 'hidden', paddingBottom: 56, zIndex: 1 }}>
-      <Container className="relative z-[2] pt-[80px] md:pt-[120px] w-full">
+    <section style={{ minHeight: '100dvh', display: 'flex', alignItems: 'flex-start', position: 'relative', overflow: 'hidden', paddingBottom: 72, zIndex: 1 }}>
+      <Container className="relative z-[2] w-full" style={{ paddingTop: 'clamp(100px, 14vh, 160px)' }}>
         {/* Typing name */}
-        <div className="font-display mt-16 md:mt-[clamp(40px,8vh,96px)]" style={{ fontWeight: 900, lineHeight: 0.9, letterSpacing: '-0.03em' }}>
+        <div className="font-display" style={{ fontWeight: 900, lineHeight: 0.9, letterSpacing: '-0.03em', marginTop: 'clamp(32px, 6vh, 80px)' }}>
           <span ref={ln1} style={{ display: 'block', fontSize: 'clamp(3.8rem, 10vw, 9rem)', overflow: 'hidden', whiteSpace: 'nowrap' as const, borderRight: '3px solid var(--color-ac)', color: 'var(--color-tx)', width: 0, animation: 'typing 1s steps(7) .4s forwards, blink .6s step-end infinite' }} className="ln">GABRIEL</span>
           <span ref={ln2} style={{ display: 'block', fontSize: 'clamp(3.8rem, 10vw, 9rem)', overflow: 'hidden', whiteSpace: 'nowrap' as const, borderRight: '3px solid var(--color-ac)', color: 'var(--color-ac)', width: 0, animation: 'typing 1.1s steps(8) 1.6s forwards, blink .6s step-end 1.6s infinite' }} className="ln">PEREIRA.</span>
         </div>
 
         {/* Content grid */}
-        <div style={{ display: 'grid', gridTemplateColumns: '1fr 240px', gap: 40, alignItems: 'end', marginTop: 28 }} className="max-[860px]:grid-cols-1">
+        <div style={{ display: 'grid', gridTemplateColumns: '1fr 140px', gap: 24, alignItems: 'start', marginTop: 28 }} className="md:grid-cols-[1fr_240px] md:gap-[40px] md:items-end">
           <div>
             <p className="font-display" style={{ fontSize: 13, fontWeight: 600, letterSpacing: '.16em', textTransform: 'uppercase' as const, color: 'var(--color-tx3)', opacity: 0, animation: 'fadeIn .6s 2.8s forwards' }}>{t('role')}</p>
             <p style={{ marginTop: 12, fontSize: 15.5, color: 'var(--color-tx3)', lineHeight: 1.75, maxWidth: 480, opacity: 0, animation: 'fadeIn .6s 3s forwards' }}>{t('description')}</p>
@@ -89,8 +89,8 @@ export default function Hero() {
           </div>
 
           {/* Photo */}
-          <div ref={photoRef} style={{ perspective: 800, opacity: 0, animation: 'fadeIn .8s 2.5s forwards', flexShrink: 0 }} className="max-[860px]:hidden">
-            <div ref={photoInner} style={{ width: 'clamp(150px, 40vw, 220px)', height: 'clamp(200px, 53vw, 290px)', position: 'relative', transition: 'transform .4s', transformStyle: 'preserve-3d' as const }}>
+          <div ref={photoRef} style={{ perspective: 800, opacity: 0, animation: 'fadeIn .8s 2.5s forwards', flexShrink: 0 }} className="max-[860px]:self-start">
+            <div ref={photoInner} className="w-[130px] h-[175px] md:w-[220px] md:h-[290px]" style={{ position: 'relative', transition: 'transform .4s', transformStyle: 'preserve-3d' as const }}>
               <div style={{ position: 'absolute', inset: -24, borderRadius: 32, background: 'radial-gradient(circle, var(--color-acg2), transparent 65%)', zIndex: -1, opacity: 0.3, transition: 'opacity .4s' }} />
               <div style={{ width: '100%', height: '100%', borderRadius: 18, overflow: 'hidden', border: '1px solid var(--color-bdr)', background: 'var(--color-bg2)', position: 'relative', zIndex: 1 }}>
                 <img src="/gabriel.png" alt="" style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'top' }} onError={(e) => { e.currentTarget.style.display = 'none'; e.currentTarget.nextElementSibling && ((e.currentTarget.nextElementSibling as HTMLElement).style.display = 'block'); }} />
