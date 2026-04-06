@@ -22,7 +22,7 @@ export default function EcossistemaPage() {
         </FadeIn>
 
         <FadeIn delay={0.1}>
-          <div style={{ background: 'var(--color-bg3)', border: '1px solid var(--color-bdr)', borderRadius: 20, padding: '32px 36px', marginTop: 48, marginBottom: 16, position: 'relative', overflow: 'hidden' }}>
+          <div style={{ background: 'var(--color-bg3)', border: '1px solid var(--color-bdr)', borderRadius: 20, padding: 'clamp(20px, 4vw, 32px) clamp(20px, 4vw, 36px)', marginTop: 48, marginBottom: 16, position: 'relative', overflow: 'hidden' }}>
             <div style={{ position: 'absolute', top: 0, left: 0, right: 0, height: 3, background: 'linear-gradient(90deg, var(--color-ac3), var(--color-ac), var(--color-ac2), var(--color-ac3))', opacity: 0.5 }} />
             <div style={{ display: 'flex', alignItems: 'center', gap: 14, marginBottom: 8 }}>
               <div style={{ width: 42, height: 42, borderRadius: 10, overflow: 'hidden', border: '1px solid var(--color-bdr)', display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'var(--color-acg)' }}>

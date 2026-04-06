@@ -16,7 +16,7 @@ const ibm = IBM_Plex_Mono({ subsets: ['latin'], variable: '--font-ibm', display:
 export const metadata: Metadata = {
   title: 'Gabriel Pereira — Fundador & CEO da Guebly',
   description: '19 anos. Autodidata. Da periferia de São Paulo a uma holding de tecnologia com 4 CNPJs e 14 unidades de negócio.',
-  icons: { icon: '/favicon-logo.png' },
+  icons: { icon: '/icon.png' },
 };
 
 export default async function LocaleLayout({ children, params }: { children: React.ReactNode; params: Promise<{ locale: string }> }) {
