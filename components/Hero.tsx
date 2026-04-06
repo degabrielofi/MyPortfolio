@@ -51,7 +51,7 @@ export default function Hero() {
     <section className="flex items-start md:items-end" style={{ minHeight: '100dvh', position: 'relative', overflow: 'hidden', paddingBottom: 56, zIndex: 1 }}>
       <Container className="relative z-[2] pt-[80px] md:pt-[120px] w-full">
         {/* Typing name */}
-        <div className="font-display mt-10 md:mt-[clamp(32px,8vh,96px)]" style={{ fontWeight: 900, lineHeight: 0.9, letterSpacing: '-0.03em', minHeight: 'clamp(80px, 18vw, 220px)' }}>
+        <div className="font-display mt-16 md:mt-[clamp(40px,8vh,96px)]" style={{ fontWeight: 900, lineHeight: 0.9, letterSpacing: '-0.03em' }}>
           <span ref={ln1} style={{ display: 'block', fontSize: 'clamp(3.8rem, 10vw, 9rem)', overflow: 'hidden', whiteSpace: 'nowrap' as const, borderRight: '3px solid var(--color-ac)', color: 'var(--color-tx)', width: 0, animation: 'typing 1s steps(7) .4s forwards, blink .6s step-end infinite' }} className="ln">GABRIEL</span>
           <span ref={ln2} style={{ display: 'block', fontSize: 'clamp(3.8rem, 10vw, 9rem)', overflow: 'hidden', whiteSpace: 'nowrap' as const, borderRight: '3px solid var(--color-ac)', color: 'var(--color-ac)', width: 0, animation: 'typing 1.1s steps(8) 1.6s forwards, blink .6s step-end 1.6s infinite' }} className="ln">PEREIRA.</span>
         </div>
@@ -89,7 +89,7 @@ export default function Hero() {
           </div>
 
           {/* Photo */}
-          <div ref={photoRef} style={{ perspective: 800, opacity: 0, animation: 'fadeIn .8s 2.5s forwards', flexShrink: 0 }} className="max-[860px]:order-first max-[860px]:justify-self-start">
+          <div ref={photoRef} style={{ perspective: 800, opacity: 0, animation: 'fadeIn .8s 2.5s forwards', flexShrink: 0 }} className="max-[860px]:hidden">
             <div ref={photoInner} style={{ width: 'clamp(150px, 40vw, 220px)', height: 'clamp(200px, 53vw, 290px)', position: 'relative', transition: 'transform .4s', transformStyle: 'preserve-3d' as const }}>
               <div style={{ position: 'absolute', inset: -24, borderRadius: 32, background: 'radial-gradient(circle, var(--color-acg2), transparent 65%)', zIndex: -1, opacity: 0.3, transition: 'opacity .4s' }} />
               <div style={{ width: '100%', height: '100%', borderRadius: 18, overflow: 'hidden', border: '1px solid var(--color-bdr)', background: 'var(--color-bg2)', position: 'relative', zIndex: 1 }}>
