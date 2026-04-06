@@ -1,5 +1,6 @@
 import { getTranslations } from 'next-intl/server';
 import Container from './Container';
+import FooterStudioLink from './FooterStudioLink';
 
 export default async function Footer() {
   const t = await getTranslations('footer');
@@ -11,10 +12,7 @@ export default async function Footer() {
         <span className="font-mono" style={{ fontSize: 11, color: 'var(--color-tx4)' }}>
           © {year} Gabriel Pereira · {t('rights')}
         </span>
-        <a href="https://studio.guebly.com.br" target="_blank" rel="noopener noreferrer" style={{ display: 'flex', alignItems: 'center', gap: 6, opacity: 0.4, transition: 'opacity .3s' }} onMouseEnter={(e) => (e.currentTarget.style.opacity = '1')} onMouseLeave={(e) => (e.currentTarget.style.opacity = '0.4')}>
-          <img src="https://studio.guebly.com.br/studio.png" alt="Guebly Studio" style={{ width: 16, height: 16, borderRadius: 4 }} onError={(e) => { e.currentTarget.style.display = 'none'; }} />
-          <span className="font-mono" style={{ fontSize: 10, color: 'var(--color-tx4)' }}>Guebly Studio</span>
-        </a>
+        <FooterStudioLink />
       </Container>
     </footer>
   );
