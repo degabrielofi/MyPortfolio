@@ -49,7 +49,7 @@ export default function Hero() {
 
   return (
     <section style={{ minHeight: '100vh', display: 'flex', alignItems: 'flex-end', position: 'relative', overflow: 'hidden', paddingBottom: 56, zIndex: 1 }}>
-      <Container style={{ position: 'relative', zIndex: 2, paddingTop: 140 }}>
+      <Container className="relative z-[2] pt-[140px]">
         {/* Badge */}
         <div style={{ display: 'inline-flex', alignItems: 'center', gap: 10, marginBottom: 40, opacity: 0, animation: 'fadeIn .6s .2s forwards' }}>
           <div style={{ width: 6, height: 6, borderRadius: '50%', background: 'var(--color-ac)', animation: 'pulse 2.5s infinite' }} />
