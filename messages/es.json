@@ -1,0 +1,56 @@
+{
+  "nav": { "story": "Historia", "ecosystem": "Ecosistema", "projects": "Proyectos", "contact": "Contacto" },
+  "hero": {
+    "badge": "Fundador & CEO · Guebly Holding · São Paulo",
+    "role": "Fundador. Arquitecto. Constructor.",
+    "description": "19 años. Tuve acceso, pero fui yo quien decidió construir algo más grande con eso. Me equivoqué, me quebré, y aun así empecé.",
+    "cta": "Conocer la historia",
+    "scroll": "Desplazar hacia abajo"
+  },
+  "story": {
+    "badge": "El Origen",
+    "title": "No empecé desde arriba.",
+    "subtitle": "Empecé desde el sótano.",
+    "now": "Ahora",
+    "readMore": "Leer la historia completa",
+    "acts": [
+      { "year": "2006 – 2022", "title": "Periferia de SP", "text": "Crecí en la periferia de São Paulo. Tuve acceso — computadora, teléfono, libertad para explorar. Mientras muchos solo consumían, yo empecé a investigar. Aprendí tecnología solo. YouTube, documentación, error tras error." },
+      { "year": "2023", "title": "Me fui a Ceará", "text": "A los 18, dejé todo lo que conocía. Trabajé como aprendiz en Cajuína São Geraldo. Estudié Logística en SENAI. La distancia, la presión y cuestiones personales que pesaron más de lo esperado cambiaron todo." },
+      { "year": "2024", "title": "Volví destruido", "text": "Volví a São Paulo sin dirección, sin energía, con la cabeza revuelta. Pasé un mes prácticamente paralizado. Guebly nació en ese período — no de inspiración, sino de necesidad de reaccionar." },
+      { "year": "2024 – Hoy", "title": "Construí Guebly", "text": "En 6 meses, estructuré un holding tecnológico desde cero. 4 empresas registradas, 14 unidades de negocio, productos en producción. No por inspiración — por ejecución." }
+    ]
+  },
+  "numbers": { "items": [{ "value": "19", "label": "Años de edad" }, { "value": "4", "label": "Empresas registradas" }, { "value": "14", "label": "Unidades de negocio" }, { "value": "6", "label": "Meses para construir" }] },
+  "belief": { "quote": "Tecnología sin resultado es solo vanidad." },
+  "historia": {
+    "badge": "La Historia Completa", "title": "No vine de la nada. Pero fui yo quien decidió construir algo más grande.", "intro": "Esta no es una historia bonita de superación. Es lo que pasó — sin maquillaje, sin filtro.", "now": "Ahora",
+    "chapters": [
+      { "num": "01", "year": "2006 — 2022", "title": "Periferia de São Paulo.\nPero no la historia que esperas.", "paragraphs": ["Crecí en la periferia de São Paulo, pero no en la miseria. Siempre tuve estructura en casa — espacio, comodidad y acceso a lo básico. Incluyendo tecnología.", "Mientras muchos con el mismo acceso solo consumían, yo empecé a investigar.", "Mi primer contacto con la tecnología no fue profesional — fue <strong>curiosidad</strong>. Aprendí a programar solo. YouTube, documentación, error tras error. Sin mentor, sin curso caro. Solo insistencia.", "La escuela nunca fue donde más evoluccioné. No era falta de capacidad — era falta de alineamiento.", "Mi familia no me frenó, pero tampoco me guió. Al final, fui yo por mí."] },
+      { "num": "02", "year": "2023", "title": "A los 18, dejé\ntodo lo que conocía.", "paragraphs": ["Me fui a Ceará por una relación. Decisión emocional, directa.", "Ahí trabajé como Joven Aprendiz en PCP de Cajuína São Geraldo. Rutina, proceso, responsabilidad. Al mismo tiempo, formación en SENAI — <strong>disciplina, organización y visión de proceso</strong>.", "Pero lo que marcó no fue el trabajo.", "Fue el conjunto: la presión, la distancia, la soledad, y cuestiones personales que pesaron más de lo esperado. La relación que me llevó ahí no sobrevivió."], "quote": "Ahí empezó la quiebra." },
+      { "num": "03", "year": "2024", "title": "Volví a São Paulo.\nPero no volví fuerte.", "paragraphs": ["Pasé un mes prácticamente paralizado. Sin dirección, sin energía. No era cansancio físico — era mental.", "Frustración por haber tomado la decisión equivocada. Sensación de tiempo perdido. Rabia.", "Guebly nació en ese período. No fue inspiración bonita. Fue <strong>necesidad de reaccionar</strong>."], "quote": "O construyo algo grande, o me quedo atrapado en esto. Lo que me hizo levantarme no fue motivación. Fue incomodidad." },
+      { "num": "04", "year": "2024 — Hoy", "title": "En 6 meses, construí\nun holding desde cero.", "paragraphs": ["Guebly empezó sin estructura ideal. Sin gran inversión. Sin gran equipo. Solo yo, conocimiento técnico y voluntad.", "Los primeros proyectos no cayeron solos. Vinieron de buscar, probar, fallar y ajustar.", "Y sí, hubo sacrificio: paz mental, estabilidad, relaciones, tiempo. <strong>Construir algo desde cero cobra.</strong>", "Hoy son 4 empresas registradas, 14 unidades de negocio, productos reales en producción. No por inspiración — por ejecución."] }
+    ]
+  },
+  "ecossistema": {
+    "badge": "El Ecosistema", "title": "Guebly.", "subtitle": "Un holding tecnológico construido desde cero. 4 empresas, 14 unidades de negocio. Tecnología como base. Negocio como objetivo.",
+    "holdingDesc": "Holding controladora. Dueña de la propiedad intelectual de todo el grupo.", "holdingType": "Gobernanza", "live": "Operando",
+    "branches": [
+      { "name": "Guebly LTDA", "type": "Operacional", "description": "Brazo operacional principal. 25% de repase a la Holding.", "subs": [{ "name": "Guebly Studio", "sector": "Automatización", "status": "live" }, { "name": "Guebly Pay", "sector": "Pagos", "status": "live" }, { "name": "Trocaí", "sector": "Marketplace", "status": "dev" }, { "name": "Guebly Games", "sector": "Juegos", "status": "dev" }, { "name": "Vendaí", "sector": "E-commerce", "status": "dev" }] },
+      { "name": "Ayon LTDA", "type": "Audiovisual", "description": "100% Holding. Producción audiovisual, streaming y educación.", "subs": [{ "name": "Ayon Studios", "sector": "Productora", "status": "dev" }, { "name": "Ayon+", "sector": "Streaming", "status": "dev" }, { "name": "Ayon Academy", "sector": "Educación", "status": "dev" }] },
+      { "name": "Guebly Contábil", "type": "Contabilidad", "description": "Oficina contable con software propio. App web + mobile.", "subs": [{ "name": "Plataforma Contable", "sector": "SaaS", "status": "live" }] },
+      { "name": "Sentrion", "type": "Seguridad", "description": "100% Holding. Tecnología de seguridad y monitoreo.", "subs": [{ "name": "Sentrion Vision", "sector": "Monitoreo de cámaras", "status": "dev" }] }
+    ]
+  },
+  "projetos": {
+    "badge": "Proyectos", "title": "Lo que construí.", "github": "Ver en GitHub",
+    "items": [
+      { "name": "FlowRunner", "description": "Automatización desktop con reconocimiento de imagen y timing aleatorio.", "tech": ["Python", "Automatización"], "url": "https://github.com/degabrielofi_/FlowRunner" },
+      { "name": "guebly-readme-to-pdf", "description": "Transforma README.md en PDF premium con temas y preview en vivo.", "tech": ["TypeScript", "Tool"], "url": "https://github.com/guebly/guebly-readme-to-pdf" },
+      { "name": "guebly-text-formatter", "description": "Convierte markdown y texto de IA para LinkedIn, Instagram y WhatsApp.", "tech": ["TypeScript", "Tool"], "url": "https://github.com/guebly/guebly-text-formatter" },
+      { "name": "GueblyScaffold", "description": "Genera estructura de carpetas y archivos desde árboles de proyecto.", "tech": ["JavaScript", "Dev tool"], "url": "https://github.com/guebly/GueblyScaffold" },
+      { "name": "SaoPauloRP", "description": "Sistema automatizado de whitelist para servidor GTA RP vía Discord.", "tech": ["Discord.js", "Bot"], "url": "https://github.com/degabrielofi_/SaoPauloRP" }
+    ]
+  },
+  "contato": { "badge": "Contacto", "titleLine1": "Vamos a construir", "titleLine2": "algo.", "subtitle": "Si tienes un proyecto, una idea o solo quieres charlar — manda un mensaje. Sin promesas. Sin hype. Ejecución." },
+  "footer": { "built": "Construido por Gabriel Pereira", "rights": "Todos los derechos reservados." }
+}

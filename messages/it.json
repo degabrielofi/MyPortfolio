@@ -1,0 +1,56 @@
+{
+  "nav": { "story": "Storia", "ecosystem": "Ecosistema", "projects": "Progetti", "contact": "Contatto" },
+  "hero": {
+    "badge": "Fondatore & CEO · Guebly Holding · São Paulo",
+    "role": "Fondatore. Architetto. Costruttore.",
+    "description": "19 anni. Ho avuto accesso, ma sono stato io a decidere di costruire qualcosa di più grande. Ho sbagliato, mi sono rotto, e comunque ho iniziato.",
+    "cta": "Scopri la storia",
+    "scroll": "Scorri verso il basso"
+  },
+  "story": {
+    "badge": "L'Origine",
+    "title": "Non ho iniziato dall'alto.",
+    "subtitle": "Ho iniziato dal seminterrato.",
+    "now": "Adesso",
+    "readMore": "Leggi la storia completa",
+    "acts": [
+      { "year": "2006 – 2022", "title": "Periferia di SP", "text": "Sono cresciuto nella periferia di São Paulo. Ho avuto accesso — computer, telefono, libertà di esplorare. Mentre molti con lo stesso accesso consumavano e basta, io ho iniziato a smanettare. Ho imparato la tecnologia da solo." },
+      { "year": "2023", "title": "Trasferito nel Ceará", "text": "A 18 anni, ho lasciato tutto ciò che conoscevo. Ho lavorato come apprendista alla Cajuína São Geraldo. Ho studiato Logistica al SENAI. La distanza, la pressione e questioni personali hanno cambiato tutto." },
+      { "year": "2024", "title": "Tornato distrutto", "text": "Sono tornato a São Paulo senza direzione, senza energia. Ho passato un mese praticamente paralizzato. Guebly è nata in quel periodo — non dall'ispirazione, ma dalla necessità di reagire." },
+      { "year": "2024 – Oggi", "title": "Ho costruito Guebly", "text": "In 6 mesi, ho strutturato una holding tecnologica da zero. 4 aziende registrate, 14 unità di business, prodotti in produzione. Non per ispirazione — per esecuzione." }
+    ]
+  },
+  "numbers": { "items": [{ "value": "19", "label": "Anni di età" }, { "value": "4", "label": "Aziende registrate" }, { "value": "14", "label": "Unità di business" }, { "value": "6", "label": "Mesi per costruire" }] },
+  "belief": { "quote": "La tecnologia senza risultato è solo vanità." },
+  "historia": {
+    "badge": "La Storia Completa", "title": "Non vengo dal nulla. Ma sono stato io a decidere di costruire qualcosa di più grande.", "intro": "Questa non è una bella storia di riscatto. È quello che è successo — senza trucco, senza filtro.", "now": "Adesso",
+    "chapters": [
+      { "num": "01", "year": "2006 — 2022", "title": "Periferia di São Paulo.\nMa non la storia che ti aspetti.", "paragraphs": ["Sono cresciuto nella periferia di São Paulo, ma non nella miseria. Ho sempre avuto struttura a casa — spazio, comfort e accesso al necessario. Compresa la tecnologia.", "Mentre molti con lo stesso accesso consumavano e basta, io ho iniziato a smanettare.", "Il mio primo contatto con la tecnologia non è stato professionale — è stata <strong>curiosità</strong>. Ho imparato a programmare da solo. YouTube, documentazione, errore dopo errore. Senza mentore, senza corso costoso. Solo insistenza.", "La scuola non è mai stata il posto dove sono cresciuto di più. Non era mancanza di capacità — era mancanza di allineamento.", "La mia famiglia non mi ha fermato, ma neanche guidato. Alla fine, ero io per me stesso."] },
+      { "num": "02", "year": "2023", "title": "A 18 anni, ho lasciato\ntutto ciò che conoscevo.", "paragraphs": ["Sono andato nel Ceará per una relazione. Decisione emotiva, diretta.", "Lì ho lavorato come Giovane Apprendista nel PCP della Cajuína São Geraldo. Routine, processo, responsabilità. Allo stesso tempo, formazione al SENAI — <strong>disciplina, organizzazione e visione di processo</strong>.", "Ma quello che ha lasciato il segno non è stato il lavoro.", "È stato l'insieme: la pressione, la distanza da casa, la solitudine, e questioni personali che hanno pesato più del previsto. La relazione che mi aveva portato lì non è sopravvissuta."], "quote": "Lì è iniziata la rottura." },
+      { "num": "03", "year": "2024", "title": "Sono tornato a São Paulo.\nMa non sono tornato forte.", "paragraphs": ["Ho passato un mese praticamente paralizzato. Senza direzione, senza energia. Non era stanchezza fisica — era mentale.", "Frustrazione per aver preso la decisione sbagliata. Sensazione di tempo perso. Rabbia.", "Guebly è nata in quel periodo. Non è stata bella ispirazione. È stata <strong>necessità di reagire</strong>."], "quote": "O costruisco qualcosa di grande, o resto intrappolato qui. Quello che mi ha fatto alzare non è stata la motivazione. È stato il disagio." },
+      { "num": "04", "year": "2024 — Oggi", "title": "In 6 mesi, ho costruito\nuna holding da zero.", "paragraphs": ["Guebly è iniziata senza struttura ideale. Senza grande investimento. Senza grande team. Solo io, conoscenza tecnica e volontà.", "I primi progetti non sono caduti dal cielo. Sono venuti dal cercare, provare, fallire e aggiustare.", "E sì, c'è stato sacrificio: pace mentale, stabilità, relazioni, tempo. <strong>Costruire qualcosa da zero ha un costo.</strong>", "Oggi sono 4 aziende registrate, 14 unità di business, prodotti reali in produzione. Non per ispirazione — per esecuzione."] }
+    ]
+  },
+  "ecossistema": {
+    "badge": "L'Ecosistema", "title": "Guebly.", "subtitle": "Una holding tecnologica costruita da zero. 4 aziende, 14 unità di business. Tecnologia come base. Business come obiettivo.",
+    "holdingDesc": "Holding controllante. Proprietaria della proprietà intellettuale di tutto il gruppo.", "holdingType": "Governance", "live": "Operativo",
+    "branches": [
+      { "name": "Guebly LTDA", "type": "Operativo", "description": "Braccio operativo principale. 25% di trasferimento alla Holding.", "subs": [{ "name": "Guebly Studio", "sector": "Automazione", "status": "live" }, { "name": "Guebly Pay", "sector": "Pagamenti", "status": "live" }, { "name": "Trocaí", "sector": "Marketplace", "status": "dev" }, { "name": "Guebly Games", "sector": "Gaming", "status": "dev" }, { "name": "Vendaí", "sector": "E-commerce", "status": "dev" }] },
+      { "name": "Ayon LTDA", "type": "Audiovisivo", "description": "100% Holding. Produzione audiovisiva, streaming e educazione.", "subs": [{ "name": "Ayon Studios", "sector": "Produzione", "status": "dev" }, { "name": "Ayon+", "sector": "Streaming", "status": "dev" }, { "name": "Ayon Academy", "sector": "Educazione", "status": "dev" }] },
+      { "name": "Guebly Contábil", "type": "Contabilità", "description": "Studio contabile con software proprietario. App web + mobile.", "subs": [{ "name": "Piattaforma Contabile", "sector": "SaaS", "status": "live" }] },
+      { "name": "Sentrion", "type": "Sicurezza", "description": "100% Holding. Tecnologia di sicurezza e monitoraggio.", "subs": [{ "name": "Sentrion Vision", "sector": "Monitoraggio telecamere", "status": "dev" }] }
+    ]
+  },
+  "projetos": {
+    "badge": "Progetti", "title": "Cosa ho costruito.", "github": "Vedi su GitHub",
+    "items": [
+      { "name": "FlowRunner", "description": "Automazione desktop con riconoscimento immagini e timing randomizzato.", "tech": ["Python", "Automazione"], "url": "https://github.com/degabrielofi_/FlowRunner" },
+      { "name": "guebly-readme-to-pdf", "description": "Trasforma README.md in PDF premium con temi e anteprima live.", "tech": ["TypeScript", "Tool"], "url": "https://github.com/guebly/guebly-readme-to-pdf" },
+      { "name": "guebly-text-formatter", "description": "Converte markdown e testo AI per LinkedIn, Instagram e WhatsApp.", "tech": ["TypeScript", "Tool"], "url": "https://github.com/guebly/guebly-text-formatter" },
+      { "name": "GueblyScaffold", "description": "Genera struttura di cartelle e file da alberi di progetto.", "tech": ["JavaScript", "Dev tool"], "url": "https://github.com/guebly/GueblyScaffold" },
+      { "name": "SaoPauloRP", "description": "Sistema automatizzato di whitelist per server GTA RP via Discord.", "tech": ["Discord.js", "Bot"], "url": "https://github.com/degabrielofi_/SaoPauloRP" }
+    ]
+  },
+  "contato": { "badge": "Contatto", "titleLine1": "Costruiamo", "titleLine2": "qualcosa.", "subtitle": "Se hai un progetto, un'idea o vuoi solo fare due chiacchiere — manda un messaggio. Niente promesse. Niente hype. Esecuzione." },
+  "footer": { "built": "Costruito da Gabriel Pereira", "rights": "Tutti i diritti riservati." }
+}

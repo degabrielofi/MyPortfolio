@@ -1,0 +1,77 @@
+{
+  "nav": { "story": "Story", "ecosystem": "Ecosystem", "projects": "Projects", "contact": "Contact" },
+  "hero": {
+    "badge": "Founder & CEO · Guebly Holding · São Paulo",
+    "role": "Founder. Architect. Builder.",
+    "description": "19 years old. I had access, but I was the one who decided to build something bigger with it. I failed, I broke, and I still started.",
+    "cta": "Read the story",
+    "scroll": "Scroll down"
+  },
+  "story": {
+    "badge": "The Origin",
+    "title": "I didn't start from the top.",
+    "subtitle": "I started from the basement.",
+    "now": "Now",
+    "readMore": "Read the full story",
+    "acts": [
+      { "year": "2006 – 2022", "title": "SP Outskirts", "text": "Grew up on the outskirts of São Paulo. Had access — computer, phone, freedom to explore. While many people with the same access just consumed, I started tinkering. Learned tech on my own. YouTube, documentation, error after error." },
+      { "year": "2023", "title": "Moved to Ceará", "text": "At 18, I left everything I knew. Worked as an apprentice at Cajuína São Geraldo. Studied Logistics at SENAI. The distance, the pressure, and personal matters that weighed more than I expected changed everything." },
+      { "year": "2024", "title": "Came back broken", "text": "Returned to São Paulo with no direction, no energy, my head a mess. Spent a month practically paralyzed. Guebly was born in that period — not from inspiration, but from the need to react." },
+      { "year": "2024 – Now", "title": "Built Guebly", "text": "In 6 months, I structured a tech holding from scratch. 4 registered companies, 14 business units, products in production. Not out of inspiration — out of execution." }
+    ]
+  },
+  "numbers": {
+    "items": [
+      { "value": "19", "label": "Years old" },
+      { "value": "4", "label": "Registered companies" },
+      { "value": "14", "label": "Business units" },
+      { "value": "6", "label": "Months to build" }
+    ]
+  },
+  "belief": { "quote": "Technology without results is just vanity." },
+  "historia": {
+    "badge": "The Full Story",
+    "title": "I didn't come from nothing. But I was the one who decided to build something bigger.",
+    "intro": "This isn't a pretty overcoming story. It's what happened — no makeup, no filter.",
+    "now": "Now",
+    "chapters": [
+      { "num": "01", "year": "2006 — 2022", "title": "Outskirts of São Paulo.\nBut not the story you expect.", "paragraphs": ["I grew up on the outskirts of São Paulo, but not in poverty. I always had structure at home — space, comfort, and access to the basics. Including technology. I had my own room early on, a computer, a phone, and the freedom to explore.", "While many people with the same access just consumed, I started tinkering.", "My first contact with technology wasn't professional — it was <strong>curiosity</strong>. And that's what changed everything. I learned to code on my own. YouTube, documentation, error after error. No mentor, no expensive course, no script. Just persistence.", "School was never the place where I grew the most. I was already seeking things outside while the system was still on the basics. It wasn't lack of ability — it was lack of alignment.", "My family didn't stop me, but they didn't guide me either. In the end, it was me by myself."] },
+      { "num": "02", "year": "2023", "title": "At 18, I left\neverything I knew.", "paragraphs": ["I went to Ceará because of a relationship. Emotional decision, direct.", "There, I worked as a Young Apprentice in PPC at Cajuína São Geraldo. Routine, process, responsibility. Nothing glamorous. At the same time, I had training at SENAI in Logistics. It gave me a practical foundation — <strong>discipline, organization, and process vision</strong> — things I use to this day without even realizing.", "But what left a mark wasn't the work.", "It was the combination: the pressure, the distance from home, the loneliness, and personal matters that weighed more than I expected. The relationship that took me there didn't survive."], "quote": "That's where the break began." },
+      { "num": "03", "year": "2024", "title": "I went back to São Paulo.\nBut I didn't come back strong.", "paragraphs": ["I spent a month practically paralyzed. No direction, no energy, my head a mess. It wasn't physical exhaustion — it was mental.", "Frustration from having made the wrong decision. A feeling of wasted time. Anger.", "Guebly was born in that period. It wasn't pretty inspiration. It was <strong>the need to react</strong>."], "quote": "Either I build something big, or I stay stuck in this. What made me get up wasn't motivation. It was discomfort." },
+      { "num": "04", "year": "2024 — Now", "title": "In 6 months, I built\na holding from scratch.", "paragraphs": ["Guebly started without ideal structure. No big investment. No big team. No guarantee of anything. Just me, technical knowledge, and the will to make it happen.", "The first projects didn't fall in my lap. They came from hustling, testing, failing, and adjusting. Nothing was validated on the first try.", "And yes, there was sacrifice: peace of mind, stability, relationships, time. <strong>Building something from scratch takes its toll.</strong>", "Today it's 4 registered companies, 14 business units, real products in production, paying clients. Not out of inspiration — out of execution."] }
+    ]
+  },
+  "ecossistema": {
+    "badge": "The Ecosystem",
+    "title": "Guebly.",
+    "subtitle": "A tech holding built from scratch. 4 registered companies, 14 business units, real products in production. Technology as foundation. Business as the goal.",
+    "holdingDesc": "Parent holding. Owner of the intellectual property and assets of the entire group.",
+    "holdingType": "Governance",
+    "live": "Live",
+    "branches": [
+      { "name": "Guebly LTDA", "type": "Operational", "description": "Main operational arm. Hires, invoices, signs contracts. 25% transfer to Holding.", "subs": [{ "name": "Guebly Studio", "sector": "Automation", "status": "live" }, { "name": "Guebly Pay", "sector": "Payments", "status": "live" }, { "name": "Trocaí", "sector": "Marketplace", "status": "dev" }, { "name": "Guebly Games", "sector": "Gaming", "status": "dev" }, { "name": "Vendaí", "sector": "E-commerce", "status": "dev" }] },
+      { "name": "Ayon LTDA", "type": "Audiovisual", "description": "100% Holding. Audiovisual production, streaming and education. 25% transfer to Holding.", "subs": [{ "name": "Ayon Studios", "sector": "Production", "status": "dev" }, { "name": "Ayon+", "sector": "Streaming", "status": "dev" }, { "name": "Ayon Academy", "sector": "Education", "status": "dev" }] },
+      { "name": "Guebly Contábil", "type": "Accounting", "description": "Accounting firm with proprietary software. Web + mobile app. 25% transfer to Holding.", "subs": [{ "name": "Accounting Platform", "sector": "SaaS", "status": "live" }] },
+      { "name": "Sentrion", "type": "Security", "description": "100% Holding. Security and monitoring technology. 25% transfer to Holding.", "subs": [{ "name": "Sentrion Vision", "sector": "Camera monitoring", "status": "dev" }] }
+    ]
+  },
+  "projetos": {
+    "badge": "Projects",
+    "title": "What I built.",
+    "github": "View on GitHub",
+    "items": [
+      { "name": "FlowRunner", "description": "Desktop automation with image recognition and randomized timing.", "tech": ["Python", "Automation"], "url": "https://github.com/degabrielofi_/FlowRunner" },
+      { "name": "guebly-readme-to-pdf", "description": "Transforms README.md into premium PDF with themes and live preview.", "tech": ["TypeScript", "Tool"], "url": "https://github.com/guebly/guebly-readme-to-pdf" },
+      { "name": "guebly-text-formatter", "description": "Converts markdown and AI text for LinkedIn, Instagram and WhatsApp.", "tech": ["TypeScript", "Tool"], "url": "https://github.com/guebly/guebly-text-formatter" },
+      { "name": "GueblyScaffold", "description": "Generates folder and file structure from project trees.", "tech": ["JavaScript", "Dev tool"], "url": "https://github.com/guebly/GueblyScaffold" },
+      { "name": "SaoPauloRP", "description": "Automated whitelist system for GTA RP server via Discord.", "tech": ["Discord.js", "Bot"], "url": "https://github.com/degabrielofi_/SaoPauloRP" }
+    ]
+  },
+  "contato": {
+    "badge": "Contact",
+    "titleLine1": "Let's build",
+    "titleLine2": "something.",
+    "subtitle": "If you have a project, an idea, or just want to chat — send a message. No promises. No hype. Execution."
+  },
+  "footer": { "built": "Built by Gabriel Pereira", "rights": "All rights reserved." }
+}

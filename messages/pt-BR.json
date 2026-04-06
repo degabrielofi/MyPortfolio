@@ -1,0 +1,204 @@
+{
+  "nav": {
+    "story": "História",
+    "ecosystem": "Ecossistema",
+    "projects": "Projetos",
+    "contact": "Contato"
+  },
+  "hero": {
+    "badge": "Fundador & CEO · Guebly Holding · São Paulo",
+    "role": "Fundador. Arquiteto. Construtor.",
+    "description": "19 anos. Tive acesso, mas fui eu que decidi construir algo maior com isso. Errei, quebrei, e mesmo assim comecei.",
+    "cta": "Conhecer a história",
+    "scroll": "Role para baixo"
+  },
+  "story": {
+    "badge": "A Origem",
+    "title": "Não comecei pelo topo.",
+    "subtitle": "Comecei pelo porão.",
+    "now": "Agora",
+    "readMore": "Ler a história completa",
+    "acts": [
+      {
+        "year": "2006 – 2022",
+        "title": "Periferia de SP",
+        "text": "Cresci na periferia de São Paulo. Tive acesso — computador, celular, liberdade pra explorar. Enquanto muita gente só consumia, eu comecei a fuçar. Aprendi tecnologia sozinho. YouTube, documentação, erro atrás de erro."
+      },
+      {
+        "year": "2023",
+        "title": "Fui pro Ceará",
+        "text": "Aos 18 anos, saí de tudo que conhecia. Trabalhei como Jovem Aprendiz na Cajuína São Geraldo. Cursei Logística no SENAI. A distância, a pressão e questões pessoais que pesaram mais do que eu esperava mudaram tudo."
+      },
+      {
+        "year": "2024",
+        "title": "Voltei destruído",
+        "text": "Voltei pra São Paulo sem direção, sem energia, com a cabeça bagunçada. Fiquei um mês praticamente parado. A Guebly nasceu nesse período — não de inspiração, mas de necessidade de reagir."
+      },
+      {
+        "year": "2024 – Hoje",
+        "title": "Construí a Guebly",
+        "text": "Em 6 meses, estruturei uma holding de tecnologia do zero. 4 CNPJs, 14 unidades de negócio, produtos em produção. Não por inspiração — por execução."
+      }
+    ]
+  },
+  "numbers": {
+    "items": [
+      { "value": "19", "label": "Anos de idade" },
+      { "value": "4", "label": "CNPJs ativos" },
+      { "value": "14", "label": "Unidades de negócio" },
+      { "value": "6", "label": "Meses p/ construir" }
+    ]
+  },
+  "belief": {
+    "quote": "Tecnologia sem resultado é só vaidade."
+  },
+  "historia": {
+    "badge": "A História Completa",
+    "title": "Eu não vim do nada. Mas fui eu que decidi construir algo maior.",
+    "intro": "Essa não é uma história de superação bonitinha. É o que aconteceu — sem maquiagem, sem filtro.",
+    "now": "Agora",
+    "chapters": [
+      {
+        "num": "01",
+        "year": "2006 — 2022",
+        "title": "Periferia de São Paulo.\nMas não a história que você espera.",
+        "paragraphs": [
+          "Cresci na periferia de São Paulo, mas não na miséria. Sempre tive estrutura dentro de casa — espaço, conforto e acesso ao básico. Inclusive tecnologia. Tive quarto próprio desde cedo, computador, celular e liberdade pra explorar.",
+          "Enquanto muita gente com o mesmo acesso só consumia, eu comecei a fuçar.",
+          "Meu primeiro contato com tecnologia não foi profissional — foi <strong>curiosidade</strong>. E foi isso que virou tudo. Aprendi a programar sozinho. YouTube, documentação, erro atrás de erro. Sem mentor, sem curso caro, sem roteiro. Só insistência.",
+          "A escola nunca foi o lugar onde eu mais evoluí. Eu já tava buscando coisa fora enquanto o sistema ainda tava no básico. Não era falta de capacidade — era falta de alinhamento.",
+          "Minha família não impediu, mas também não guiou. No fim, fui eu por mim."
+        ]
+      },
+      {
+        "num": "02",
+        "year": "2023",
+        "title": "Aos 18 anos, saí de\ntudo que eu conhecia.",
+        "paragraphs": [
+          "Fui pro Ceará por causa de um relacionamento. Decisão emocional, direta.",
+          "Lá, trabalhei como Jovem Aprendiz no PCP da Cajuína São Geraldo. Rotina, processo, responsabilidade. Nada glamouroso. Ao mesmo tempo, tive formação pelo SENAI em Logística. Isso me deu base prática — <strong>disciplina, organização e visão de processo</strong> — coisas que eu uso até hoje sem nem perceber.",
+          "Mas o que marcou não foi o trabalho.",
+          "Foi o conjunto: a pressão, a distância de casa, a solidão, e questões pessoais que pesaram mais do que eu esperava. O relacionamento que me levou até lá não sobreviveu."
+        ],
+        "quote": "Ali começou a quebra."
+      },
+      {
+        "num": "03",
+        "year": "2024",
+        "title": "Voltei pra São Paulo.\nMas não voltei forte.",
+        "paragraphs": [
+          "Fiquei um mês praticamente parado. Sem direção, sem energia, com a cabeça bagunçada. Não era cansaço físico — era mental.",
+          "Frustração de ter tomado decisão errada. Sensação de tempo perdido. Raiva.",
+          "A Guebly nasceu nesse período. Não foi inspiração bonita. Foi <strong>necessidade de reagir</strong>."
+        ],
+        "quote": "Ou eu construo algo grande, ou eu fico preso nisso. O que me fez levantar não foi motivação. Foi incômodo."
+      },
+      {
+        "num": "04",
+        "year": "2024 — Hoje",
+        "title": "Em 6 meses, construí\numa holding do zero.",
+        "paragraphs": [
+          "A Guebly começou sem estrutura ideal. Sem investimento alto. Sem equipe grande. Sem garantia de nada. Só eu, conhecimento técnico e vontade de fazer acontecer.",
+          "Os primeiros projetos não caíram no colo. Vieram de correr atrás, testar, errar e ajustar. Nada foi validado de primeira.",
+          "E sim, teve sacrifício: paz mental, estabilidade, relacionamento, tempo. <strong>Construir algo do zero cobra.</strong>",
+          "Hoje são 4 CNPJs, 14 unidades de negócio, produtos reais em produção, clientes pagando. Não por inspiração — por execução."
+        ]
+      }
+    ]
+  },
+  "ecossistema": {
+    "badge": "O Ecossistema",
+    "title": "A Guebly.",
+    "subtitle": "Uma holding de tecnologia construída do zero. 4 CNPJs, 14 unidades de negócio, produtos reais em produção. Tecnologia como base. Negócio como objetivo.",
+    "holdingDesc": "Holding controladora. Detentora da propriedade intelectual e dos ativos de todo o grupo.",
+    "holdingType": "Governança",
+    "live": "Operando",
+    "branches": [
+      {
+        "name": "Guebly LTDA",
+        "type": "Operacional",
+        "description": "Braço operacional principal. Contrata, emite NF, assina contratos. Repasse de 25% à Holding.",
+        "subs": [
+          { "name": "Guebly Studio", "sector": "Automação", "status": "live" },
+          { "name": "Guebly Pay", "sector": "Pagamentos", "status": "live" },
+          { "name": "Trocaí", "sector": "Marketplace", "status": "dev" },
+          { "name": "Guebly Games", "sector": "Jogos", "status": "dev" },
+          { "name": "Vendaí", "sector": "E-commerce", "status": "dev" }
+        ]
+      },
+      {
+        "name": "Ayon LTDA",
+        "type": "Audiovisual",
+        "description": "Holding 100%. Produção audiovisual, streaming e educação. Repasse de 25% à Holding.",
+        "subs": [
+          { "name": "Ayon Studios", "sector": "Produtora", "status": "dev" },
+          { "name": "Ayon+", "sector": "Streaming", "status": "dev" },
+          { "name": "Ayon Academy", "sector": "Educação", "status": "dev" }
+        ]
+      },
+      {
+        "name": "Guebly Contábil",
+        "type": "Contabilidade",
+        "description": "Escritório contábil com software proprietário. App web + mobile. Repasse de 25% à Holding.",
+        "subs": [
+          { "name": "Plataforma Contábil", "sector": "SaaS", "status": "live" }
+        ]
+      },
+      {
+        "name": "Sentrion",
+        "type": "Segurança",
+        "description": "Holding 100%. Tecnologia de segurança e monitoramento. Repasse de 25% à Holding.",
+        "subs": [
+          { "name": "Sentrion Vision", "sector": "Monitoramento de câmeras", "status": "dev" }
+        ]
+      }
+    ]
+  },
+  "projetos": {
+    "badge": "Projetos",
+    "title": "O que eu construí.",
+    "github": "Ver no GitHub",
+    "items": [
+      {
+        "name": "FlowRunner",
+        "description": "Automação desktop com reconhecimento de imagem e timing randomizado.",
+        "tech": ["Python", "Automação"],
+        "url": "https://github.com/degabrielofi_/FlowRunner"
+      },
+      {
+        "name": "guebly-readme-to-pdf",
+        "description": "Transforma README.md em PDF premium com temas e preview ao vivo.",
+        "tech": ["TypeScript", "Tool"],
+        "url": "https://github.com/guebly/guebly-readme-to-pdf"
+      },
+      {
+        "name": "guebly-text-formatter",
+        "description": "Converte markdown e texto de IA para LinkedIn, Instagram e WhatsApp.",
+        "tech": ["TypeScript", "Tool"],
+        "url": "https://github.com/guebly/guebly-text-formatter"
+      },
+      {
+        "name": "GueblyScaffold",
+        "description": "Gera estrutura de pastas e arquivos a partir de árvores de projeto.",
+        "tech": ["JavaScript", "Dev tool"],
+        "url": "https://github.com/guebly/GueblyScaffold"
+      },
+      {
+        "name": "SaoPauloRP",
+        "description": "Sistema automatizado de whitelist para servidor GTA RP via Discord.",
+        "tech": ["Discord.js", "Bot"],
+        "url": "https://github.com/degabrielofi_/SaoPauloRP"
+      }
+    ]
+  },
+  "contato": {
+    "badge": "Contato",
+    "titleLine1": "Vamos construir",
+    "titleLine2": "algo.",
+    "subtitle": "Se você tem um projeto, uma ideia ou só quer trocar uma ideia — manda mensagem. Não promessa. Não hype. Execução."
+  },
+  "footer": {
+    "built": "Construído por Gabriel Pereira",
+    "rights": "Todos os direitos reservados."
+  }
+}
