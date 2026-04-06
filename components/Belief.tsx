@@ -14,7 +14,7 @@ export default function Belief() {
         background: 'var(--color-bg)',
       }}
     >
-      <Container style={{ textAlign: 'center' }}>
+      <Container className="text-center">
         <FadeIn>
           {/* Decorative line */}
           <div
