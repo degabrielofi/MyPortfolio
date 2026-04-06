@@ -51,7 +51,7 @@ export default function Hero() {
     <section style={{ minHeight: '100dvh', display: 'flex', alignItems: 'flex-start', position: 'relative', overflow: 'hidden', paddingBottom: 72, zIndex: 1 }}>
       <Container className="relative z-[2] w-full pt-[clamp(100px,14vh,160px)]">
         {/* Typing name */}
-        <div className="font-display" style={{ fontWeight: 900, lineHeight: 0.9, letterSpacing: '-0.03em', marginTop: 'clamp(32px, 6vh, 80px)' }}>
+        <div className="font-display" style={{ fontWeight: 900, lineHeight: 0.9, letterSpacing: '-0.03em', marginTop: 'clamp(64px, 12vh, 140px)' }}>
           <span ref={ln1} style={{ display: 'block', fontSize: 'clamp(3.8rem, 10vw, 9rem)', overflow: 'hidden', whiteSpace: 'nowrap' as const, borderRight: '3px solid var(--color-ac)', color: 'var(--color-tx)', width: 0, animation: 'typing 1s steps(7) .4s forwards, blink .6s step-end infinite' }} className="ln">GABRIEL</span>
           <span ref={ln2} style={{ display: 'block', fontSize: 'clamp(3.8rem, 10vw, 9rem)', overflow: 'hidden', whiteSpace: 'nowrap' as const, borderRight: '3px solid var(--color-ac)', color: 'var(--color-ac)', width: 0, animation: 'typing 1.1s steps(8) 1.6s forwards, blink .6s step-end 1.6s infinite' }} className="ln">PEREIRA.</span>
         </div>
