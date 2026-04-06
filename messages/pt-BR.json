@@ -189,12 +189,6 @@
         "description": "Gera estrutura de pastas e arquivos a partir de árvores de projeto.",
         "tech": ["JavaScript", "Dev tool"],
         "url": "https://github.com/guebly/GueblyScaffold"
-      },
-      {
-        "name": "SaoPauloRP",
-        "description": "Sistema automatizado de whitelist para servidor GTA RP via Discord.",
-        "tech": ["Discord.js", "Bot"],
-        "url": "https://github.com/degabrielofi_/SaoPauloRP"
       }
     ]
   },

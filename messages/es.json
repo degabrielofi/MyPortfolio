@@ -51,8 +51,7 @@
       { "name": "FlowRunner", "description": "Automatización desktop con reconocimiento de imagen y timing aleatorio.", "tech": ["Python", "Automatización"], "url": "https://github.com/degabrielofi_/FlowRunner" },
       { "name": "guebly-readme-to-pdf", "description": "Transforma README.md en PDF premium con temas y preview en vivo.", "tech": ["TypeScript", "Tool"], "url": "https://github.com/guebly/guebly-readme-to-pdf" },
       { "name": "guebly-text-formatter", "description": "Convierte markdown y texto de IA para LinkedIn, Instagram y WhatsApp.", "tech": ["TypeScript", "Tool"], "url": "https://github.com/guebly/guebly-text-formatter" },
-      { "name": "GueblyScaffold", "description": "Genera estructura de carpetas y archivos desde árboles de proyecto.", "tech": ["JavaScript", "Dev tool"], "url": "https://github.com/guebly/GueblyScaffold" },
-      { "name": "SaoPauloRP", "description": "Sistema automatizado de whitelist para servidor GTA RP vía Discord.", "tech": ["Discord.js", "Bot"], "url": "https://github.com/degabrielofi_/SaoPauloRP" }
+      { "name": "GueblyScaffold", "description": "Genera estructura de carpetas y archivos desde árboles de proyecto.", "tech": ["JavaScript", "Dev tool"], "url": "https://github.com/guebly/GueblyScaffold" }
     ]
   },
   "contato": { "badge": "Contacto", "titleLine1": "Vamos a construir", "titleLine2": "algo.", "subtitle": "Si tienes un proyecto, una idea o solo quieres charlar — manda un mensaje. Sin promesas. Sin hype. Ejecución.", "allNetworks": "en todas las redes" },
