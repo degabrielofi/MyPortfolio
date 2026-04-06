@@ -51,7 +51,7 @@ export default function Hero() {
     <section style={{ minHeight: '100vh', display: 'flex', alignItems: 'flex-end', position: 'relative', overflow: 'hidden', paddingBottom: 56, zIndex: 1 }}>
       <Container className="relative z-[2] pt-[140px]">
         {/* Typing name */}
-        <div className="font-display" style={{ fontWeight: 900, lineHeight: 0.9, letterSpacing: '-0.03em', minHeight: 'clamp(100px, 22vw, 220px)', marginTop: 48 }}>
+        <div className="font-display" style={{ fontWeight: 900, lineHeight: 0.9, letterSpacing: '-0.03em', minHeight: 'clamp(100px, 22vw, 220px)', marginTop: 'clamp(32px, 8vh, 96px)' }}>
           <span ref={ln1} style={{ display: 'block', fontSize: 'clamp(3.8rem, 10vw, 9rem)', overflow: 'hidden', whiteSpace: 'nowrap' as const, borderRight: '3px solid var(--color-ac)', color: 'var(--color-tx)', width: 0, animation: 'typing 1s steps(7) .4s forwards, blink .6s step-end infinite' }} className="ln">GABRIEL</span>
           <span ref={ln2} style={{ display: 'block', fontSize: 'clamp(3.8rem, 10vw, 9rem)', overflow: 'hidden', whiteSpace: 'nowrap' as const, borderRight: '3px solid var(--color-ac)', color: 'var(--color-ac)', width: 0, animation: 'typing 1.1s steps(8) 1.6s forwards, blink .6s step-end 1.6s infinite' }} className="ln">PEREIRA.</span>
         </div>
@@ -107,7 +107,7 @@ export default function Hero() {
         </div>
 
         {/* Bottom bar */}
-        <div style={{ marginTop: 48, paddingTop: 18, borderTop: '1px solid var(--color-bdr)', display: 'flex', justifyContent: 'space-between', alignItems: 'center', opacity: 0, animation: 'fadeIn .6s 3.5s forwards' }}>
+        <div style={{ marginTop: 48, paddingTop: 18, borderTop: '1px solid var(--color-bdr)', display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between', alignItems: 'center', gap: 12, opacity: 0, animation: 'fadeIn .6s 3.5s forwards' }}>
           <div>
             <div className="font-mono" style={{ display: 'flex', gap: 14, alignItems: 'center', fontSize: 11, color: 'var(--color-tx4)', letterSpacing: '.06em', textTransform: 'uppercase' as const }}>
               <span>São Paulo</span>

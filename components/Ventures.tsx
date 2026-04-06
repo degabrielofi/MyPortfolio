@@ -45,7 +45,7 @@ export default function Ventures() {
             <a href={`/${locale}/ecossistema`} className="font-mono" style={{ fontSize: 11, fontWeight: 500, color: 'var(--color-ac)', padding: '6px 14px', border: '1px solid var(--color-bdr)', borderRadius: 100, transition: 'all .3s' }}>{t('viewEcosystem')}</a>
           </div>
         </FadeIn>
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 12 }} className="max-[600px]:grid-cols-2">
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 12 }} className="max-[600px]:grid-cols-2 max-[380px]:grid-cols-1">
           {allVentures.map((v, i) => (
             <FadeIn key={i} delay={i * 0.04}>
               <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 10, padding: '28px 16px', borderRadius: 16, background: 'var(--color-bg2)', border: '1px solid var(--color-bdr)', transition: 'all .3s', textAlign: 'center', cursor: 'default' }}>
