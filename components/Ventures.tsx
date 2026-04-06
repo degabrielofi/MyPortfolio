@@ -49,13 +49,11 @@ export default function Ventures() {
           {allVentures.map((v, i) => (
             <FadeIn key={i} delay={i * 0.04}>
               <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 10, padding: '28px 16px', borderRadius: 16, background: 'var(--color-bg2)', border: '1px solid var(--color-bdr)', transition: 'all .3s', textAlign: 'center', cursor: 'default' }}>
-                <div style={{ width: 52, height: 52, borderRadius: 14, overflow: 'hidden', display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'var(--color-bg4)', border: '1px solid var(--color-bdr)' }}>
-                  {logos[v.name] ? (
-                    <img src={logos[v.name]} alt="" style={{ width: 32, height: 32, objectFit: 'contain' }} onError={(e) => { (e.currentTarget as HTMLImageElement).outerHTML = `<span class="font-display" style="font-weight:900;font-size:18px;color:var(--color-ac)">${v.name[0]}</span>`; }} />
-                  ) : (
-                    <span className="font-display" style={{ fontWeight: 900, fontSize: 18, color: 'var(--color-ac)' }}>{v.name[0]}</span>
-                  )}
-                </div>
+                {logos[v.name] ? (
+                  <img src={logos[v.name]} alt="" style={{ width: 52, height: 52, borderRadius: 14, border: '1px solid var(--color-bdr)', objectFit: 'cover', display: 'block', flexShrink: 0 }} onError={(e) => { (e.currentTarget as HTMLImageElement).outerHTML = `<span class="font-display" style="width:52px;height:52px;border-radius:14px;border:1px solid var(--color-bdr);display:flex;align-items:center;justify-content:center;background:var(--color-bg4);font-weight:900;font-size:18px;color:var(--color-ac)">${v.name[0]}</span>`; }} />
+                ) : (
+                  <span className="font-display" style={{ width: 52, height: 52, borderRadius: 14, border: '1px solid var(--color-bdr)', background: 'var(--color-bg4)', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 900, fontSize: 18, color: 'var(--color-ac)', flexShrink: 0 }}>{v.name[0]}</span>
+                )}
                 <div className="font-display" style={{ fontWeight: 600, fontSize: 13, color: 'var(--color-tx)' }}>{v.name}</div>
                 {v.status === 'live' ? (
                   <div className="font-mono" style={{ fontSize: 10, color: 'var(--color-ac)', display: 'flex', alignItems: 'center', gap: 4 }}>
