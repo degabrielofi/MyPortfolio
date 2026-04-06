@@ -50,12 +50,6 @@ export default function Hero() {
   return (
     <section style={{ minHeight: '100vh', display: 'flex', alignItems: 'flex-end', position: 'relative', overflow: 'hidden', paddingBottom: 56, zIndex: 1 }}>
       <Container className="relative z-[2] pt-[140px]">
-        {/* Badge */}
-        <div style={{ display: 'inline-flex', alignItems: 'center', gap: 10, marginBottom: 40, opacity: 0, animation: 'fadeIn .6s .2s forwards' }}>
-          <div style={{ width: 6, height: 6, borderRadius: '50%', background: 'var(--color-ac)', animation: 'pulse 2.5s infinite' }} />
-          <span className="font-mono" style={{ fontSize: 11, letterSpacing: '.1em', textTransform: 'uppercase' as const, color: 'var(--color-tx3)' }}>{t('badge')}</span>
-        </div>
-
         {/* Typing name */}
         <div className="font-display" style={{ fontWeight: 900, lineHeight: 0.9, letterSpacing: '-0.03em', minHeight: 'clamp(100px, 22vw, 220px)' }}>
           <span ref={ln1} style={{ display: 'block', fontSize: 'clamp(3.8rem, 10vw, 9rem)', overflow: 'hidden', whiteSpace: 'nowrap' as const, borderRight: '3px solid var(--color-ac)', color: 'var(--color-tx)', width: 0, animation: 'typing 1s steps(7) .4s forwards, blink .6s step-end infinite' }} className="ln">GABRIEL</span>
