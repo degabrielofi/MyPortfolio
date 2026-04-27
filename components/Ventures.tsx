@@ -17,10 +17,10 @@ const logos: Record<string, string> = {
 const allVentures = [
   { name: 'Guebly Studio', status: 'live', url: 'https://studio.guebly.com.br' },
   { name: 'Guebly Pay', status: 'live', url: 'https://pay.guebly.com.br' },
-  { name: 'Guebly Contábil', status: 'live' },
-  { name: 'Trocaí', status: 'dev', year: '2025' },
-  { name: 'Guebly Games', status: 'dev', year: '2025' },
-  { name: 'Ayon', status: 'dev', sector: 'Audiovisual' },
+  { name: 'Guebly Contábil', status: 'live', url: 'https://contabil.guebly.com.br' },
+  { name: 'Trocaí', status: 'dev', year: '2025', url: 'https://trocai.guebly.com.br' },
+  { name: 'Guebly Games', status: 'dev', year: '2025', url: 'https://games.guebly.com.br' },
+  { name: 'Ayon', status: 'dev', sector: 'Audiovisual', url: 'https://ayon.com.br' },
   { name: 'Sentrion', status: 'dev', sector: 'Segurança', url: 'https://sentrion.com.br' },
 ];
 

@@ -116,8 +116,12 @@ export default function Hero() {
               <span style={{ width: 1, height: 10, background: 'var(--color-bdr)' }} />
               <span>{new Date().getFullYear()}</span>
             </div>
-            <div className="font-mono" style={{ fontSize: 11, color: 'var(--color-tx4)', marginTop: 4 }}>
-              <span style={{ color: 'var(--color-tx)', fontWeight: 600 }}>deGabriel</span> · <a href="https://instagram.com/degabrielofi_" target="_blank" style={{ color: 'var(--color-ac)' }}>@degabrielofi_</a> {t('allNetworks')}
+            <div className="font-mono" style={{ fontSize: 11, color: 'var(--color-tx4)', marginTop: 4, display: 'flex', alignItems: 'center', gap: 6 }}>
+              <img src="/dg-dark.png" alt="deGabriel" className="dark:block hidden" style={{ height: 18, width: 'auto', mixBlendMode: 'screen' }} />
+              <img src="/dg-light.png" alt="deGabriel" className="dark:hidden block" style={{ height: 18, width: 'auto', mixBlendMode: 'multiply' }} />
+              <span>·</span>
+              <a href="https://instagram.com/degabrielofi_" target="_blank" style={{ color: 'var(--color-ac)' }}>@degabrielofi_</a>
+              <span>{t('allNetworks')}</span>
             </div>
           </div>
           <div className="font-mono" style={{ fontSize: 11, color: 'var(--color-tx4)', letterSpacing: '.08em', textTransform: 'uppercase' as const, display: 'flex', gap: 6, alignItems: 'center' }}>
