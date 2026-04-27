@@ -170,7 +170,7 @@
         "name": "FlowRunner",
         "description": "Automação desktop com reconhecimento de imagem e timing randomizado.",
         "tech": ["Python", "Automação"],
-        "url": "https://github.com/degabrielofi_/FlowRunner"
+        "url": "https://github.com/degabrielofi/FlowRunner"
       },
       {
         "name": "guebly-readme-to-pdf",

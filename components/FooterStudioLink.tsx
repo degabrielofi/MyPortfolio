@@ -25,7 +25,7 @@ export default function FooterStudioLink() {
       />
       <span
         style={{
-          fontFamily: 'var(--font-jet)',
+          fontFamily: 'var(--font-ibm)',
           fontSize: 10,
           color: 'var(--color-muted)',
           letterSpacing: '0.06em',

@@ -20,7 +20,7 @@ export default function Projects() {
         <FadeIn>
           <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'flex-end', justifyContent: 'space-between', gap: 16, marginBottom: 48 }}>
             <h2 className="font-display" style={{ fontWeight: 900, fontSize: 'clamp(2rem, 5vw, 3.5rem)', color: 'var(--color-tx)', lineHeight: 1.1 }}>{t('title')}</h2>
-            <a href="https://github.com/degabrielofi_" target="_blank" className="font-mono" style={{ fontSize: 11, fontWeight: 500, color: 'var(--color-ac)', padding: '6px 14px', border: '1px solid var(--color-bdr)', borderRadius: 100, transition: 'all .3s' }}>{t('github')}</a>
+            <a href="https://github.com/degabrielofi" target="_blank" className="font-mono" style={{ fontSize: 11, fontWeight: 500, color: 'var(--color-ac)', padding: '6px 14px', border: '1px solid var(--color-bdr)', borderRadius: 100, transition: 'all .3s' }}>{t('github')}</a>
           </div>
         </FadeIn>
         {items.map((p, i) => (

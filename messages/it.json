@@ -48,7 +48,7 @@
   "projetos": {
     "badge": "Progetti", "title": "Cosa ho costruito.", "github": "Vedi su GitHub",
     "items": [
-      { "name": "FlowRunner", "description": "Automazione desktop con riconoscimento immagini e timing randomizzato.", "tech": ["Python", "Automazione"], "url": "https://github.com/degabrielofi_/FlowRunner" },
+      { "name": "FlowRunner", "description": "Automazione desktop con riconoscimento immagini e timing randomizzato.", "tech": ["Python", "Automazione"], "url": "https://github.com/degabrielofi/FlowRunner" },
       { "name": "guebly-readme-to-pdf", "description": "Trasforma README.md in PDF premium con temi e anteprima live.", "tech": ["TypeScript", "Tool"], "url": "https://github.com/guebly/guebly-readme-to-pdf" },
       { "name": "guebly-text-formatter", "description": "Converte markdown e testo AI per LinkedIn, Instagram e WhatsApp.", "tech": ["TypeScript", "Tool"], "url": "https://github.com/guebly/guebly-text-formatter" },
       { "name": "GueblyScaffold", "description": "Genera struttura di cartelle e file da alberi di progetto.", "tech": ["JavaScript", "Dev tool"], "url": "https://github.com/guebly/GueblyScaffold" },
