@@ -22,9 +22,18 @@ function Counter({ target }: { target: number }) {
   return <div ref={ref} className="font-display" style={{ fontWeight: 900, fontSize: 'clamp(2.5rem, 4.5vw, 3.5rem)', color: 'var(--color-tx)', lineHeight: 1 }}>{val}</div>;
 }
 
+const BIRTH = new Date('2006-09-05');
+function getAge() {
+  const today = new Date();
+  let age = today.getFullYear() - BIRTH.getFullYear();
+  if (today < new Date(today.getFullYear(), BIRTH.getMonth(), BIRTH.getDate())) age--;
+  return age;
+}
+
 export default function Numbers() {
   const t = useTranslations('numbers');
-  const items = t.raw('items') as Array<{ value: string; label: string }>;
+  const raw = t.raw('items') as Array<{ value: string; label: string }>;
+  const items = raw.map((item, i) => i === 0 ? { ...item, value: String(getAge()) } : item);
   return (
     <section style={{ padding: '80px 0', borderBottom: '1px solid var(--color-bdr)', background: 'var(--color-bg2)', position: 'relative', zIndex: 1 }}>
       <Container>

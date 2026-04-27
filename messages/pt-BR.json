@@ -189,6 +189,12 @@
         "description": "Gera estrutura de pastas e arquivos a partir de árvores de projeto.",
         "tech": ["JavaScript", "Dev tool"],
         "url": "https://github.com/guebly/GueblyScaffold"
+      },
+      {
+        "name": "guebly-readme-stats",
+        "description": "Gera cards SVG dinâmicos para README do GitHub — stats, linguagens, streaks e mais, com temas exclusivos Guebly.",
+        "tech": ["TypeScript", "SVG", "API"],
+        "url": "https://github.com/Guebly/guebly-readme-stats"
       }
     ]
   },
