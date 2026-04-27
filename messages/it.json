@@ -48,11 +48,11 @@
   "projetos": {
     "badge": "Progetti", "title": "Cosa ho costruito.", "github": "Vedi su GitHub",
     "items": [
+      { "name": "guebly-readme-stats", "description": "Genera card SVG dinamiche per README GitHub — stats, linguaggi, streak e altro, con temi esclusivi Guebly.", "tech": ["TypeScript", "SVG", "API"], "url": "https://github.com/Guebly/guebly-readme-stats" },
       { "name": "FlowRunner", "description": "Automazione desktop con riconoscimento immagini e timing randomizzato.", "tech": ["Python", "Automazione"], "url": "https://github.com/degabrielofi/FlowRunner" },
       { "name": "guebly-readme-to-pdf", "description": "Trasforma README.md in PDF premium con temi e anteprima live.", "tech": ["TypeScript", "Tool"], "url": "https://github.com/guebly/guebly-readme-to-pdf" },
       { "name": "guebly-text-formatter", "description": "Converte markdown e testo AI per LinkedIn, Instagram e WhatsApp.", "tech": ["TypeScript", "Tool"], "url": "https://github.com/guebly/guebly-text-formatter" },
-      { "name": "GueblyScaffold", "description": "Genera struttura di cartelle e file da alberi di progetto.", "tech": ["JavaScript", "Dev tool"], "url": "https://github.com/guebly/GueblyScaffold" },
-      { "name": "guebly-readme-stats", "description": "Genera card SVG dinamiche per README GitHub — stats, linguaggi, streak e altro, con temi esclusivi Guebly.", "tech": ["TypeScript", "SVG", "API"], "url": "https://github.com/Guebly/guebly-readme-stats" }
+      { "name": "GueblyScaffold", "description": "Genera struttura di cartelle e file da alberi di progetto.", "tech": ["JavaScript", "Dev tool"], "url": "https://github.com/guebly/GueblyScaffold" }
     ]
   },
   "contato": { "badge": "Contatto", "titleLine1": "Costruiamo", "titleLine2": "qualcosa.", "subtitle": "Se hai un progetto, un'idea o vuoi solo fare due chiacchiere — manda un messaggio. Niente promesse. Niente hype. Esecuzione.", "allNetworks": "su tutti i social" },
