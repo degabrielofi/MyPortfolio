@@ -117,7 +117,7 @@ export default function Hero() {
               <span>{new Date().getFullYear()}</span>
             </div>
             <div className="font-mono" style={{ fontSize: 11, color: 'var(--color-tx4)', marginTop: 4 }}>
-              {t('allNetworks')} <a href="https://instagram.com/degabrielofi_" target="_blank" style={{ color: 'var(--color-ac)' }}>@degabrielofi_</a>
+              <span style={{ color: 'var(--color-tx)', fontWeight: 600 }}>deGabriel</span> · <a href="https://instagram.com/degabrielofi_" target="_blank" style={{ color: 'var(--color-ac)' }}>@degabrielofi_</a> {t('allNetworks')}
             </div>
           </div>
           <div className="font-mono" style={{ fontSize: 11, color: 'var(--color-tx4)', letterSpacing: '.08em', textTransform: 'uppercase' as const, display: 'flex', gap: 6, alignItems: 'center' }}>

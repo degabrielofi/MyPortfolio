@@ -15,13 +15,13 @@ const logos: Record<string, string> = {
 };
 
 const allVentures = [
-  { name: 'Guebly Studio', status: 'live' },
-  { name: 'Guebly Pay', status: 'live' },
+  { name: 'Guebly Studio', status: 'live', url: 'https://studio.guebly.com.br' },
+  { name: 'Guebly Pay', status: 'live', url: 'https://pay.guebly.com.br' },
   { name: 'Guebly Contábil', status: 'live' },
   { name: 'Trocaí', status: 'dev', year: '2025' },
   { name: 'Guebly Games', status: 'dev', year: '2025' },
   { name: 'Ayon', status: 'dev', sector: 'Audiovisual' },
-  { name: 'Sentrion', status: 'dev', sector: 'Segurança' },
+  { name: 'Sentrion', status: 'dev', sector: 'Segurança', url: 'https://sentrion.com.br' },
 ];
 
 export default function Ventures() {
@@ -48,6 +48,24 @@ export default function Ventures() {
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 12 }} className="max-[600px]:grid-cols-2 max-[380px]:grid-cols-1">
           {allVentures.map((v, i) => (
             <FadeIn key={i} delay={i * 0.04}>
+              {v.url ? (
+                <a href={v.url} target="_blank" rel="noopener noreferrer" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 10, padding: '28px 16px', borderRadius: 16, background: 'var(--color-bg2)', border: '1px solid var(--color-bdr)', transition: 'all .3s', textAlign: 'center', cursor: 'pointer', textDecoration: 'none' }}>
+                {logos[v.name] ? (
+                  <img src={logos[v.name]} alt="" style={{ width: 52, height: 52, borderRadius: 14, border: '1px solid var(--color-bdr)', objectFit: 'cover', display: 'block', flexShrink: 0 }} onError={(e) => { (e.currentTarget as HTMLImageElement).outerHTML = `<span class="font-display" style="width:52px;height:52px;border-radius:14px;border:1px solid var(--color-bdr);display:flex;align-items:center;justify-content:center;background:var(--color-bg4);font-weight:900;font-size:18px;color:var(--color-ac)">${v.name[0]}</span>`; }} />
+                ) : (
+                  <span className="font-display" style={{ width: 52, height: 52, borderRadius: 14, border: '1px solid var(--color-bdr)', background: 'var(--color-bg4)', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 900, fontSize: 18, color: 'var(--color-ac)', flexShrink: 0 }}>{v.name[0]}</span>
+                )}
+                <div className="font-display" style={{ fontWeight: 600, fontSize: 13, color: 'var(--color-tx)' }}>{v.name}</div>
+                {v.status === 'live' ? (
+                  <div className="font-mono" style={{ fontSize: 10, color: 'var(--color-ac)', display: 'flex', alignItems: 'center', gap: 4 }}>
+                    <span style={{ width: 4, height: 4, borderRadius: '50%', background: 'var(--color-ac)', animation: 'pulse 2s infinite' }} />
+                    {t('live')}
+                  </div>
+                ) : (
+                  <div className="font-mono" style={{ fontSize: 10, color: 'var(--color-tx4)' }}>{(v as { year?: string; sector?: string }).year || (v as { year?: string; sector?: string }).sector}</div>
+                )}
+                </a>
+              ) : (
               <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 10, padding: '28px 16px', borderRadius: 16, background: 'var(--color-bg2)', border: '1px solid var(--color-bdr)', transition: 'all .3s', textAlign: 'center', cursor: 'default' }}>
                 {logos[v.name] ? (
                   <img src={logos[v.name]} alt="" style={{ width: 52, height: 52, borderRadius: 14, border: '1px solid var(--color-bdr)', objectFit: 'cover', display: 'block', flexShrink: 0 }} onError={(e) => { (e.currentTarget as HTMLImageElement).outerHTML = `<span class="font-display" style="width:52px;height:52px;border-radius:14px;border:1px solid var(--color-bdr);display:flex;align-items:center;justify-content:center;background:var(--color-bg4);font-weight:900;font-size:18px;color:var(--color-ac)">${v.name[0]}</span>`; }} />
@@ -64,6 +82,7 @@ export default function Ventures() {
                   <div className="font-mono" style={{ fontSize: 10, color: 'var(--color-tx4)' }}>{v.year || v.sector}</div>
                 )}
               </div>
+              )}
             </FadeIn>
           ))}
         </div>
