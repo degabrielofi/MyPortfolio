@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-07-05 (atualização 4)
+
+- Navbar: corrigido bug crítico no Android — `display` inline sobrescrevia classes Tailwind responsivas, deixando nav desktop, seletor de idioma e hamburger todos visíveis ao mesmo tempo
+- Navbar mobile agora usa `hidden md:flex` / `flex md:hidden` sem nenhum `display` inline nos elementos responsivos
+
 ## 2026-07-05 (atualização 3)
 
 - Corrigido Hero: `overflow: hidden` trocado por `overflowX: hidden` — no Android impedia crescimento além de 100dvh, fazendo Story sobrepor o Hero
