@@ -50,7 +50,8 @@ export default function Navbar() {
             Gabriel Pereira
           </a>
 
-          <nav style={{ display: 'flex', gap: 24, alignItems: 'center' }} className="max-md:hidden">
+          {/* Desktop nav — hidden on mobile via Tailwind (sem display inline) */}
+          <nav className="hidden md:flex" style={{ gap: 24, alignItems: 'center' }}>
             {links.map(({ href, label }) => (
               <a key={href} href={href} className="font-display" style={{ fontSize: 11, fontWeight: 600, letterSpacing: '.06em', textTransform: 'uppercase' as const, color: 'var(--color-tx4)', transition: 'color .3s' }}>
                 {label}
@@ -59,8 +60,8 @@ export default function Navbar() {
           </nav>
 
           <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
-            {/* Locale switcher — desktop (com separadores) */}
-            <div className="max-md:hidden" style={{ display: 'flex', alignItems: 'center', gap: 4 }}>
+            {/* Locale switcher — desktop (sem display inline) */}
+            <div className="hidden md:flex" style={{ alignItems: 'center', gap: 4 }}>
               {LOCALES.map(({ code, label }, i) => (
                 <span key={code} style={{ display: 'flex', alignItems: 'center' }}>
                   <button onClick={() => router.replace(pathname, { locale: code })} className="font-mono" style={{ fontSize: 11, fontWeight: 500, padding: '2px 4px', border: 'none', background: 'none', cursor: 'pointer', color: locale === code ? 'var(--color-ac)' : 'var(--color-tx4)', transition: 'color .3s' }}>
@@ -71,8 +72,8 @@ export default function Navbar() {
               ))}
             </div>
 
-            {/* Locale switcher — mobile (compacto, sempre visível) */}
-            <div className="md:hidden" style={{ display: 'flex', alignItems: 'center', gap: 1 }}>
+            {/* Locale switcher — mobile compacto (sem display inline) */}
+            <div className="flex md:hidden" style={{ alignItems: 'center', gap: 1 }}>
               {LOCALES.map(({ code, label }) => (
                 <button key={code} onClick={() => router.replace(pathname, { locale: code })} className="font-mono" style={{ fontSize: 10, fontWeight: 500, padding: '3px 4px', border: 'none', background: 'none', cursor: 'pointer', color: locale === code ? 'var(--color-ac)' : 'var(--color-tx4)', transition: 'color .3s', lineHeight: 1 }}>
                   {label}
@@ -90,12 +91,13 @@ export default function Navbar() {
               </button>
             )}
 
-            <div style={{ width: 6, height: 6, borderRadius: '50%', background: 'var(--color-ac)', animation: 'pulse 2.5s infinite' }} className="max-md:hidden" />
+            <div style={{ width: 6, height: 6, borderRadius: '50%', background: 'var(--color-ac)', animation: 'pulse 2.5s infinite' }} className="hidden md:block" />
 
+            {/* Hamburger — mobile only (sem display inline) */}
             <button
-              className="md:hidden"
+              className="flex md:hidden"
               onClick={() => setMenuOpen(o => !o)}
-              style={{ width: 32, height: 32, borderRadius: 8, border: '1px solid var(--color-bdr)', background: 'none', color: 'var(--color-tx4)', cursor: 'pointer', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: 5, transition: 'all .3s' }}
+              style={{ width: 32, height: 32, borderRadius: 8, border: '1px solid var(--color-bdr)', background: 'none', color: 'var(--color-tx4)', cursor: 'pointer', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: 5, transition: 'all .3s' }}
               aria-label="Menu"
             >
               <span style={{ width: 14, height: 1.5, background: 'currentColor', transition: 'all .3s', transform: menuOpen ? 'translateY(3.5px) rotate(45deg)' : 'none', display: 'block' }} />
@@ -106,7 +108,7 @@ export default function Navbar() {
         </div>
       </header>
 
-      {/* Mobile menu */}
+      {/* Mobile menu — sem display inline, Tailwind controla */}
       <div
         className="md:hidden"
         style={{
