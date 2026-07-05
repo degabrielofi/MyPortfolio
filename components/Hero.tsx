@@ -57,7 +57,7 @@ export default function Hero() {
         </div>
 
         {/* Content grid */}
-        <div style={{ display: 'grid', gridTemplateColumns: '1fr 140px', gap: 24, alignItems: 'start', marginTop: 28 }} className="md:grid-cols-[1fr_240px] md:gap-[40px] md:items-end">
+        <div style={{ display: 'grid', marginTop: 28 }} className="grid-cols-[1fr_140px] gap-6 items-start md:grid-cols-[1fr_240px] md:gap-[40px] md:items-end">
           <div>
             <p className="font-display" style={{ fontSize: 13, fontWeight: 600, letterSpacing: '.16em', textTransform: 'uppercase' as const, color: 'var(--color-tx3)', opacity: 0, animation: 'fadeIn .6s 2.8s forwards' }}>{t('role')}</p>
             <p style={{ marginTop: 12, fontSize: 15.5, color: 'var(--color-tx3)', lineHeight: 1.75, maxWidth: 480, opacity: 0, animation: 'fadeIn .6s 3s forwards' }}>{t('description')}</p>

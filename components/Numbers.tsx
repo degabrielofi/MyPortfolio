@@ -37,7 +37,7 @@ export default function Numbers() {
   return (
     <section style={{ padding: '80px 0', borderBottom: '1px solid var(--color-bdr)', background: 'var(--color-bg2)', position: 'relative', zIndex: 1 }}>
       <Container>
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)' }} className="max-[600px]:grid-cols-2 max-[600px]:gap-y-9">
+        <div style={{ display: 'grid' }} className="grid-cols-4 max-[600px]:grid-cols-2 max-[600px]:gap-y-9">
           {items.map((item, i) => (
             <div key={i} style={{ textAlign: 'center', position: 'relative' }}>
               <Counter target={parseInt(item.value)} />
