@@ -100,9 +100,9 @@ export default function Navbar() {
               style={{ width: 32, height: 32, borderRadius: 8, border: '1px solid var(--color-bdr)', background: 'none', color: 'var(--color-tx4)', cursor: 'pointer', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: 5, transition: 'all .3s' }}
               aria-label="Menu"
             >
-              <span style={{ width: 14, height: 1.5, background: 'currentColor', transition: 'all .3s', transform: menuOpen ? 'translateY(3.5px) rotate(45deg)' : 'none', display: 'block' }} />
+              <span style={{ width: 14, height: 1.5, background: 'currentColor', transition: 'all .3s', transform: menuOpen ? 'translateY(6.5px) rotate(45deg)' : 'none', display: 'block' }} />
               <span style={{ width: 14, height: 1.5, background: 'currentColor', transition: 'all .3s', opacity: menuOpen ? 0 : 1, display: 'block' }} />
-              <span style={{ width: 14, height: 1.5, background: 'currentColor', transition: 'all .3s', transform: menuOpen ? 'translateY(-3.5px) rotate(-45deg)' : 'none', display: 'block' }} />
+              <span style={{ width: 14, height: 1.5, background: 'currentColor', transition: 'all .3s', transform: menuOpen ? 'translateY(-6.5px) rotate(-45deg)' : 'none', display: 'block' }} />
             </button>
           </div>
         </div>
