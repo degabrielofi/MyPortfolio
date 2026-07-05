@@ -12,7 +12,7 @@ const socials = [
 export default function Contact() {
   const t = useTranslations('contato');
   return (
-    <section id="contact" style={{ padding: '160px 0 80px', position: 'relative', zIndex: 1 }}>
+    <section id="contact" style={{ padding: '160px 0 80px', position: 'relative', zIndex: 1, scrollMarginTop: 64 }}>
       <Container>
         <FadeIn>
           <div style={{ display: 'flex', alignItems: 'center', gap: 14, marginBottom: 40 }}>

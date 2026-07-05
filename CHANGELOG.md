@@ -1,6 +1,14 @@
 # Changelog
 
-## 2026-07-05
+## 2026-07-05 (atualização 3)
+
+- Corrigido Hero: `overflow: hidden` trocado por `overflowX: hidden` — no Android impedia crescimento além de 100dvh, fazendo Story sobrepor o Hero
+- Adicionado `scrollMarginTop: 64` em todas as seções com anchor (#historia, #ventures, #projects, #contact) — corrige posicionamento atrás do header fixo
+- Navbar: idiomas agora visíveis diretamente na barra mobile (sem precisar abrir o menu)
+- SEO: metadata agora gerada por locale com título, descrição, idade dinâmica, OpenGraph e Twitter Card
+- `metadataBase` configurado para me.degabrielofi.com.br
+
+## 2026-07-05 (atualização 2)
 
 - Corrigida responsividade: grids inline style sobrescrevendo classes Tailwind (Hero, Numbers, Ventures, Ecossistema)
 - Hero: fonte do título reduzida no mínimo para telas < 400px; foto oculta em telas muito pequenas

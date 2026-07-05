@@ -9,7 +9,7 @@ export default function Projects() {
   const t = useTranslations('projetos');
   const items = t.raw('items') as Array<{ name: string; description: string; tech: string[]; url: string }>;
   return (
-    <section id="projects" style={{ padding: '160px 0', borderBottom: '1px solid var(--color-bdr)', position: 'relative', zIndex: 1 }}>
+    <section id="projects" style={{ padding: '160px 0', borderBottom: '1px solid var(--color-bdr)', position: 'relative', zIndex: 1, scrollMarginTop: 64 }}>
       <Container>
         <FadeIn>
           <div style={{ display: 'flex', alignItems: 'center', gap: 14, marginBottom: 40 }}>

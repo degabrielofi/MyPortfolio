@@ -24,7 +24,7 @@ export default function Ventures() {
   const t = useTranslations('ecossistema');
   const locale = useLocale();
   return (
-    <section id="ventures" style={{ padding: '160px 0', borderBottom: '1px solid var(--color-bdr)', position: 'relative', zIndex: 1 }}>
+    <section id="ventures" style={{ padding: '160px 0', borderBottom: '1px solid var(--color-bdr)', position: 'relative', zIndex: 1, scrollMarginTop: 64 }}>
       <Container>
         <FadeIn>
           <div style={{ display: 'flex', alignItems: 'center', gap: 14, marginBottom: 40 }}>

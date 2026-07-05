@@ -56,7 +56,7 @@ export default function Hero() {
   }, []);
 
   return (
-    <section style={{ minHeight: '100dvh', display: 'flex', alignItems: 'flex-start', position: 'relative', overflow: 'hidden', paddingBottom: 72, zIndex: 1 }}>
+    <section style={{ minHeight: '100dvh', display: 'flex', alignItems: 'flex-start', position: 'relative', overflowX: 'hidden', paddingBottom: 72, zIndex: 1 }}>
       <Container className="relative z-[2] w-full pt-[clamp(100px,14vh,160px)]">
         {/* Typing name */}
         <div className="font-display" style={{ fontWeight: 900, lineHeight: 0.9, letterSpacing: '-0.03em', marginTop: 'clamp(64px, 12vh, 140px)' }}>

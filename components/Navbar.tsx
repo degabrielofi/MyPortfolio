@@ -58,7 +58,8 @@ export default function Navbar() {
             ))}
           </nav>
 
-          <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+            {/* Locale switcher — desktop (com separadores) */}
             <div className="max-md:hidden" style={{ display: 'flex', alignItems: 'center', gap: 4 }}>
               {LOCALES.map(({ code, label }, i) => (
                 <span key={code} style={{ display: 'flex', alignItems: 'center' }}>
@@ -67,6 +68,15 @@ export default function Navbar() {
                   </button>
                   {i < LOCALES.length - 1 && <span style={{ color: 'var(--color-tx4)', fontSize: 10, margin: '0 2px' }}>·</span>}
                 </span>
+              ))}
+            </div>
+
+            {/* Locale switcher — mobile (compacto, sempre visível) */}
+            <div className="md:hidden" style={{ display: 'flex', alignItems: 'center', gap: 1 }}>
+              {LOCALES.map(({ code, label }) => (
+                <button key={code} onClick={() => router.replace(pathname, { locale: code })} className="font-mono" style={{ fontSize: 10, fontWeight: 500, padding: '3px 4px', border: 'none', background: 'none', cursor: 'pointer', color: locale === code ? 'var(--color-ac)' : 'var(--color-tx4)', transition: 'color .3s', lineHeight: 1 }}>
+                  {label}
+                </button>
               ))}
             </div>
 

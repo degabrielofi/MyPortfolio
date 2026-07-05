@@ -10,7 +10,7 @@ export default function Story() {
   const chapters = th.raw('chapters') as Array<{ num: string; year: string; title: string; paragraphs: string[]; quote?: string }>;
 
   return (
-    <section id="historia" style={{ padding: '160px 0', borderBottom: '1px solid var(--color-bdr)', position: 'relative', zIndex: 1 }}>
+    <section id="historia" style={{ padding: '160px 0', borderBottom: '1px solid var(--color-bdr)', position: 'relative', zIndex: 1, scrollMarginTop: 64 }}>
       <Container>
         <FadeIn>
           <div style={{ display: 'flex', alignItems: 'center', gap: 14, marginBottom: 40 }}>
