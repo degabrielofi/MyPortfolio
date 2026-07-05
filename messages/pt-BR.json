@@ -114,6 +114,7 @@
   },
   "ecossistema": {
     "badge": "O Ecossistema",
+    "venturesTitle": "Ventures.",
     "viewEcosystem": "Ver ecossistema",
     "title": "A Guebly.",
     "subtitle": "Uma holding de tecnologia construída do zero. 4 CNPJs, 14 unidades de negócio, produtos reais em produção. Tecnologia como base. Negócio como objetivo.",
@@ -192,7 +193,9 @@
     "titleLine1": "Vamos construir",
     "titleLine2": "algo.",
     "subtitle": "Se você tem um projeto, uma ideia ou só quer trocar uma ideia — manda mensagem. Não promessa. Não hype. Execução.",
-    "allNetworks": "em todas as redes"
+    "allNetworks": "em todas as redes",
+    "emailLabel": "Email",
+    "linksLabel": "Links"
   },
   "footer": {
     "built": "Construído por Gabriel Pereira",

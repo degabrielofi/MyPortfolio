@@ -36,10 +36,10 @@
     ]
   },
   "ecossistema": {
-    "badge": "El Ecosistema", "viewEcosystem": "Ver ecosistema", "title": "Guebly.", "subtitle": "Un holding tecnológico construido desde cero. 4 empresas, 14 unidades de negocio. Tecnología como base. Negocio como objetivo.",
+    "badge": "El Ecosistema", "venturesTitle": "Ventures.", "viewEcosystem": "Ver ecosistema", "title": "Guebly.", "subtitle": "Un holding tecnológico construido desde cero. 4 empresas, 14 unidades de negocio. Tecnología como base. Negocio como objetivo.",
     "holdingDesc": "Holding controladora. Dueña de la propiedad intelectual de todo el grupo.", "holdingType": "Gobernanza", "live": "Operando",
     "branches": [
-      { "name": "Guebly LTDA", "type": "Operacional", "description": "Brazo operacional principal. 25% de repase a la Holding.", "subs": [{ "name": "Guebly Studio", "sector": "Automatización", "status": "live" }, { "name": "Guebly Pay", "sector": "Pagos", "status": "live" }, { "name": "Guebly Games", "sector": "Juegos", "status": "dev" }, { "name": "Vendaí", "sector": "E-commerce", "status": "dev" }] },
+      { "name": "Guebly LTDA", "type": "Operacional", "description": "Brazo operacional principal. Contrata, emite facturas, firma contratos. Transferencia del 25% a la Holding.", "subs": [{ "name": "Guebly Studio", "sector": "Automatización", "status": "live" }, { "name": "Guebly Pay", "sector": "Pagos", "status": "live" }, { "name": "Guebly Games", "sector": "Juegos", "status": "dev" }, { "name": "Vendaí", "sector": "E-commerce", "status": "dev" }] },
       { "name": "Guebly Contábil", "type": "Contabilidad", "description": "Oficina contable con software propio. App web + mobile.", "subs": [{ "name": "Plataforma Contable", "sector": "SaaS", "status": "live" }] },
       { "name": "Sentrion", "type": "Seguridad", "description": "100% Holding. Tecnología de seguridad y monitoreo.", "subs": [{ "name": "Sentrion Vision", "sector": "Monitoreo de cámaras", "status": "dev" }] }
     ]
@@ -54,6 +54,6 @@
       { "name": "GueblyScaffold", "description": "CLI que lee un árbol ASCII de proyecto y crea toda la estructura de carpetas y archivos en disco. Elimina el trabajo manual de setup inicial en nuevos proyectos.", "tech": ["JavaScript", "Dev tool"], "url": "https://github.com/guebly/GueblyScaffold" }
     ]
   },
-  "contato": { "badge": "Contacto", "titleLine1": "Vamos a construir", "titleLine2": "algo.", "subtitle": "Si tienes un proyecto, una idea o solo quieres charlar — manda un mensaje. Sin promesas. Sin hype. Ejecución.", "allNetworks": "en todas las redes" },
+  "contato": { "badge": "Contacto", "titleLine1": "Vamos a construir", "titleLine2": "algo.", "subtitle": "Si tienes un proyecto, una idea o solo quieres charlar — manda un mensaje. Sin promesas. Sin hype. Ejecución.", "allNetworks": "en todas las redes", "emailLabel": "Email", "linksLabel": "Links" },
   "footer": { "built": "Construido por Gabriel Pereira", "rights": "Todos los derechos reservados." }
 }

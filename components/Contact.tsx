@@ -28,11 +28,11 @@ export default function Contact() {
             </div>
             <div style={{ display: 'flex', flexDirection: 'column', gap: 20 }}>
               <div>
-                <div className="font-mono" style={{ fontSize: 10, letterSpacing: '.16em', textTransform: 'uppercase', color: 'var(--color-tx4)', marginBottom: 4 }}>Email</div>
+                <div className="font-mono" style={{ fontSize: 10, letterSpacing: '.16em', textTransform: 'uppercase', color: 'var(--color-tx4)', marginBottom: 4 }}>{t('emailLabel')}</div>
                 <a href="mailto:gabriel@guebly.com.br" className="font-display" style={{ fontSize: 15, fontWeight: 500, color: 'var(--color-tx)', transition: 'color .3s' }}>gabriel@guebly.com.br</a>
               </div>
               <div>
-                <div className="font-mono" style={{ fontSize: 10, letterSpacing: '.16em', textTransform: 'uppercase', color: 'var(--color-tx4)', marginBottom: 4 }}>Links</div>
+                <div className="font-mono" style={{ fontSize: 10, letterSpacing: '.16em', textTransform: 'uppercase', color: 'var(--color-tx4)', marginBottom: 4 }}>{t('linksLabel')}</div>
                 <div style={{ display: 'flex', gap: 7, flexWrap: 'wrap' }}>
                   {socials.map(({ href, d }) => (
                     <a key={href} href={href} target="_blank" rel="noopener noreferrer" style={{ width: 38, height: 38, border: '1px solid var(--color-bdr)', borderRadius: 10, display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'var(--color-tx4)', transition: 'all .25s' }}>

@@ -35,7 +35,7 @@ export default function Ventures() {
         <FadeIn>
           <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'flex-end', justifyContent: 'space-between', gap: 16, marginBottom: 48 }}>
             <div>
-              <h2 className="font-display" style={{ fontWeight: 900, fontSize: 'clamp(2rem, 5vw, 3.5rem)', color: 'var(--color-tx)', lineHeight: 1.1, marginBottom: 12 }}>Ventures.</h2>
+              <h2 className="font-display" style={{ fontWeight: 900, fontSize: 'clamp(2rem, 5vw, 3.5rem)', color: 'var(--color-tx)', lineHeight: 1.1, marginBottom: 12 }}>{t('venturesTitle')}</h2>
               <p style={{ fontSize: 15.5, color: 'var(--color-tx3)', maxWidth: 500, lineHeight: 1.75 }}>{t('subtitle')}</p>
             </div>
             <a href={`/${locale}/ecossistema`} className="font-mono" style={{ fontSize: 11, fontWeight: 500, color: 'var(--color-ac)', padding: '6px 14px', border: '1px solid var(--color-bdr)', borderRadius: 100, transition: 'all .3s' }}>{t('viewEcosystem')}</a>

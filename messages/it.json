@@ -36,7 +36,7 @@
     ]
   },
   "ecossistema": {
-    "badge": "L'Ecosistema", "viewEcosystem": "Vedi ecosistema", "title": "Guebly.", "subtitle": "Una holding tecnologica costruita da zero. 4 aziende, 14 unità di business. Tecnologia come base. Business come obiettivo.",
+    "badge": "L'Ecosistema", "venturesTitle": "Ventures.", "viewEcosystem": "Vedi ecosistema", "title": "Guebly.", "subtitle": "Una holding tecnologica costruita da zero. 4 aziende, 14 unità di business. Tecnologia come base. Business come obiettivo.",
     "holdingDesc": "Holding controllante. Proprietaria della proprietà intellettuale di tutto il gruppo.", "holdingType": "Governance", "live": "Operativo",
     "branches": [
       { "name": "Guebly LTDA", "type": "Operativo", "description": "Braccio operativo principale. 25% di trasferimento alla Holding.", "subs": [{ "name": "Guebly Studio", "sector": "Automazione", "status": "live" }, { "name": "Guebly Pay", "sector": "Pagamenti", "status": "live" }, { "name": "Guebly Games", "sector": "Gaming", "status": "dev" }, { "name": "Vendaí", "sector": "E-commerce", "status": "dev" }] },
@@ -54,6 +54,6 @@
       { "name": "GueblyScaffold", "description": "CLI che legge un albero ASCII di progetto e crea tutta la struttura di cartelle e file su disco. Elimina il lavoro manuale di setup iniziale per nuovi progetti.", "tech": ["JavaScript", "Dev tool"], "url": "https://github.com/guebly/GueblyScaffold" }
     ]
   },
-  "contato": { "badge": "Contatto", "titleLine1": "Costruiamo", "titleLine2": "qualcosa.", "subtitle": "Se hai un progetto, un'idea o vuoi solo fare due chiacchiere — manda un messaggio. Niente promesse. Niente hype. Esecuzione.", "allNetworks": "su tutti i social" },
+  "contato": { "badge": "Contatto", "titleLine1": "Costruiamo", "titleLine2": "qualcosa.", "subtitle": "Se hai un progetto, un'idea o vuoi solo fare due chiacchiere — manda un messaggio. Niente promesse. Niente hype. Esecuzione.", "allNetworks": "su tutti i social", "emailLabel": "Email", "linksLabel": "Link" },
   "footer": { "built": "Costruito da Gabriel Pereira", "rights": "Tutti i diritti riservati." }
 }

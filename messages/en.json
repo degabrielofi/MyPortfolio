@@ -47,6 +47,7 @@
   },
   "ecossistema": {
     "badge": "The Ecosystem",
+    "venturesTitle": "Ventures.",
     "viewEcosystem": "View ecosystem",
     "title": "Guebly.",
     "subtitle": "A tech holding built from scratch. 4 registered companies, 14 business units, real products in production. Technology as foundation. Business as the goal.",
@@ -76,7 +77,9 @@
     "titleLine1": "Let's build",
     "titleLine2": "something.",
     "subtitle": "If you have a project, an idea, or just want to chat — send a message. No promises. No hype. Execution.",
-    "allNetworks": "on all networks"
+    "allNetworks": "on all networks",
+    "emailLabel": "Email",
+    "linksLabel": "Links"
   },
   "footer": { "built": "Built by Gabriel Pereira", "rights": "All rights reserved." }
 }
