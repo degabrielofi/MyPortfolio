@@ -1,7 +1,6 @@
 {
   "nav": { "story": "Storia", "ecosystem": "Ecosistema", "projects": "Progetti", "contact": "Contatto" },
   "hero": {
-    "badge": "Fondatore & CEO · Guebly Holding · São Paulo",
     "role": "Fondatore. Architetto. Costruttore.",
     "description": "{age} anni. Ho avuto accesso, ma sono stato io a decidere di costruire qualcosa di più grande. Ho sbagliato, mi sono rotto, e comunque ho iniziato.",
     "body": "In 6 mesi, ho strutturato una holding tecnologica da zero. 4 aziende registrate, 14 unità di business, prodotti reali in produzione. Non per ispirazione — per esecuzione.",
@@ -11,18 +10,9 @@
   },
   "story": {
     "badge": "L'Origine",
-    "title": "Non ho iniziato dall'alto.",
-    "subtitle": "Ho iniziato dal seminterrato.",
     "fullTitle": "La storia completa.",
     "readFull": "Leggi completa",
-    "now": "Adesso",
-    "readMore": "Leggi la storia completa",
-    "acts": [
-      { "year": "2006 – 2022", "title": "Periferia di SP", "text": "Sono cresciuto nella periferia di São Paulo. Ho avuto accesso — computer, telefono, libertà di esplorare. Mentre molti con lo stesso accesso consumavano e basta, io ho iniziato a smanettare. Ho imparato la tecnologia da solo." },
-      { "year": "2023", "title": "Trasferito nel Ceará", "text": "A 18 anni, ho lasciato tutto ciò che conoscevo. Ho lavorato come apprendista alla Cajuína São Geraldo. Ho studiato Logistica al SENAI. La distanza, la pressione e questioni personali hanno cambiato tutto." },
-      { "year": "2024", "title": "Tornato distrutto", "text": "Sono tornato a São Paulo senza direzione, senza energia. Ho passato un mese praticamente paralizzato. Guebly è nata in quel periodo — non dall'ispirazione, ma dalla necessità di reagire." },
-      { "year": "2024 – Oggi", "title": "Ho costruito Guebly", "text": "In 6 mesi, ho strutturato una holding tecnologica da zero. 4 aziende registrate, 14 unità di business, prodotti in produzione. Non per ispirazione — per esecuzione." }
-    ]
+    "now": "Adesso"
   },
   "numbers": { "items": [{ "value": "19", "label": "Anni di età" }, { "value": "4", "label": "Aziende registrate" }, { "value": "14", "label": "Unità di business" }, { "value": "6", "label": "Mesi per costruire" }] },
   "belief": { "quote": "La tecnologia senza risultato è solo vanità.", "quoteStart": "La tecnologia senza risultato è solo ", "quoteEnd": "vanità." },
@@ -55,5 +45,5 @@
     ]
   },
   "contato": { "badge": "Contatto", "titleLine1": "Costruiamo", "titleLine2": "qualcosa.", "subtitle": "Se hai un progetto, un'idea o vuoi solo fare due chiacchiere — manda un messaggio. Niente promesse. Niente hype. Esecuzione.", "allNetworks": "su tutti i social", "emailLabel": "Email", "linksLabel": "Link" },
-  "footer": { "built": "Costruito da Gabriel Pereira", "rights": "Tutti i diritti riservati." }
+  "footer": { "built": "Costruito da Gabriel Pereira", "rights": "Tutti i diritti riservati.", "builtWithStudio": "Sviluppato da Guebly Studio" }
 }

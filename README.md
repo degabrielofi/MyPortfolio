@@ -6,7 +6,6 @@
 ![React](https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.7-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4.0-38BDF8?style=flat-square&logo=tailwindcss&logoColor=white)
-![Framer Motion](https://img.shields.io/badge/Framer_Motion-11-EE55BB?style=flat-square&logo=framer&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Deploy-Vercel-black?style=flat-square&logo=vercel)
 
 ---
@@ -25,7 +24,6 @@ Portfólio pessoal multidioma que apresenta a trajetória, o ecossistema de empr
 | [React](https://react.dev) | 19 | Biblioteca de UI |
 | [TypeScript](https://typescriptlang.org) | 5.7 | Tipagem estática |
 | [Tailwind CSS](https://tailwindcss.com) | 4.0 | Estilização utilitária |
-| [Framer Motion](https://www.framer.com/motion) | 11 | Animações declarativas |
 | [next-intl](https://next-intl-docs.vercel.app) | 3 | Internacionalização (i18n) |
 | [next-themes](https://github.com/pacocoursey/next-themes) | 0.4 | Gerenciamento de tema claro/escuro |
 
@@ -72,21 +70,21 @@ MyPortfolio/
 │   │   ├── historia/           # Página da história completa
 │   │   └── projetos/           # Página de projetos
 │   ├── layout.tsx              # Root layout
-│   └── globals.css             # Estilos globais
+│   └── globals.css             # Estilos globais e variáveis CSS
 ├── components/
-│   ├── ui/                     # Componentes de UI reutilizáveis
-│   ├── Navbar.tsx              # Barra de navegação
+│   ├── Navbar.tsx              # Barra de navegação com menu mobile
 │   ├── Footer.tsx              # Rodapé
-│   ├── Hero.tsx                # Seção hero
-│   ├── Story.tsx               # Seção de história
-│   ├── Numbers.tsx             # Cards de números/métricas
-│   ├── Ventures.tsx            # Seção do ecossistema
-│   ├── Projects.tsx            # Seção de projetos
+│   ├── FooterStudioLink.tsx    # Link Guebly Studio no rodapé
+│   ├── Hero.tsx                # Seção hero com animação de digitação
+│   ├── Story.tsx               # Seção de história com capítulos
+│   ├── Numbers.tsx             # Cards de métricas com contador animado
+│   ├── Ventures.tsx            # Cards do ecossistema de empresas
+│   ├── Projects.tsx            # Lista de projetos open-source
+│   ├── Quote.tsx               # Seção de citação
 │   ├── Contact.tsx             # Seção de contato
-│   ├── Belief.tsx              # Seção de citação
+│   ├── Container.tsx           # Wrapper com max-width responsivo
 │   ├── Effects.tsx             # Efeitos visuais de fundo
-│   ├── FadeIn.tsx              # Componente de animação de entrada
-│   └── ...
+│   └── FadeIn.tsx              # Componente de animação de entrada
 ├── i18n/
 │   ├── routing.ts              # Configuração de rotas i18n
 │   └── request.ts              # Configuração de requisição i18n
@@ -95,7 +93,7 @@ MyPortfolio/
 │   ├── en.json                 # Traduções em inglês
 │   ├── es.json                 # Traduções em espanhol
 │   └── it.json                 # Traduções em italiano
-├── public/                     # Assets estáticos (imagens, favicon)
+├── public/                     # Assets estáticos
 ├── middleware.ts               # Middleware Next.js para roteamento i18n
 ├── next.config.ts              # Configuração do Next.js
 ├── tailwind.config.ts          # Configuração do Tailwind CSS
@@ -107,11 +105,26 @@ MyPortfolio/
 ## Funcionalidades
 
 - **Multidioma** — Suporte a pt-BR, en, es e it via `next-intl` com detecção automática de locale.
-- **Tema escuro/claro** — Alternância manual com persistência, respeita `prefers-color-scheme` do sistema.
-- **Animações** — Transições e animações de entrada com Framer Motion.
-- **SEO** — Metadata completa com Open Graph e Twitter Card por locale.
+- **Tema escuro/claro** — Alternância manual com persistência.
+- **Responsivo** — Layout adaptado para mobile, tablet e desktop.
+- **Animações** — Fade-in, digitação e contadores animados com CSS nativo.
+- **Idade dinâmica** — Calculada automaticamente a partir da data de nascimento.
+- **SEO** — Metadata completa por locale.
 - **Fontes otimizadas** — Outfit, Newsreader e IBM Plex Mono via `next/font`.
-- **Imagens remotas** — Configuração segura para domínios `*.guebly.com.br` e `*.sentrion.com.br`.
+
+---
+
+## Ecossistema
+
+Ventures ativos no portfólio:
+
+| Empresa | Setor | Status |
+|---|---|---|
+| Guebly Studio | Automação | Operando |
+| Guebly Pay | Pagamentos | Operando |
+| Guebly Contábil | Contabilidade | Operando |
+| Guebly Games | Jogos | Em desenvolvimento |
+| Sentrion | Segurança | Em desenvolvimento |
 
 ---
 
@@ -124,4 +137,5 @@ O site é hospedado na **Vercel** com deploy automático a cada push na branch p
 ## Autor
 
 **Gabriel Pereira** — Founder & CEO da Guebly Holding · São Paulo, Brasil  
+Site: [me.degabrielofi.com.br](https://me.degabrielofi.com.br/)  
 GitHub: [@degabrielofi](https://github.com/degabrielofi)

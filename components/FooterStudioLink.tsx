@@ -1,6 +1,8 @@
 'use client';
+import { useTranslations } from 'next-intl';
 
 export default function FooterStudioLink() {
+  const t = useTranslations('footer');
   return (
     <a
       href="https://studio.guebly.com.br"
@@ -31,7 +33,7 @@ export default function FooterStudioLink() {
           letterSpacing: '0.06em',
         }}
       >
-        Desenvolvido por Guebly Studio
+        {t('builtWithStudio')}
       </span>
     </a>
   );

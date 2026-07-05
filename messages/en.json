@@ -1,7 +1,6 @@
 {
   "nav": { "story": "Story", "ecosystem": "Ecosystem", "projects": "Projects", "contact": "Contact" },
   "hero": {
-    "badge": "Founder & CEO · Guebly Holding · São Paulo",
     "role": "Founder. Architect. Builder.",
     "description": "{age} years old. I had access, but I was the one who decided to build something bigger with it. I failed, I broke, and I still started.",
     "body": "In 6 months, I structured a tech holding from scratch. 4 registered companies, 14 business units, real products in production. Not out of inspiration — out of execution.",
@@ -11,18 +10,9 @@
   },
   "story": {
     "badge": "The Origin",
-    "title": "I didn't start from the top.",
-    "subtitle": "I started from the basement.",
     "fullTitle": "The full story.",
     "readFull": "Read full",
-    "now": "Now",
-    "readMore": "Read the full story",
-    "acts": [
-      { "year": "2006 – 2022", "title": "SP Outskirts", "text": "Grew up on the outskirts of São Paulo. Had access — computer, phone, freedom to explore. While many people with the same access just consumed, I started tinkering. Learned tech on my own. YouTube, documentation, error after error." },
-      { "year": "2023", "title": "Moved to Ceará", "text": "At 18, I left everything I knew. Worked as an apprentice at Cajuína São Geraldo. Studied Logistics at SENAI. The distance, the pressure, and personal matters that weighed more than I expected changed everything." },
-      { "year": "2024", "title": "Came back broken", "text": "Returned to São Paulo with no direction, no energy, my head a mess. Spent a month practically paralyzed. Guebly was born in that period — not from inspiration, but from the need to react." },
-      { "year": "2024 – Now", "title": "Built Guebly", "text": "In 6 months, I structured a tech holding from scratch. 4 registered companies, 14 business units, products in production. Not out of inspiration — out of execution." }
-    ]
+    "now": "Now"
   },
   "numbers": {
     "items": [
@@ -81,5 +71,5 @@
     "emailLabel": "Email",
     "linksLabel": "Links"
   },
-  "footer": { "built": "Built by Gabriel Pereira", "rights": "All rights reserved." }
+  "footer": { "built": "Built by Gabriel Pereira", "rights": "All rights reserved.", "builtWithStudio": "Developed by Guebly Studio" }
 }

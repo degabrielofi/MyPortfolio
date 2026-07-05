@@ -6,7 +6,6 @@
     "contact": "Contato"
   },
   "hero": {
-    "badge": "Fundador & CEO · Guebly Holding · São Paulo",
     "role": "Fundador. Arquiteto. Construtor.",
     "description": "{age} anos. Tive acesso, mas fui eu que decidi construir algo maior com isso. Errei, quebrei, e mesmo assim comecei.",
     "body": "Em 6 meses, estruturei uma holding de tecnologia do zero. 4 CNPJs, 14 unidades de negócio, produtos reais em produção. Não por inspiração — por execução.",
@@ -16,34 +15,9 @@
   },
   "story": {
     "badge": "A Origem",
-    "title": "Não comecei pelo topo.",
-    "subtitle": "Comecei pelo porão.",
     "fullTitle": "A história completa.",
     "readFull": "Ler completa",
-    "now": "Agora",
-    "readMore": "Ler a história completa",
-    "acts": [
-      {
-        "year": "2006 – 2022",
-        "title": "Periferia de SP",
-        "text": "Cresci na periferia de São Paulo. Tive acesso — computador, celular, liberdade pra explorar. Enquanto muita gente só consumia, eu comecei a fuçar. Aprendi tecnologia sozinho. YouTube, documentação, erro atrás de erro."
-      },
-      {
-        "year": "2023",
-        "title": "Fui pro Ceará",
-        "text": "Aos 18 anos, saí de tudo que conhecia. Trabalhei como Jovem Aprendiz na Cajuína São Geraldo. Cursei Logística no SENAI. A distância, a pressão e questões pessoais que pesaram mais do que eu esperava mudaram tudo."
-      },
-      {
-        "year": "2024",
-        "title": "Voltei destruído",
-        "text": "Voltei pra São Paulo sem direção, sem energia, com a cabeça bagunçada. Fiquei um mês praticamente parado. A Guebly nasceu nesse período — não de inspiração, mas de necessidade de reagir."
-      },
-      {
-        "year": "2024 – Hoje",
-        "title": "Construí a Guebly",
-        "text": "Em 6 meses, estruturei uma holding de tecnologia do zero. 4 CNPJs, 14 unidades de negócio, produtos em produção. Não por inspiração — por execução."
-      }
-    ]
+    "now": "Agora"
   },
   "numbers": {
     "items": [
@@ -199,6 +173,7 @@
   },
   "footer": {
     "built": "Construído por Gabriel Pereira",
-    "rights": "Todos os direitos reservados."
+    "rights": "Todos os direitos reservados.",
+    "builtWithStudio": "Desenvolvido por Guebly Studio"
   }
 }
