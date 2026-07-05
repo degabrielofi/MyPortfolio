@@ -3,7 +3,7 @@
   "hero": {
     "badge": "Fundador & CEO · Guebly Holding · São Paulo",
     "role": "Fundador. Arquitecto. Constructor.",
-    "description": "19 años. Tuve acceso, pero fui yo quien decidió construir algo más grande con eso. Me equivoqué, me quebré, y aun así empecé.",
+    "description": "{age} años. Tuve acceso, pero fui yo quien decidió construir algo más grande con eso. Me equivoqué, me quebré, y aun así empecé.",
     "body": "En 6 meses, estructuré un holding tecnológico desde cero. 4 empresas registradas, 14 unidades de negocio, productos reales en producción. No por inspiración — por ejecución.",
     "cta": "Conocer la historia",
     "scroll": "Desplazar hacia abajo",
@@ -39,8 +39,7 @@
     "badge": "El Ecosistema", "viewEcosystem": "Ver ecosistema", "title": "Guebly.", "subtitle": "Un holding tecnológico construido desde cero. 4 empresas, 14 unidades de negocio. Tecnología como base. Negocio como objetivo.",
     "holdingDesc": "Holding controladora. Dueña de la propiedad intelectual de todo el grupo.", "holdingType": "Gobernanza", "live": "Operando",
     "branches": [
-      { "name": "Guebly LTDA", "type": "Operacional", "description": "Brazo operacional principal. 25% de repase a la Holding.", "subs": [{ "name": "Guebly Studio", "sector": "Automatización", "status": "live" }, { "name": "Guebly Pay", "sector": "Pagos", "status": "live" }, { "name": "Trocaí", "sector": "Marketplace", "status": "dev" }, { "name": "Guebly Games", "sector": "Juegos", "status": "dev" }, { "name": "Vendaí", "sector": "E-commerce", "status": "dev" }] },
-      { "name": "Ayon LTDA", "type": "Audiovisual", "description": "100% Holding. Producción audiovisual, streaming y educación.", "subs": [{ "name": "Ayon Studios", "sector": "Productora", "status": "dev" }, { "name": "Ayon+", "sector": "Streaming", "status": "dev" }, { "name": "Ayon Academy", "sector": "Educación", "status": "dev" }] },
+      { "name": "Guebly LTDA", "type": "Operacional", "description": "Brazo operacional principal. 25% de repase a la Holding.", "subs": [{ "name": "Guebly Studio", "sector": "Automatización", "status": "live" }, { "name": "Guebly Pay", "sector": "Pagos", "status": "live" }, { "name": "Guebly Games", "sector": "Juegos", "status": "dev" }, { "name": "Vendaí", "sector": "E-commerce", "status": "dev" }] },
       { "name": "Guebly Contábil", "type": "Contabilidad", "description": "Oficina contable con software propio. App web + mobile.", "subs": [{ "name": "Plataforma Contable", "sector": "SaaS", "status": "live" }] },
       { "name": "Sentrion", "type": "Seguridad", "description": "100% Holding. Tecnología de seguridad y monitoreo.", "subs": [{ "name": "Sentrion Vision", "sector": "Monitoreo de cámaras", "status": "dev" }] }
     ]
@@ -48,11 +47,11 @@
   "projetos": {
     "badge": "Proyectos", "title": "Lo que construí.", "github": "Ver en GitHub",
     "items": [
-      { "name": "guebly-readme-stats", "description": "Genera cards SVG dinámicos para README de GitHub — stats, idiomas, streaks y más, con temas exclusivos Guebly.", "tech": ["TypeScript", "SVG", "API"], "url": "https://github.com/Guebly/guebly-readme-stats" },
-      { "name": "FlowRunner", "description": "Automatización desktop con reconocimiento de imagen y timing aleatorio.", "tech": ["Python", "Automatización"], "url": "https://github.com/degabrielofi/FlowRunner" },
-      { "name": "guebly-readme-to-pdf", "description": "Transforma README.md en PDF premium con temas y preview en vivo.", "tech": ["TypeScript", "Tool"], "url": "https://github.com/guebly/guebly-readme-to-pdf" },
-      { "name": "guebly-text-formatter", "description": "Convierte markdown y texto de IA para LinkedIn, Instagram y WhatsApp.", "tech": ["TypeScript", "Tool"], "url": "https://github.com/guebly/guebly-text-formatter" },
-      { "name": "GueblyScaffold", "description": "Genera estructura de carpetas y archivos desde árboles de proyecto.", "tech": ["JavaScript", "Dev tool"], "url": "https://github.com/guebly/GueblyScaffold" }
+      { "name": "guebly-readme-stats", "description": "Alternativa a github-readme-stats con temas exclusivos del ecosistema Guebly. Genera cards SVG dinámicos de stats, idiomas y streaks para README de GitHub.", "tech": ["TypeScript", "SVG", "API"], "url": "https://github.com/Guebly/guebly-readme-stats" },
+      { "name": "FlowRunner", "description": "Automatiza acciones repetitivas en el desktop usando visión computacional para detectar elementos en pantalla. Delays humanizados hacen la ejecución más confiable.", "tech": ["Python", "Automatización"], "url": "https://github.com/degabrielofi/FlowRunner" },
+      { "name": "guebly-readme-to-pdf", "description": "CLI que convierte README.md en PDFs con tipografía premium, temas personalizables y preview en tiempo real. Útil para documentar proyectos con calidad de presentación.", "tech": ["TypeScript", "Tool"], "url": "https://github.com/guebly/guebly-readme-to-pdf" },
+      { "name": "guebly-text-formatter", "description": "Formatea salidas de IA y markdown al estándar de cada red social. Preserva jerarquía, listas y formato para LinkedIn, Instagram y WhatsApp.", "tech": ["TypeScript", "Tool"], "url": "https://github.com/guebly/guebly-text-formatter" },
+      { "name": "GueblyScaffold", "description": "CLI que lee un árbol ASCII de proyecto y crea toda la estructura de carpetas y archivos en disco. Elimina el trabajo manual de setup inicial en nuevos proyectos.", "tech": ["JavaScript", "Dev tool"], "url": "https://github.com/guebly/GueblyScaffold" }
     ]
   },
   "contato": { "badge": "Contacto", "titleLine1": "Vamos a construir", "titleLine2": "algo.", "subtitle": "Si tienes un proyecto, una idea o solo quieres charlar — manda un mensaje. Sin promesas. Sin hype. Ejecución.", "allNetworks": "en todas las redes" },

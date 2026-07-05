@@ -3,6 +3,14 @@ import { useTranslations, useLocale } from 'next-intl';
 import { useEffect, useRef } from 'react';
 import Container from './Container';
 
+const BIRTH = new Date('2006-09-05');
+function getAge() {
+  const today = new Date();
+  let age = today.getFullYear() - BIRTH.getFullYear();
+  if (today < new Date(today.getFullYear(), BIRTH.getMonth(), BIRTH.getDate())) age--;
+  return age;
+}
+
 export default function Hero() {
   const t = useTranslations('hero');
   const locale = useLocale();
@@ -52,15 +60,15 @@ export default function Hero() {
       <Container className="relative z-[2] w-full pt-[clamp(100px,14vh,160px)]">
         {/* Typing name */}
         <div className="font-display" style={{ fontWeight: 900, lineHeight: 0.9, letterSpacing: '-0.03em', marginTop: 'clamp(64px, 12vh, 140px)' }}>
-          <span ref={ln1} style={{ display: 'block', fontSize: 'clamp(3.8rem, 10vw, 9rem)', overflow: 'hidden', whiteSpace: 'nowrap' as const, borderRight: '3px solid var(--color-ac)', color: 'var(--color-tx)', width: 0, animation: 'typing 1s steps(7) .4s forwards, blink .6s step-end infinite' }} className="ln">GABRIEL</span>
-          <span ref={ln2} style={{ display: 'block', fontSize: 'clamp(3.8rem, 10vw, 9rem)', overflow: 'hidden', whiteSpace: 'nowrap' as const, borderRight: '3px solid var(--color-ac)', color: 'var(--color-ac)', width: 0, animation: 'typing 1.1s steps(8) 1.6s forwards, blink .6s step-end 1.6s infinite' }} className="ln">PEREIRA.</span>
+          <span ref={ln1} style={{ display: 'block', fontSize: 'clamp(3rem, 9vw, 9rem)', overflow: 'hidden', whiteSpace: 'nowrap' as const, borderRight: '3px solid var(--color-ac)', color: 'var(--color-tx)', width: 0, animation: 'typing 1s steps(7) .4s forwards, blink .6s step-end infinite' }} className="ln">GABRIEL</span>
+          <span ref={ln2} style={{ display: 'block', fontSize: 'clamp(3rem, 9vw, 9rem)', overflow: 'hidden', whiteSpace: 'nowrap' as const, borderRight: '3px solid var(--color-ac)', color: 'var(--color-ac)', width: 0, animation: 'typing 1.1s steps(8) 1.6s forwards, blink .6s step-end 1.6s infinite' }} className="ln">PEREIRA.</span>
         </div>
 
         {/* Content grid */}
-        <div style={{ display: 'grid', marginTop: 28 }} className="grid-cols-[1fr_140px] gap-6 items-start md:grid-cols-[1fr_240px] md:gap-[40px] md:items-end">
+        <div style={{ display: 'grid', marginTop: 28 }} className="grid-cols-[1fr_140px] gap-6 items-start md:grid-cols-[1fr_240px] md:gap-[40px] md:items-end max-[400px]:grid-cols-1">
           <div>
             <p className="font-display" style={{ fontSize: 13, fontWeight: 600, letterSpacing: '.16em', textTransform: 'uppercase' as const, color: 'var(--color-tx3)', opacity: 0, animation: 'fadeIn .6s 2.8s forwards' }}>{t('role')}</p>
-            <p style={{ marginTop: 12, fontSize: 15.5, color: 'var(--color-tx3)', lineHeight: 1.75, maxWidth: 480, opacity: 0, animation: 'fadeIn .6s 3s forwards' }}>{t('description')}</p>
+            <p style={{ marginTop: 12, fontSize: 15.5, color: 'var(--color-tx3)', lineHeight: 1.75, maxWidth: 480, opacity: 0, animation: 'fadeIn .6s 3s forwards' }}>{t('description', { age: getAge() })}</p>
             <p style={{ marginTop: 10, fontSize: 15.5, color: 'var(--color-tx3)', lineHeight: 1.75, maxWidth: 480, opacity: 0, animation: 'fadeIn .6s 3.1s forwards' }}>
               {t('body')}
             </p>
@@ -70,7 +78,7 @@ export default function Hero() {
               <div ref={magRef} style={{ display: 'inline-block', position: 'relative' }}>
                 <a href="#historia" className="mag-inner font-display" style={{ display: 'inline-flex', alignItems: 'center', gap: 8, padding: '12px 24px', background: 'linear-gradient(135deg, var(--color-ac), var(--color-ac3))', color: '#fff', fontSize: 13, fontWeight: 700, borderRadius: 100, transition: 'transform .15s, box-shadow .3s' }}>{t('cta')} →</a>
               </div>
-              <a href="https://guebly.com.br" target="_blank" className="font-display" style={{ fontSize: 13, fontWeight: 600, color: 'var(--color-tx3)', transition: 'color .3s' }}>guebly.com.br ↗</a>
+              <a href="https://me.degabrielofi.com.br/" target="_blank" className="font-display" style={{ fontSize: 13, fontWeight: 600, color: 'var(--color-tx3)', transition: 'color .3s' }}>me.degabrielofi.com.br ↗</a>
             </div>
 
             {/* Socials */}
@@ -89,7 +97,7 @@ export default function Hero() {
           </div>
 
           {/* Photo */}
-          <div ref={photoRef} style={{ perspective: 800, opacity: 0, animation: 'fadeIn .8s 2.5s forwards', flexShrink: 0 }} className="max-[860px]:self-start">
+          <div ref={photoRef} style={{ perspective: 800, opacity: 0, animation: 'fadeIn .8s 2.5s forwards', flexShrink: 0 }} className="max-[860px]:self-start max-[400px]:hidden">
             <div ref={photoInner} className="w-[130px] h-[175px] md:w-[220px] md:h-[290px]" style={{ position: 'relative', transition: 'transform .4s', transformStyle: 'preserve-3d' as const }}>
               <div style={{ position: 'absolute', inset: -24, borderRadius: 32, background: 'radial-gradient(circle, var(--color-acg2), transparent 65%)', zIndex: -1, opacity: 0.3, transition: 'opacity .4s' }} />
               <div style={{ width: '100%', height: '100%', borderRadius: 18, overflow: 'hidden', border: '1px solid var(--color-bdr)', background: 'var(--color-bg2)', position: 'relative', zIndex: 1 }}>

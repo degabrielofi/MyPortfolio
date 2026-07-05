@@ -39,7 +39,7 @@ export default function EcossistemaPage() {
           </div>
         </FadeIn>
 
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: 14 }} className="max-[800px]:grid-cols-1">
+        <div style={{ display: 'grid', gap: 14 }} className="grid-cols-2 max-[800px]:grid-cols-1">
           {branches.map((b, i) => (
             <FadeIn key={i} delay={i * 0.06}>
               <div style={{ background: 'var(--color-bg3)', border: '1px solid var(--color-bdr)', borderRadius: 18, padding: 28, height: '100%', display: 'flex', flexDirection: 'column', transition: 'all .3s' }}>

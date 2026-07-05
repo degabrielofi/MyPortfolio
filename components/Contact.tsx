@@ -21,7 +21,7 @@ export default function Contact() {
           </div>
         </FadeIn>
         <FadeIn>
-          <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between', alignItems: 'flex-end', gap: 40 }}>
+          <div style={{ display: 'flex', gap: 40 }} className="flex-col sm:flex-row sm:justify-between sm:items-end">
             <div>
               <h2 className="font-display" style={{ fontWeight: 900, fontSize: 'clamp(2.4rem, 6vw, 4rem)', lineHeight: 0.94, color: 'var(--color-tx)' }}>{t('titleLine1')}<br /><em style={{ fontStyle: 'normal', color: 'var(--color-ac)' }}>{t('titleLine2')}</em></h2>
               <p style={{ marginTop: 14, fontSize: 15, color: 'var(--color-tx3)', maxWidth: 380, lineHeight: 1.7 }}>{t('subtitle')}</p>
@@ -39,7 +39,7 @@ export default function Contact() {
                       <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d={d} /></svg>
                     </a>
                   ))}
-                  <a href="https://guebly.com.br" target="_blank" rel="noopener noreferrer" className="font-display" style={{ height: 38, padding: '0 14px', border: '1px solid var(--color-bdr)', borderRadius: 10, display: 'inline-flex', alignItems: 'center', gap: 6, fontSize: 12, fontWeight: 600, color: 'var(--color-tx4)', transition: 'all .25s' }}>guebly.com.br ↗</a>
+                  <a href="https://me.degabrielofi.com.br/" target="_blank" rel="noopener noreferrer" className="font-display" style={{ height: 38, padding: '0 14px', border: '1px solid var(--color-bdr)', borderRadius: 10, display: 'inline-flex', alignItems: 'center', gap: 6, fontSize: 12, fontWeight: 600, color: 'var(--color-tx4)', transition: 'all .25s' }}>me.degabrielofi.com.br ↗</a>
                 </div>
                 <div className="font-mono" style={{ fontSize: 12, color: 'var(--color-tx4)', marginTop: 6 }}><a href="https://instagram.com/degabrielofi_" target="_blank" style={{ color: 'var(--color-ac)' }}>@degabrielofi_</a> {t('allNetworks')}</div>
               </div>

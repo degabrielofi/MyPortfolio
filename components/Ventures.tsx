@@ -7,9 +7,7 @@ const logos: Record<string, string> = {
   'Guebly Studio': 'https://www.guebly.com.br/static/media/icon.fcd35f208b00195e8b83.png',
   'Guebly Pay': 'https://pay.guebly.com.br/logo.png',
   'Plataforma Contábil': 'https://www.guebly.com.br/static/media/icon.4f6075887e5438ff3c7a.png',
-  'Trocaí': 'https://www.guebly.com.br/static/media/icon.0ed38af3e1fecaed9e9d.png',
   'Guebly Games': 'https://www.guebly.com.br/static/media/icon.48da9786c064d3a7c187.png',
-  'Ayon': 'https://www.guebly.com.br/ayon.png',
   'Sentrion': 'https://www.sentrion.com.br/logo-square.png',
   'Guebly Contábil': 'https://www.guebly.com.br/static/media/icon.4f6075887e5438ff3c7a.png',
 };
@@ -18,9 +16,7 @@ const allVentures = [
   { name: 'Guebly Studio', status: 'live', url: 'https://studio.guebly.com.br' },
   { name: 'Guebly Pay', status: 'live', url: 'https://pay.guebly.com.br' },
   { name: 'Guebly Contábil', status: 'live', url: 'https://contabil.guebly.com.br' },
-  { name: 'Trocaí', status: 'dev', year: '2025', url: 'https://trocai.guebly.com.br' },
   { name: 'Guebly Games', status: 'dev', year: '2025', url: 'https://games.guebly.com.br' },
-  { name: 'Ayon', status: 'dev', sector: 'Audiovisual', url: 'https://ayon.com.br' },
   { name: 'Sentrion', status: 'dev', sector: 'Segurança', url: 'https://sentrion.com.br' },
 ];
 
