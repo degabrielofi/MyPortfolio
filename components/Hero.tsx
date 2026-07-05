@@ -78,7 +78,7 @@ export default function Hero() {
               <div ref={magRef} style={{ display: 'inline-block', position: 'relative' }}>
                 <a href="#historia" className="mag-inner font-display" style={{ display: 'inline-flex', alignItems: 'center', gap: 8, padding: '12px 24px', background: 'linear-gradient(135deg, var(--color-ac), var(--color-ac3))', color: '#fff', fontSize: 13, fontWeight: 700, borderRadius: 100, transition: 'transform .15s, box-shadow .3s' }}>{t('cta')} →</a>
               </div>
-              <a href="https://me.degabrielofi.com.br/" target="_blank" className="font-display" style={{ fontSize: 13, fontWeight: 600, color: 'var(--color-tx3)', transition: 'color .3s' }}>me.degabrielofi.com.br ↗</a>
+              <a href="https://guebly.com.br" target="_blank" className="font-display" style={{ fontSize: 13, fontWeight: 600, color: 'var(--color-tx3)', transition: 'color .3s' }}>guebly.com.br ↗</a>
             </div>
 
             {/* Socials */}
